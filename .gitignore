@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+.DS_Store
+
+# Never commit credentials — used by tools/full_history_bhavcopy_to_supabase.py
+.env
+.env.*
+
+# Keep folder structure but don't force-track bulk data if you'd rather use cloud storage.
+# Comment these out if you want price history / state committed to the repo (recommended for Phase 1).
+# data/prices/*.parquet
+# data/raw_bhavcopy/*.csv
