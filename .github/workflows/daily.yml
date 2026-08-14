@@ -1,0 +1,42 @@
+name: EP Daily Loop
+
+# Runs every weekday evening after NSE typically publishes bhavcopy, and can
+# also be triggered manually from the Actions tab (no terminal needed —
+# there's a "Run workflow" button).
+on:
+  schedule:
+    - cron: '0 13 * * 1-5'   # ~6:30 PM IST, Mon-Fri. GitHub's scheduler can
+                              # run a few minutes late — that's normal.
+  workflow_dispatch: {}
+
+# Required so this workflow is allowed to save its results back to the repo.
+permissions:
+  contents: write
+
+jobs:
+  run-ep-loop:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run the daily EP pipeline
+        run: python -m src.run_daily
+        env:
+          # Switch to "supabase" later (and add a SUPABASE_DB_URL secret)
+          # once that backend is set up. Local is the zero-setup default.
+          EP_STATE_BACKEND: local
+
+      - name: Save results back to the repository
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "Daily EP run"
+          file_pattern: 'data/**'
