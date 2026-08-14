@@ -1,0 +1,49 @@
+name: Backfill Historical Prices
+
+# This lets you run the one-time historical backfill entirely from your
+# browser: go to the Actions tab -> "Backfill Historical Prices" ->
+# "Run workflow" -> fill in the dates -> Run workflow. No terminal needed.
+on:
+  workflow_dispatch:
+    inputs:
+      start_date:
+        description: 'Start date (YYYY-MM-DD). NSE data in this format goes back to 2024-07-08.'
+        required: true
+        default: '2024-07-08'
+      end_date:
+        description: 'End date (YYYY-MM-DD). Leave blank to use today.'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run backfill
+        run: |
+          END="${{ github.event.inputs.end_date }}"
+          if [ -z "$END" ]; then
+            END=$(date +%F)
+          fi
+          echo "Backfilling from ${{ github.event.inputs.start_date }} to $END"
+          python -m scripts.backfill_historical --start "${{ github.event.inputs.start_date }}" --end "$END"
+
+      - name: Save results back to the repository
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "Historical backfill"
+          file_pattern: 'data/**'
