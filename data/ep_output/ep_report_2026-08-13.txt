@@ -5,13 +5,26 @@ NEW EP
 ------------------------------------------------------------
 TICKER            % CHANGE    ANCHOR DATE  
 -------------------------------------------
-None today
+ASTRAL            +8.74%      13-Aug-26    
+GPIL              +6.25%      13-Aug-26    
+INGERRAND         +7.32%      13-Aug-26    
+JUBLCPL           +20.00%     13-Aug-26    
+MIDHANI           +8.91%      13-Aug-26    
+MUNJALAU          +19.57%     13-Aug-26    
+PRECWIRE          +10.98%     13-Aug-26    
+RSL               +6.96%      13-Aug-26    
+SARDAEN           +6.92%      13-Aug-26    
+SKFINDIA          +5.15%      13-Aug-26    
+SOLARINDS         +8.51%      13-Aug-26    
+VADILALIND        +7.38%      13-Aug-26    
 
 PERSISTENT EP
 ------------------------------------------------------------
 TICKER            % CHANGE    ANCHOR DATE    PERSISTENT COUNT
 -------------------------------------------------------------
-None today
+SURAKSHA          +12.61%     10-Aug-26      2               
+WINDLAS           +6.12%      11-Aug-26      1               
+ELLEN             +4.08%      12-Aug-26      1               
 
 RETRO NEW EP
 ------------------------------------------------------------
@@ -23,7 +36,17 @@ SUSTAINED EP
 ------------------------------------------------------------
 TICKER            % CHANGE    ANCHOR DATE    SUSTAINED COUNT 
 -------------------------------------------------------------
-None today
+ENTERO            +1.95%      10-Aug-26      1               
+JGCHEM            +1.21%      10-Aug-26      1               
+PAYTM             +2.45%      10-Aug-26      2               
+GLAND             +2.64%      11-Aug-26      1               
+OMNI              +2.29%      11-Aug-26      1               
+ROLEXRINGS        +3.03%      11-Aug-26      1               
+SUNDRMFAST        +1.57%      11-Aug-26      1               
+GIPCL             +1.10%      12-Aug-26      1               
+KENNAMET          +2.85%      12-Aug-26      1               
+ORISSAMINE        +3.40%      12-Aug-26      1               
+PITTIENG          +1.70%      12-Aug-26      1               
 
 FIZZLE OUT EP
 ------------------------------------------------------------

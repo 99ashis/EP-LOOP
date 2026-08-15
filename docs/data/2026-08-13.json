@@ -1,10 +1,157 @@
 {
   "date": "2026-08-13",
   "sections": {
-    "new": [],
-    "persistent": [],
+    "new": [
+      {
+        "ticker": "ASTRAL",
+        "pct": 8.74,
+        "anchor_date": "13-Aug-26"
+      },
+      {
+        "ticker": "GPIL",
+        "pct": 6.25,
+        "anchor_date": "13-Aug-26"
+      },
+      {
+        "ticker": "INGERRAND",
+        "pct": 7.32,
+        "anchor_date": "13-Aug-26"
+      },
+      {
+        "ticker": "JUBLCPL",
+        "pct": 20.0,
+        "anchor_date": "13-Aug-26"
+      },
+      {
+        "ticker": "MIDHANI",
+        "pct": 8.91,
+        "anchor_date": "13-Aug-26"
+      },
+      {
+        "ticker": "MUNJALAU",
+        "pct": 19.57,
+        "anchor_date": "13-Aug-26"
+      },
+      {
+        "ticker": "PRECWIRE",
+        "pct": 10.98,
+        "anchor_date": "13-Aug-26"
+      },
+      {
+        "ticker": "RSL",
+        "pct": 6.96,
+        "anchor_date": "13-Aug-26"
+      },
+      {
+        "ticker": "SARDAEN",
+        "pct": 6.92,
+        "anchor_date": "13-Aug-26"
+      },
+      {
+        "ticker": "SKFINDIA",
+        "pct": 5.15,
+        "anchor_date": "13-Aug-26"
+      },
+      {
+        "ticker": "SOLARINDS",
+        "pct": 8.51,
+        "anchor_date": "13-Aug-26"
+      },
+      {
+        "ticker": "VADILALIND",
+        "pct": 7.38,
+        "anchor_date": "13-Aug-26"
+      }
+    ],
+    "persistent": [
+      {
+        "ticker": "SURAKSHA",
+        "pct": 12.61,
+        "anchor_date": "10-Aug-26",
+        "count": 2
+      },
+      {
+        "ticker": "WINDLAS",
+        "pct": 6.12,
+        "anchor_date": "11-Aug-26",
+        "count": 1
+      },
+      {
+        "ticker": "ELLEN",
+        "pct": 4.08,
+        "anchor_date": "12-Aug-26",
+        "count": 1
+      }
+    ],
     "retro": [],
-    "sustained": [],
+    "sustained": [
+      {
+        "ticker": "ENTERO",
+        "pct": 1.95,
+        "anchor_date": "10-Aug-26",
+        "count": 1
+      },
+      {
+        "ticker": "JGCHEM",
+        "pct": 1.21,
+        "anchor_date": "10-Aug-26",
+        "count": 1
+      },
+      {
+        "ticker": "PAYTM",
+        "pct": 2.45,
+        "anchor_date": "10-Aug-26",
+        "count": 2
+      },
+      {
+        "ticker": "GLAND",
+        "pct": 2.64,
+        "anchor_date": "11-Aug-26",
+        "count": 1
+      },
+      {
+        "ticker": "OMNI",
+        "pct": 2.29,
+        "anchor_date": "11-Aug-26",
+        "count": 1
+      },
+      {
+        "ticker": "ROLEXRINGS",
+        "pct": 3.03,
+        "anchor_date": "11-Aug-26",
+        "count": 1
+      },
+      {
+        "ticker": "SUNDRMFAST",
+        "pct": 1.57,
+        "anchor_date": "11-Aug-26",
+        "count": 1
+      },
+      {
+        "ticker": "GIPCL",
+        "pct": 1.1,
+        "anchor_date": "12-Aug-26",
+        "count": 1
+      },
+      {
+        "ticker": "KENNAMET",
+        "pct": 2.85,
+        "anchor_date": "12-Aug-26",
+        "count": 1
+      },
+      {
+        "ticker": "ORISSAMINE",
+        "pct": 3.4,
+        "anchor_date": "12-Aug-26",
+        "count": 1
+      },
+      {
+        "ticker": "PITTIENG",
+        "pct": 1.7,
+        "anchor_date": "12-Aug-26",
+        "count": 1
+      }
+    ],
     "fizzle": []
   }
 }
