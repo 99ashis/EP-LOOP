@@ -53,6 +53,7 @@ def run_for_date(trade_date: date) -> int:
     prior_anchors = state_store.load_latest_state()
     updated_anchors, daily_output = run_daily_classification(prior_anchors, daily_bhavcopy, trade_date)
     state_store.save_state(updated_anchors, trade_date)
+    logger.info("Saved anchor state: %d active anchor(s) tracked as of %s", len(updated_anchors), trade_date)
 
     if config.STATE_BACKEND == "supabase" and not daily_output.empty:
         from src.ep.state_store_supabase import save_daily_output_history
