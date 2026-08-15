@@ -51,7 +51,7 @@ def run_for_date(trade_date: date) -> int:
 
     append_daily_bhavcopy(daily_bhavcopy)
 
-    prior_anchors = state_store.load_latest_state()
+    prior_anchors = state_store.load_state_as_of(trade_date)
     updated_anchors, daily_output = run_daily_classification(prior_anchors, daily_bhavcopy, trade_date)
     state_store.save_state(updated_anchors, trade_date)
     logger.info("Saved anchor state: %d active anchor(s) tracked as of %s", len(updated_anchors), trade_date)
