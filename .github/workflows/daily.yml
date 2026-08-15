@@ -49,4 +49,18 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "Daily EP run"
-          file_pattern: 'data/**'
+          file_pattern: 'data/** docs/data/**'
+
+      - name: Send Telegram alert
+        run: |
+          DATE="${{ github.event.inputs.run_date }}"
+          if [ -z "$DATE" ]; then DATE=$(date +%F); fi
+          REPORT="data/ep_output/ep_report_${DATE}.txt"
+          if [ -f "$REPORT" ]; then
+            python -m src.notify.telegram_sender "$REPORT"
+          else
+            echo "No report file for $DATE — skipping Telegram send (likely a holiday/no-data day)."
+          fi
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
