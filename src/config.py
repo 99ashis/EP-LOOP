@@ -105,6 +105,13 @@ for d in [RESEARCH_QUEUE_DIR, RESEARCH_OUTPUT_DIR]:
     d.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------------------
+# GitHub Pages site data (the calendar UI)
+# ---------------------------------------------------------------------------
+SITE_DIR = ROOT_DIR / "docs"
+SITE_DATA_DIR = SITE_DIR / "data"
+SITE_DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+# ---------------------------------------------------------------------------
 # Storage backend for EP state + research results
 # ---------------------------------------------------------------------------
 # "local"    -> parquet/JSON files under data/ (default, zero setup, what's
