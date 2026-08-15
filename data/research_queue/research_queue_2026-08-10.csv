@@ -1,0 +1,20 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+AARTIPHARM,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,823.0,1,823.0,20.0,14.37
+BEML,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,1884.4,1,1884.4,5.4,9.52
+COMSYN,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,269.03,1,269.03,19.66,8.56
+DMCC,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,313.1,1,313.1,12.77,15.02
+EMIL,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,180.77,1,180.77,9.01,32.74
+ENTERO,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,1315.1,1,1315.1,5.83,14.02
+GARUDA,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,194.51,1,194.51,7.76,15.43
+JGCHEM,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,622.2,1,622.2,12.55,45.0
+KABRAEXTRU,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,510.75,1,510.75,13.85,9.52
+KPL,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,3134.1,1,3134.1,20.0,12.98
+MMP,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,343.65,1,343.65,5.33,5.64
+PAYTM,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,1584.1,1,1584.1,9.88,6.41
+PIXTRANS,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,1986.5,1,1986.5,15.68,12.55
+RAMCOIND,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,377.2,1,377.2,11.06,25.31
+SBCL,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,1105.05,1,1105.05,20.0,20.93
+SKYGOLD,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,779.6,1,779.6,8.37,5.91
+SURAKSHA,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,265.5,1,265.5,6.39,14.27
+THOMASCOTT,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,349.05,1,349.05,10.76,23.09
+UNIVCABLES,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,1693.4,1,1693.4,20.0,8.32

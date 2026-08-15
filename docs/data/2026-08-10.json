@@ -1,0 +1,106 @@
+{
+  "date": "2026-08-10",
+  "sections": {
+    "new": [
+      {
+        "ticker": "AARTIPHARM",
+        "pct": 20.0,
+        "anchor_date": "10-Aug-26"
+      },
+      {
+        "ticker": "BEML",
+        "pct": 5.4,
+        "anchor_date": "10-Aug-26"
+      },
+      {
+        "ticker": "COMSYN",
+        "pct": 19.66,
+        "anchor_date": "10-Aug-26"
+      },
+      {
+        "ticker": "DMCC",
+        "pct": 12.77,
+        "anchor_date": "10-Aug-26"
+      },
+      {
+        "ticker": "EMIL",
+        "pct": 9.01,
+        "anchor_date": "10-Aug-26"
+      },
+      {
+        "ticker": "ENTERO",
+        "pct": 5.83,
+        "anchor_date": "10-Aug-26"
+      },
+      {
+        "ticker": "GARUDA",
+        "pct": 7.76,
+        "anchor_date": "10-Aug-26"
+      },
+      {
+        "ticker": "JGCHEM",
+        "pct": 12.55,
+        "anchor_date": "10-Aug-26"
+      },
+      {
+        "ticker": "KABRAEXTRU",
+        "pct": 13.85,
+        "anchor_date": "10-Aug-26"
+      },
+      {
+        "ticker": "KPL",
+        "pct": 20.0,
+        "anchor_date": "10-Aug-26"
+      },
+      {
+        "ticker": "MMP",
+        "pct": 5.33,
+        "anchor_date": "10-Aug-26"
+      },
+      {
+        "ticker": "PAYTM",
+        "pct": 9.88,
+        "anchor_date": "10-Aug-26"
+      },
+      {
+        "ticker": "PIXTRANS",
+        "pct": 15.68,
+        "anchor_date": "10-Aug-26"
+      },
+      {
+        "ticker": "RAMCOIND",
+        "pct": 11.06,
+        "anchor_date": "10-Aug-26"
+      },
+      {
+        "ticker": "SBCL",
+        "pct": 20.0,
+        "anchor_date": "10-Aug-26"
+      },
+      {
+        "ticker": "SKYGOLD",
+        "pct": 8.37,
+        "anchor_date": "10-Aug-26"
+      },
+      {
+        "ticker": "SURAKSHA",
+        "pct": 6.39,
+        "anchor_date": "10-Aug-26"
+      },
+      {
+        "ticker": "THOMASCOTT",
+        "pct": 10.76,
+        "anchor_date": "10-Aug-26"
+      },
+      {
+        "ticker": "UNIVCABLES",
+        "pct": 20.0,
+        "anchor_date": "10-Aug-26"
+      }
+    ],
+    "persistent": [],
+    "retro": [],
+    "sustained": [],
+    "fizzle": []
+  }
+}
