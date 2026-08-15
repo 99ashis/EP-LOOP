@@ -9,13 +9,13 @@
         "ticker": "JUBLCPL",
         "pct": 3.66,
         "anchor_date": "13-Aug-26",
-        "count": 1
+        "count": 2
       },
       {
         "ticker": "SARDAEN",
         "pct": 1.5,
         "anchor_date": "13-Aug-26",
-        "count": 1
+        "count": 2
       }
     ],
     "fizzle": []
