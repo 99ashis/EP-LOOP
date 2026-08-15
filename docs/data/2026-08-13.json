@@ -1,73 +1,7 @@
 {
   "date": "2026-08-13",
   "sections": {
-    "new": [
-      {
-        "ticker": "ASTRAL",
-        "pct": 8.74,
-        "anchor_date": "13-Aug-26"
-      },
-      {
-        "ticker": "GPIL",
-        "pct": 6.25,
-        "anchor_date": "13-Aug-26"
-      },
-      {
-        "ticker": "INGERRAND",
-        "pct": 7.32,
-        "anchor_date": "13-Aug-26"
-      },
-      {
-        "ticker": "JUBLCPL",
-        "pct": 20.0,
-        "anchor_date": "13-Aug-26"
-      },
-      {
-        "ticker": "MIDHANI",
-        "pct": 8.91,
-        "anchor_date": "13-Aug-26"
-      },
-      {
-        "ticker": "MUNJALAU",
-        "pct": 19.57,
-        "anchor_date": "13-Aug-26"
-      },
-      {
-        "ticker": "PRECWIRE",
-        "pct": 10.98,
-        "anchor_date": "13-Aug-26"
-      },
-      {
-        "ticker": "RSL",
-        "pct": 6.96,
-        "anchor_date": "13-Aug-26"
-      },
-      {
-        "ticker": "SARDAEN",
-        "pct": 6.92,
-        "anchor_date": "13-Aug-26"
-      },
-      {
-        "ticker": "SKFINDIA",
-        "pct": 5.15,
-        "anchor_date": "13-Aug-26"
-      },
-      {
-        "ticker": "SOLARINDS",
-        "pct": 8.51,
-        "anchor_date": "13-Aug-26"
-      },
-      {
-        "ticker": "SURAKSHA",
-        "pct": 12.61,
-        "anchor_date": "13-Aug-26"
-      },
-      {
-        "ticker": "VADILALIND",
-        "pct": 7.38,
-        "anchor_date": "13-Aug-26"
-      }
-    ],
+    "new": [],
     "persistent": [],
     "retro": [],
     "sustained": [],
