@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EP Loop — Daily Episodic Pivots</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&family=Manrope:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0A0F0C; --surface:#141B17; --surface-2:#1C2620; --surface-3:#242F27;
+    --gold:#E8B84B; --emerald:#3FE58A; --coral:#FF5C5C;
+    --ink:#F5F1E8; --ink-muted:#9BA69C; --hairline:#26302A;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:'Manrope',sans-serif;
+    padding:48px 24px 100px; max-width:760px; margin:0 auto;
+  }
+  .eyebrow{
+    font-family:'Space Mono',monospace; font-size:12px; letter-spacing:0.14em;
+    text-transform:uppercase; color:var(--emerald); margin-bottom:14px;
+  }
+  h1{
+    font-family:'Bricolage Grotesque',sans-serif; font-weight:800;
+    font-size:52px; line-height:0.98; letter-spacing:-0.02em; color:var(--ink);
+  }
+  h1 span{color:var(--gold);}
+  .tagline{color:var(--ink-muted); font-size:16px; margin-top:14px; max-width:440px; line-height:1.5;}
+
+  .cal-card{
+    margin-top:44px; background:var(--surface); border:1px solid var(--hairline);
+    border-radius:20px; padding:28px;
+  }
+  .cal-head{display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;}
+  .cal-title{font-family:'Bricolage Grotesque',sans-serif; font-weight:600; font-size:20px;}
+  .cal-nav{display:flex; gap:8px; align-items:center;}
+  .nav-btn{
+    background:var(--surface-2); border:1px solid var(--hairline); color:var(--ink);
+    width:30px; height:30px; border-radius:8px; cursor:pointer; font-family:'Space Mono',monospace;
+    font-size:14px; display:flex; align-items:center; justify-content:center;
+  }
+  .nav-btn:hover{border-color:var(--gold);}
+  .nav-btn:disabled{opacity:0.3; cursor:not-allowed;}
+
+  .weekdays, .grid{display:grid; grid-template-columns:repeat(7,1fr); gap:6px;}
+  .weekdays{margin-bottom:8px;}
+  .weekdays div{
+    text-align:center; font-family:'Space Mono',monospace; font-size:10px;
+    letter-spacing:0.08em; color:var(--ink-muted); text-transform:uppercase;
+  }
+
+  .day{
+    aspect-ratio:1; background:var(--surface-2); border-radius:10px; border:1px solid transparent;
+    display:flex; flex-direction:column; align-items:center; justify-content:flex-end;
+    padding:6px 0 8px; cursor:pointer; position:relative; transition:transform 0.12s, border-color 0.12s;
+  }
+  .day:hover{transform:translateY(-2px); border-color:var(--hairline);}
+  .day.empty{background:transparent; cursor:default;}
+  .day.empty:hover{transform:none;}
+  .day.selected{border-color:var(--gold);}
+  .day.no-data{cursor:default;}
+  .daynum{
+    position:absolute; top:6px; left:8px; font-family:'Space Mono',monospace;
+    font-size:10px; color:var(--ink-muted);
+  }
+  .candle-wick{width:2px; background:var(--hairline); border-radius:1px;}
+  .candle-stack{
+    width:16px; display:flex; flex-direction:column-reverse;
+    border-radius:3px; overflow:hidden;
+  }
+  .candle-segment{width:100%;}
+  .count-total{
+    position:absolute; top:6px; right:8px; font-family:'Space Mono',monospace;
+    font-size:10px; color:var(--gold); font-weight:700;
+  }
+
+  .legend{
+    display:flex; gap:16px; flex-wrap:wrap; margin-top:20px; padding-top:18px;
+    border-top:1px solid var(--hairline);
+  }
+  .legend-item{display:flex; align-items:center; gap:7px; font-size:12px; color:var(--ink-muted);}
+  .legend-swatch{width:10px; height:10px; border-radius:3px;}
+
+  .receipt{
+    margin-top:24px; background:var(--surface); border:1px solid var(--hairline);
+    border-radius:20px; padding:0; overflow:hidden; display:none;
+  }
+  .receipt.open{display:block;}
+  .receipt-head{
+    padding:22px 28px; border-bottom:1px dashed var(--hairline);
+    display:flex; justify-content:space-between; align-items:center;
+  }
+  .receipt-date{font-family:'Bricolage Grotesque',sans-serif; font-weight:800; font-size:22px;}
+  .receipt-close{
+    font-family:'Space Mono',monospace; font-size:12px; color:var(--ink-muted);
+    background:none; border:1px solid var(--hairline); border-radius:100px;
+    padding:6px 14px; cursor:pointer;
+  }
+  .receipt-close:hover{border-color:var(--ink-muted); color:var(--ink);}
+
+  .section{padding:18px 28px; border-bottom:1px solid var(--hairline);}
+  .section:last-child{border-bottom:none;}
+  .section-head{display:flex; align-items:center; gap:9px; margin-bottom:10px;}
+  .section-dot{width:8px; height:8px; border-radius:50%;}
+  .section-name{font-family:'Space Mono',monospace; font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:var(--ink-muted);}
+  .row{
+    display:grid; grid-template-columns:1fr 90px 90px; gap:10px; align-items:center;
+    padding:8px 0; font-family:'Space Mono',monospace; font-size:13px;
+  }
+  .row .ticker{font-family:'Manrope',sans-serif; font-weight:700; color:var(--ink);}
+  .row .pct.up{color:var(--emerald);}
+  .row .pct.down{color:var(--coral);}
+  .row .pct.na{color:var(--ink-muted);}
+  .row .anchor{color:var(--ink-muted); font-size:12px; text-align:right;}
+  .count-badge{
+    display:inline-block; margin-left:8px; background:var(--surface-3);
+    color:var(--gold); font-size:11px; padding:2px 8px; border-radius:100px;
+  }
+  .empty-note, .loading-note{color:var(--ink-muted); font-size:13px; padding:4px 0;}
+  .footer-note{
+    margin-top:28px; font-family:'Space Mono',monospace; font-size:11px;
+    color:var(--ink-muted); text-align:center;
+  }
+</style>
+</head>
+<body>
+
+  <div class="eyebrow">NSE · Daily episodic pivot tracker</div>
+  <h1>Every breakout.<br>Every <span>receipt.</span></h1>
+  <p class="tagline">Big price moves, tracked daily and never lost. Tap any day to see exactly what fired.</p>
+
+  <div class="cal-card">
+    <div class="cal-head">
+      <div class="cal-title" id="calTitle">Loading…</div>
+      <div class="cal-nav">
+        <button class="nav-btn" id="prevBtn">‹</button>
+        <button class="nav-btn" id="nextBtn">›</button>
+      </div>
+    </div>
+    <div class="weekdays">
+      <div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div><div>Sun</div>
+    </div>
+    <div class="grid" id="calGrid"></div>
+    <div class="legend">
+      <div class="legend-item"><div class="legend-swatch" style="background:var(--gold)"></div>New EP</div>
+      <div class="legend-item"><div class="legend-swatch" style="background:var(--emerald)"></div>Persistent / Sustained</div>
+      <div class="legend-item"><div class="legend-swatch" style="background:var(--surface-3); border:1px solid var(--gold)"></div>Retro New EP</div>
+      <div class="legend-item"><div class="legend-swatch" style="background:var(--coral)"></div>Fizzle Out</div>
+      <div class="legend-item"><div class="legend-swatch" style="background:var(--hairline)"></div>No activity</div>
+    </div>
+  </div>
+
+  <div class="receipt" id="receipt"></div>
+
+  <div class="footer-note">Data updates automatically after each trading day. Source: NSE bhavcopy.</div>
+
+<script>
+const TYPE_ORDER = ['new','persistent','retro','sustained','fizzle'];
+const COLORS = {new:'var(--gold)', persistent:'var(--emerald)', sustained:'var(--emerald)',
+                 retro:'var(--surface-3)', fizzle:'var(--coral)'};
+const LABELS = {new:'New EP', persistent:'Persistent EP', retro:'Retro New EP',
+                 sustained:'Sustained EP', fizzle:'Fizzle Out EP'};
+
+let INDEX = {};          // { "2026-08-14": {new:1, persistent:2, ...}, ... }
+let viewYear, viewMonth; // 0-indexed month, drives which calendar page is shown
+
+function pad(n){ return String(n).padStart(2,'0'); }
+function dateKey(y,m,d){ return `${y}-${pad(m+1)}-${pad(d)}`; }
+
+async function loadIndex(){
+  try{
+    const res = await fetch('data/index.json', {cache:'no-store'});
+    if(!res.ok) throw new Error('index.json not found');
+    INDEX = await res.json();
+  }catch(e){
+    INDEX = {};
+    console.warn('Could not load data/index.json — the site will still render, just empty.', e);
+  }
+}
+
+function initialMonthFromData(){
+  const keys = Object.keys(INDEX).sort();
+  if(keys.length === 0){
+    const now = new Date();
+    return {y: now.getFullYear(), m: now.getMonth()};
+  }
+  const latest = keys[keys.length - 1];
+  const [y, m] = latest.split('-').map(Number);
+  return {y, m: m - 1};
+}
+
+function renderCalTitle(){
+  const monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  document.getElementById('calTitle').textContent = `${monthNames[viewMonth]} ${viewYear}`;
+}
+
+function typeCountsFromSummary(summary){
+  const counts = {};
+  TYPE_ORDER.forEach(t => counts[t] = (summary && summary[t]) || 0);
+  return counts;
+}
+
+function renderCandle(cell, summary){
+  const total = TYPE_ORDER.reduce((sum,t) => sum + ((summary && summary[t]) || 0), 0);
+  if(!summary || total === 0){
+    const wick = document.createElement('div');
+    wick.className = 'candle-wick';
+    wick.style.height = '10px';
+    wick.style.background = 'var(--hairline)';
+    cell.appendChild(wick);
+    return;
+  }
+  const counts = typeCountsFromSummary(summary);
+  const unit = 7, maxSegmentPx = 44;
+  const stack = document.createElement('div');
+  stack.className = 'candle-stack';
+  TYPE_ORDER.forEach(type => {
+    const n = counts[type];
+    if(n === 0) return;
+    const seg = document.createElement('div');
+    seg.className = 'candle-segment';
+    seg.style.height = Math.min(n * unit, maxSegmentPx) + 'px';
+    seg.style.background = type === 'retro' ? 'var(--surface-3)' : COLORS[type];
+    if(type === 'retro'){ seg.style.borderTop = '1.5px solid var(--gold)'; seg.style.borderBottom = '1.5px solid var(--gold)'; }
+    stack.appendChild(seg);
+  });
+  cell.appendChild(stack);
+
+  if(total >= 4){
+    const badge = document.createElement('div');
+    badge.className = 'count-total';
+    badge.textContent = total;
+    cell.appendChild(badge);
+  }
+  cell.title = TYPE_ORDER.filter(t => counts[t] > 0).map(t => `${LABELS[t]}: ${counts[t]}`).join('\n');
+}
+
+function buildCalendar(){
+  renderCalTitle();
+  const gridEl = document.getElementById('calGrid');
+  gridEl.innerHTML = '';
+
+  const firstDow = new Date(viewYear, viewMonth, 1).getDay(); // 0=Sun
+  const leadingEmpty = (firstDow + 6) % 7; // convert to Mon-start offset
+  const daysInMonth = new Date(viewYear, viewMonth + 1, 0).getDate();
+
+  for(let i=0; i<leadingEmpty; i++){
+    const empty = document.createElement('div');
+    empty.className = 'day empty';
+    gridEl.appendChild(empty);
+  }
+
+  for(let d=1; d<=daysInMonth; d++){
+    const key = dateKey(viewYear, viewMonth, d);
+    const summary = INDEX[key];
+    const cell = document.createElement('div');
+    cell.className = 'day' + (summary ? '' : ' no-data');
+    cell.dataset.date = key;
+    const num = document.createElement('div');
+    num.className = 'daynum';
+    num.textContent = d;
+    cell.appendChild(num);
+    renderCandle(cell, summary);
+    cell.addEventListener('click', () => openReceipt(key));
+    gridEl.appendChild(cell);
+  }
+
+  const keys = Object.keys(INDEX).sort();
+  updateNavButtons(keys);
+}
+
+function updateNavButtons(keys){
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  if(keys.length === 0){
+    prevBtn.disabled = false;
+    nextBtn.disabled = false;
+    return;
+  }
+  const monthIndex = (y,m) => y*12 + m; // m is 1-indexed here, matches the YYYY-MM key format
+  const [ey, em] = keys[0].split('-').map(Number);
+  const [ly, lm] = keys[keys.length-1].split('-').map(Number);
+  const cur = viewYear*12 + viewMonth; // viewMonth is 0-indexed
+  prevBtn.disabled = cur <= monthIndex(ey, em-1);
+  nextBtn.disabled = cur >= monthIndex(ly, lm-1);
+}
+
+function changeMonth(delta){
+  viewMonth += delta;
+  if(viewMonth < 0){ viewMonth = 11; viewYear -= 1; }
+  if(viewMonth > 11){ viewMonth = 0; viewYear += 1; }
+  buildCalendar();
+}
+
+function pctSpan(pct){
+  if(pct === null || pct === undefined) return `<span class="pct na">—</span>`;
+  const sign = pct >= 0 ? '+' : '';
+  const cls = pct >= 0 ? 'up' : 'down';
+  return `<span class="pct ${cls}">${sign}${pct.toFixed(2)}%</span>`;
+}
+
+async function openReceipt(dateStr){
+  document.querySelectorAll('.day').forEach(el => el.classList.remove('selected'));
+  const cell = document.querySelector(`.day[data-date="${dateStr}"]`);
+  if(cell) cell.classList.add('selected');
+
+  const receiptEl = document.getElementById('receipt');
+  receiptEl.innerHTML = `<div class="receipt-head">
+      <div class="receipt-date">${dateStr}</div>
+      <button class="receipt-close" onclick="closeReceipt()">Close</button>
+    </div>
+    <div class="section"><div class="loading-note">Loading…</div></div>`;
+  receiptEl.classList.add('open');
+  receiptEl.scrollIntoView({behavior:'smooth', block:'nearest'});
+
+  let detail;
+  try{
+    const res = await fetch(`data/${dateStr}.json`, {cache:'no-store'});
+    if(!res.ok) throw new Error('not found');
+    detail = await res.json();
+  }catch(e){
+    receiptEl.innerHTML = `<div class="receipt-head">
+        <div class="receipt-date">${dateStr}</div>
+        <button class="receipt-close" onclick="closeReceipt()">Close</button>
+      </div>
+      <div class="section"><div class="empty-note">No data available for this date.</div></div>`;
+    return;
+  }
+
+  let html = `<div class="receipt-head">
+      <div class="receipt-date">${dateStr}</div>
+      <button class="receipt-close" onclick="closeReceipt()">Close</button>
+    </div>`;
+
+  TYPE_ORDER.forEach(type => {
+    const rows = detail.sections[type] || [];
+    html += `<div class="section">
+      <div class="section-head">
+        <div class="section-dot" style="background:${type==='retro' ? 'var(--surface-3)' : COLORS[type]}; ${type==='retro' ? 'border:1.5px solid var(--gold);' : ''}"></div>
+        <div class="section-name">${LABELS[type]}</div>
+      </div>`;
+    if(rows.length === 0){
+      html += `<div class="empty-note">None today</div>`;
+    } else {
+      rows.forEach(r => {
+        const countBadge = r.count !== undefined ? `<span class="count-badge">×${r.count}</span>` : '';
+        html += `<div class="row">
+          <div><span class="ticker">${r.ticker}</span>${countBadge}</div>
+          ${pctSpan(r.pct)}
+          <div class="anchor">${r.anchor_date || '—'}</div>
+        </div>`;
+      });
+    }
+    html += `</div>`;
+  });
+
+  receiptEl.innerHTML = html;
+}
+
+function closeReceipt(){
+  document.getElementById('receipt').classList.remove('open');
+  document.querySelectorAll('.day').forEach(el => el.classList.remove('selected'));
+}
+
+document.getElementById('prevBtn').addEventListener('click', () => changeMonth(-1));
+document.getElementById('nextBtn').addEventListener('click', () => changeMonth(1));
+
+(async function init(){
+  await loadIndex();
+  const initial = initialMonthFromData();
+  viewYear = initial.y; viewMonth = initial.m;
+  buildCalendar();
+})();
+</script>
+</body>
+</html>
