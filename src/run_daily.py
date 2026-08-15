@@ -30,6 +30,7 @@ from src.ep import state_store
 from src.research.trigger import build_research_queue, save_research_queue
 from src.research.dispatcher import run_research_for_queue, save_research_output
 from src.report.text_report import build_daily_text_report, save_text_report
+from src.report.json_report import build_and_save_site_data
 
 logger = logging.getLogger(__name__)
 
@@ -69,6 +70,9 @@ def run_for_date(trade_date: date) -> int:
     report_text = build_daily_text_report(daily_output, trade_date)
     report_path = save_text_report(report_text, trade_date)
     logger.info("Wrote daily text report: %s", report_path)
+
+    build_and_save_site_data(daily_output, trade_date)
+    logger.info("Wrote site data: docs/data/%s.json + updated index.json", trade_date.isoformat())
 
     # --- Research trigger loop ---
     queue = build_research_queue(daily_output, trade_date)
