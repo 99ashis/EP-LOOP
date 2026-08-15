@@ -1,21 +1,152 @@
 {
   "date": "2026-08-14",
   "sections": {
-    "new": [],
-    "persistent": [],
+    "new": [
+      {
+        "ticker": "APEX",
+        "pct": 15.95,
+        "anchor_date": "14-Aug-26"
+      },
+      {
+        "ticker": "BALUFORGE",
+        "pct": 10.64,
+        "anchor_date": "14-Aug-26"
+      },
+      {
+        "ticker": "DREDGECORP",
+        "pct": 9.58,
+        "anchor_date": "14-Aug-26"
+      },
+      {
+        "ticker": "ELGIEQUIP",
+        "pct": 5.72,
+        "anchor_date": "14-Aug-26"
+      },
+      {
+        "ticker": "GALAXYSURF",
+        "pct": 20.0,
+        "anchor_date": "14-Aug-26"
+      },
+      {
+        "ticker": "HAPPSTMNDS",
+        "pct": 6.43,
+        "anchor_date": "14-Aug-26"
+      },
+      {
+        "ticker": "LGEINDIA",
+        "pct": 9.59,
+        "anchor_date": "14-Aug-26"
+      },
+      {
+        "ticker": "MANORAMA",
+        "pct": 7.62,
+        "anchor_date": "14-Aug-26"
+      },
+      {
+        "ticker": "PRAKASH",
+        "pct": 12.36,
+        "anchor_date": "14-Aug-26"
+      },
+      {
+        "ticker": "RGL",
+        "pct": 10.7,
+        "anchor_date": "14-Aug-26"
+      },
+      {
+        "ticker": "SHANTIGOLD",
+        "pct": 6.8,
+        "anchor_date": "14-Aug-26"
+      },
+      {
+        "ticker": "SUDARSCHEM",
+        "pct": 6.2,
+        "anchor_date": "14-Aug-26"
+      },
+      {
+        "ticker": "TARSONS",
+        "pct": 15.22,
+        "anchor_date": "14-Aug-26"
+      },
+      {
+        "ticker": "TASTYBITE",
+        "pct": 10.06,
+        "anchor_date": "14-Aug-26"
+      },
+      {
+        "ticker": "TVSSRICHAK",
+        "pct": 12.1,
+        "anchor_date": "14-Aug-26"
+      }
+    ],
+    "persistent": [
+      {
+        "ticker": "ARIES",
+        "pct": 7.1,
+        "anchor_date": "12-Aug-26",
+        "count": 1
+      },
+      {
+        "ticker": "MARKSANS",
+        "pct": 9.76,
+        "anchor_date": "12-Aug-26",
+        "count": 1
+      },
+      {
+        "ticker": "TIIL",
+        "pct": 6.96,
+        "anchor_date": "12-Aug-26",
+        "count": 1
+      }
+    ],
     "retro": [],
     "sustained": [
+      {
+        "ticker": "COMSYN",
+        "pct": 2.01,
+        "anchor_date": "10-Aug-26",
+        "count": 1
+      },
+      {
+        "ticker": "KPL",
+        "pct": 2.8,
+        "anchor_date": "10-Aug-26",
+        "count": 1
+      },
+      {
+        "ticker": "DEVYANI",
+        "pct": 3.79,
+        "anchor_date": "11-Aug-26",
+        "count": 1
+      },
+      {
+        "ticker": "INDSWFTLAB",
+        "pct": 2.55,
+        "anchor_date": "11-Aug-26",
+        "count": 1
+      },
+      {
+        "ticker": "KSHINTL",
+        "pct": 2.71,
+        "anchor_date": "11-Aug-26",
+        "count": 1
+      },
+      {
+        "ticker": "LUMAXTECH",
+        "pct": 1.92,
+        "anchor_date": "11-Aug-26",
+        "count": 1
+      },
       {
         "ticker": "JUBLCPL",
         "pct": 3.66,
         "anchor_date": "13-Aug-26",
-        "count": 3
+        "count": 1
       },
       {
         "ticker": "SARDAEN",
         "pct": 1.5,
         "anchor_date": "13-Aug-26",
-        "count": 3
+        "count": 1
       }
     ],
     "fizzle": []

@@ -5,13 +5,29 @@ NEW EP
 ------------------------------------------------------------
 TICKER            % CHANGE    ANCHOR DATE  
 -------------------------------------------
-None today
+APEX              +15.95%     14-Aug-26    
+BALUFORGE         +10.64%     14-Aug-26    
+DREDGECORP        +9.58%      14-Aug-26    
+ELGIEQUIP         +5.72%      14-Aug-26    
+GALAXYSURF        +20.00%     14-Aug-26    
+HAPPSTMNDS        +6.43%      14-Aug-26    
+LGEINDIA          +9.59%      14-Aug-26    
+MANORAMA          +7.62%      14-Aug-26    
+PRAKASH           +12.36%     14-Aug-26    
+RGL               +10.70%     14-Aug-26    
+SHANTIGOLD        +6.80%      14-Aug-26    
+SUDARSCHEM        +6.20%      14-Aug-26    
+TARSONS           +15.22%     14-Aug-26    
+TASTYBITE         +10.06%     14-Aug-26    
+TVSSRICHAK        +12.10%     14-Aug-26    
 
 PERSISTENT EP
 ------------------------------------------------------------
 TICKER            % CHANGE    ANCHOR DATE    PERSISTENT COUNT
 -------------------------------------------------------------
-None today
+ARIES             +7.10%      12-Aug-26      1               
+MARKSANS          +9.76%      12-Aug-26      1               
+TIIL              +6.96%      12-Aug-26      1               
 
 RETRO NEW EP
 ------------------------------------------------------------
@@ -23,8 +39,14 @@ SUSTAINED EP
 ------------------------------------------------------------
 TICKER            % CHANGE    ANCHOR DATE    SUSTAINED COUNT 
 -------------------------------------------------------------
-JUBLCPL           +3.66%      13-Aug-26      3               
-SARDAEN           +1.50%      13-Aug-26      3               
+COMSYN            +2.01%      10-Aug-26      1               
+KPL               +2.80%      10-Aug-26      1               
+DEVYANI           +3.79%      11-Aug-26      1               
+INDSWFTLAB        +2.55%      11-Aug-26      1               
+KSHINTL           +2.71%      11-Aug-26      1               
+LUMAXTECH         +1.92%      11-Aug-26      1               
+JUBLCPL           +3.66%      13-Aug-26      1               
+SARDAEN           +1.50%      13-Aug-26      1               
 
 FIZZLE OUT EP
 ------------------------------------------------------------

@@ -29,9 +29,9 @@
   },
   "2026-08-14": {
     "fizzle": 0,
-    "new": 0,
-    "persistent": 0,
+    "new": 15,
+    "persistent": 3,
     "retro": 0,
-    "sustained": 2
+    "sustained": 8
   }
 }
