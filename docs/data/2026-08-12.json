@@ -1,0 +1,153 @@
+{
+  "date": "2026-08-12",
+  "sections": {
+    "new": [
+      {
+        "ticker": "ALICON",
+        "pct": 6.09,
+        "anchor_date": "12-Aug-26"
+      },
+      {
+        "ticker": "ARIES",
+        "pct": 11.68,
+        "anchor_date": "12-Aug-26"
+      },
+      {
+        "ticker": "DIVGIITTS",
+        "pct": 14.45,
+        "anchor_date": "12-Aug-26"
+      },
+      {
+        "ticker": "DOLPHIN",
+        "pct": 12.21,
+        "anchor_date": "12-Aug-26"
+      },
+      {
+        "ticker": "ELLEN",
+        "pct": 9.99,
+        "anchor_date": "12-Aug-26"
+      },
+      {
+        "ticker": "GIPCL",
+        "pct": 5.72,
+        "anchor_date": "12-Aug-26"
+      },
+      {
+        "ticker": "JINDALPOLY",
+        "pct": 5.89,
+        "anchor_date": "12-Aug-26"
+      },
+      {
+        "ticker": "KENNAMET",
+        "pct": 8.19,
+        "anchor_date": "12-Aug-26"
+      },
+      {
+        "ticker": "MANINDS",
+        "pct": 7.07,
+        "anchor_date": "12-Aug-26"
+      },
+      {
+        "ticker": "MARKSANS",
+        "pct": 12.06,
+        "anchor_date": "12-Aug-26"
+      },
+      {
+        "ticker": "ORISSAMINE",
+        "pct": 7.43,
+        "anchor_date": "12-Aug-26"
+      },
+      {
+        "ticker": "PITTIENG",
+        "pct": 8.72,
+        "anchor_date": "12-Aug-26"
+      },
+      {
+        "ticker": "PNGSREVA",
+        "pct": 10.77,
+        "anchor_date": "12-Aug-26"
+      },
+      {
+        "ticker": "TCPLPACK",
+        "pct": 19.56,
+        "anchor_date": "12-Aug-26"
+      },
+      {
+        "ticker": "TDPOWERSYS",
+        "pct": 16.03,
+        "anchor_date": "12-Aug-26"
+      },
+      {
+        "ticker": "TIIL",
+        "pct": 10.33,
+        "anchor_date": "12-Aug-26"
+      }
+    ],
+    "persistent": [
+      {
+        "ticker": "EMIL",
+        "pct": 4.8,
+        "anchor_date": "10-Aug-26",
+        "count": 1
+      },
+      {
+        "ticker": "SURAKSHA",
+        "pct": 4.69,
+        "anchor_date": "10-Aug-26",
+        "count": 1
+      },
+      {
+        "ticker": "FINCABLES",
+        "pct": 5.98,
+        "anchor_date": "11-Aug-26",
+        "count": 1
+      },
+      {
+        "ticker": "INDSWFTLAB",
+        "pct": 5.38,
+        "anchor_date": "11-Aug-26",
+        "count": 1
+      },
+      {
+        "ticker": "YATRA",
+        "pct": 4.09,
+        "anchor_date": "11-Aug-26",
+        "count": 1
+      }
+    ],
+    "retro": [],
+    "sustained": [
+      {
+        "ticker": "MMP",
+        "pct": 2.08,
+        "anchor_date": "10-Aug-26",
+        "count": 1
+      },
+      {
+        "ticker": "PAYTM",
+        "pct": 1.02,
+        "anchor_date": "10-Aug-26",
+        "count": 1
+      },
+      {
+        "ticker": "UNIVCABLES",
+        "pct": 2.37,
+        "anchor_date": "10-Aug-26",
+        "count": 1
+      },
+      {
+        "ticker": "ZYDUSLIFE",
+        "pct": 1.18,
+        "anchor_date": "11-Aug-26",
+        "count": 1
+      }
+    ],
+    "fizzle": [
+      {
+        "ticker": "ESTER",
+        "pct": -7.88,
+        "anchor_date": "11-Aug-26"
+      }
+    ]
+  }
+}
