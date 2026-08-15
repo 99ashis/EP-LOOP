@@ -1,0 +1,23 @@
+{
+  "date": "2026-08-14",
+  "sections": {
+    "new": [],
+    "persistent": [],
+    "retro": [],
+    "sustained": [
+      {
+        "ticker": "JUBLCPL",
+        "pct": 3.66,
+        "anchor_date": "13-Aug-26",
+        "count": 1
+      },
+      {
+        "ticker": "SARDAEN",
+        "pct": 1.5,
+        "anchor_date": "13-Aug-26",
+        "count": 1
+      }
+    ],
+    "fizzle": []
+  }
+}
