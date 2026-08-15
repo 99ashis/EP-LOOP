@@ -44,6 +44,25 @@ def _records_to_dataframe(records: list[tuple]) -> pd.DataFrame:
     return df
 
 
+def load_state_as_of(as_of: date) -> pd.DataFrame:
+    """
+    Same contract as state_store_local.load_state_as_of, but the Supabase
+    backend doesn't yet have a per-date historical anchor snapshot to look
+    up (ep_anchors_current is also just "whatever's current" — the same
+    class of gap the local backend just got fixed for). Until a dated
+    anchor-history table is added here too, this falls back to current
+    state, which carries the SAME out-of-order-reprocessing risk described
+    in the local backend. Fine for normal forward-only runs; avoid manually
+    reprocessing an earlier date after later ones have already run.
+    """
+    logger.warning(
+        "Supabase backend does not yet support date-aware state lookup — "
+        "using current state as-is. Safe for forward-only runs; do not "
+        "reprocess an earlier date after later ones have already run."
+    )
+    return load_latest_state()
+
+
 def load_latest_state() -> pd.DataFrame:
     with get_connection() as conn:
         with conn.cursor() as cur:
