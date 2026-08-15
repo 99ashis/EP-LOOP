@@ -13,9 +13,9 @@ from __future__ import annotations
 from src import config
 
 if config.STATE_BACKEND == "supabase":
-    from src.ep.state_store_supabase import load_latest_state, save_state, STATE_COLUMNS  # noqa: F401
+    from src.ep.state_store_supabase import load_state_as_of, save_state, STATE_COLUMNS  # noqa: F401
 elif config.STATE_BACKEND == "local":
-    from src.ep.state_store_local import load_latest_state, save_state, STATE_COLUMNS  # noqa: F401
+    from src.ep.state_store_local import load_state_as_of, save_state, STATE_COLUMNS  # noqa: F401
 else:
     raise ValueError(
         f"Unknown EP_STATE_BACKEND='{config.STATE_BACKEND}'. Expected 'local' or 'supabase'."
