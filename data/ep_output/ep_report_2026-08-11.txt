@@ -1,0 +1,53 @@
+EP DAILY ALERT — 11-Aug-26
+============================================================
+
+NEW EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE  
+-------------------------------------------
+ARE&M             +8.08%      11-Aug-26    
+CHENNPETRO        +15.00%     11-Aug-26    
+DEVYANI           +6.91%      11-Aug-26    
+ESTER             +5.32%      11-Aug-26    
+FINCABLES         +14.16%     11-Aug-26    
+GLAND             +9.64%      11-Aug-26    
+GODAVARIB         +13.95%     11-Aug-26    
+INDSWFTLAB        +20.00%     11-Aug-26    
+KOLTEPATIL        +11.77%     11-Aug-26    
+KSHINTL           +9.81%      11-Aug-26    
+LUMAXTECH         +19.45%     11-Aug-26    
+OMNI              +8.21%      11-Aug-26    
+POLYMED           +5.16%      11-Aug-26    
+ROLEXRINGS        +14.19%     11-Aug-26    
+SAPPHIRE          +6.98%      11-Aug-26    
+SUNDRMFAST        +7.91%      11-Aug-26    
+WINDLAS           +12.32%     11-Aug-26    
+YATRA             +9.36%      11-Aug-26    
+ZYDUSLIFE         +6.43%      11-Aug-26    
+
+PERSISTENT EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE    PERSISTENT COUNT
+-------------------------------------------------------------
+AARTIPHARM        +7.38%      10-Aug-26      1               
+ENTERO            +8.52%      10-Aug-26      1               
+KPL               +5.63%      10-Aug-26      1               
+
+RETRO NEW EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE  
+-------------------------------------------
+None today
+
+SUSTAINED EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE    SUSTAINED COUNT 
+-------------------------------------------------------------
+EMIL              +2.20%      10-Aug-26      1               
+SKYGOLD           +1.34%      10-Aug-26      1               
+
+FIZZLE OUT EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE  
+-------------------------------------------
+None today
