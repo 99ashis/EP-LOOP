@@ -27,7 +27,7 @@
     font-size:52px; line-height:0.98; letter-spacing:-0.02em; color:var(--ink);
   }
   h1 span{color:var(--gold);}
-  .tagline{color:var(--ink-muted); font-size:16px; margin-top:14px; max-width:440px; line-height:1.5;}
+  .tagline{color:var(--ink-muted); font-size:16px; margin-top:14px; max-width:540px; line-height:1.5;}
 
   .cal-card{
     margin-top:44px; background:var(--surface); border:1px solid var(--hairline);
@@ -52,7 +52,7 @@
   }
 
   .day{
-    aspect-ratio:1; background:var(--surface-2); border-radius:10px; border:1px solid transparent;
+    min-height:72px; background:var(--surface-2); border-radius:10px; border:1px solid transparent;
     display:flex; flex-direction:column; align-items:center; justify-content:flex-end;
     padding:6px 0 8px; cursor:pointer; position:relative; transition:transform 0.12s, border-color 0.12s;
   }
@@ -114,6 +114,11 @@
   .row .pct.down{color:var(--coral);}
   .row .pct.na{color:var(--ink-muted);}
   .row .anchor{color:var(--ink-muted); font-size:12px; text-align:right;}
+  .row-results{
+    grid-column: 1 / -1; font-size:11px; color:var(--gold);
+    margin-top:-4px; padding-bottom:6px;
+  }
+  .row-results.na{color:var(--ink-muted);}
   .count-badge{
     display:inline-block; margin-left:8px; background:var(--surface-3);
     color:var(--gold); font-size:11px; padding:2px 8px; border-radius:100px;
@@ -128,8 +133,8 @@
 <body>
 
   <div class="eyebrow">NSE · Daily episodic pivot tracker</div>
-  <h1>Every breakout.<br>Every <span>receipt.</span></h1>
-  <p class="tagline">Big price moves, tracked daily and never lost. Tap any day to see exactly what fired.</p>
+  <h1>Every <span>EPISODIC PIVOT.</span><br>&amp; Subsequent Episodes.</h1>
+  <p class="tagline">Big price moves, tracked daily and never lost. Persistent and Sustained EPs are often a beginning of Large Moves. Tap any day to see exactly what fired.</p>
 
   <div class="cal-card">
     <div class="cal-head">
@@ -213,7 +218,7 @@ function renderCandle(cell, summary){
     return;
   }
   const counts = typeCountsFromSummary(summary);
-  const unit = 7, maxSegmentPx = 44;
+  const unit = 6, maxSegmentPx = 40;
   const stack = document.createElement('div');
   stack.className = 'candle-stack';
   TYPE_ORDER.forEach(type => {
@@ -301,6 +306,24 @@ function pctSpan(pct){
   return `<span class="pct ${cls}">${sign}${pct.toFixed(2)}%</span>`;
 }
 
+// Same 3 labels as config.RESULTS_ELIGIBLE_LABELS on the Python side —
+// results context is only ever present for these, but this function is
+// safe to call for any row (returns '' if there's nothing to show).
+const RESULTS_ELIGIBLE_TYPES = new Set(['new', 'persistent', 'sustained']);
+
+function fmtResultsLine(r){
+  if(!r.results || !r.results.context) return null;
+  const ctx = r.results.context;
+  if(ctx === 'PRE_RESULTS'){
+    const days = Math.abs(r.results.days);
+    return {text: `Pre-results (${days}d) — reports ${r.results.result_date}`, na: false};
+  }
+  if(ctx === 'POST_RESULTS'){
+    return {text: `Post-results (${r.results.days}d) — reported ${r.results.result_date}`, na: false};
+  }
+  return {text: 'No nearby results', na: true};
+}
+
 async function openReceipt(dateStr){
   document.querySelectorAll('.day').forEach(el => el.classList.remove('selected'));
   const cell = document.querySelector(`.day[data-date="${dateStr}"]`);
@@ -351,6 +374,12 @@ async function openReceipt(dateStr){
           ${pctSpan(r.pct)}
           <div class="anchor">${r.anchor_date || '—'}</div>
         </div>`;
+        if(RESULTS_ELIGIBLE_TYPES.has(type)){
+          const resultLine = fmtResultsLine(r);
+          if(resultLine){
+            html += `<div class="row-results${resultLine.na ? ' na' : ''}">${resultLine.text}</div>`;
+          }
+        }
       });
     }
     html += `</div>`;
