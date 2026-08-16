@@ -1,12 +1,108 @@
 [
   {
+    "symbol": "KIOCL",
+    "as_of": "2026-08-12",
+    "ep_context": {
+      "label": "SUSTAINED_EP",
+      "trigger_reason_for_research": "Upgraded to Sustained \u2014 check if fundamentals confirm the move is holding",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 8,
+      "pct_move_vs_prev": 1.15
+    },
+    "fundamental": {
+      "symbol": "KIOCL",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "KIOCL",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "CAPILLARY",
+    "as_of": "2026-08-12",
+    "ep_context": {
+      "label": "SUSTAINED_EP",
+      "trigger_reason_for_research": "Upgraded to Sustained \u2014 check if fundamentals confirm the move is holding",
+      "anchor_date": "2026-08-04 00:00:00",
+      "sessions_since_anchor": 7,
+      "pct_move_vs_prev": 1.07
+    },
+    "fundamental": {
+      "symbol": "CAPILLARY",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "CAPILLARY",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "EPACKPEB",
+    "as_of": "2026-08-12",
+    "ep_context": {
+      "label": "FIZZLE_OUT_EP",
+      "trigger_reason_for_research": "Fizzled \u2014 check if the catalyst was real or noise",
+      "anchor_date": "2026-08-04 00:00:00",
+      "sessions_since_anchor": 7,
+      "pct_move_vs_prev": -4.35
+    },
+    "fundamental": {
+      "symbol": "EPACKPEB",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "EPACKPEB",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
     "symbol": "EMIL",
     "as_of": "2026-08-12",
     "ep_context": {
       "label": "PERSISTENT_EP",
       "trigger_reason_for_research": "Fresh Persistent pivot \u2014 check if fundamentals still support continued conviction",
-      "anchor_date": "2026-08-10 00:00:00",
-      "sessions_since_anchor": 3,
+      "anchor_date": "2026-08-05 00:00:00",
+      "sessions_since_anchor": 6,
       "pct_move_vs_prev": 4.8
     },
     "fundamental": {
@@ -37,8 +133,8 @@
     "ep_context": {
       "label": "SUSTAINED_EP",
       "trigger_reason_for_research": "Upgraded to Sustained \u2014 check if fundamentals confirm the move is holding",
-      "anchor_date": "2026-08-10 00:00:00",
-      "sessions_since_anchor": 3,
+      "anchor_date": "2026-08-05 00:00:00",
+      "sessions_since_anchor": 6,
       "pct_move_vs_prev": 2.08
     },
     "fundamental": {
@@ -54,6 +150,134 @@
     },
     "news": {
       "symbol": "MMP",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "HAL",
+    "as_of": "2026-08-12",
+    "ep_context": {
+      "label": "SUSTAINED_EP",
+      "trigger_reason_for_research": "Upgraded to Sustained \u2014 check if fundamentals confirm the move is holding",
+      "anchor_date": "2026-08-06 00:00:00",
+      "sessions_since_anchor": 5,
+      "pct_move_vs_prev": 1.75
+    },
+    "fundamental": {
+      "symbol": "HAL",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "HAL",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "IGARASHI",
+    "as_of": "2026-08-12",
+    "ep_context": {
+      "label": "FIZZLE_OUT_EP",
+      "trigger_reason_for_research": "Fizzled \u2014 check if the catalyst was real or noise",
+      "anchor_date": "2026-08-06 00:00:00",
+      "sessions_since_anchor": 5,
+      "pct_move_vs_prev": -2.17
+    },
+    "fundamental": {
+      "symbol": "IGARASHI",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "IGARASHI",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "AVALON",
+    "as_of": "2026-08-12",
+    "ep_context": {
+      "label": "SUSTAINED_EP",
+      "trigger_reason_for_research": "Upgraded to Sustained \u2014 check if fundamentals confirm the move is holding",
+      "anchor_date": "2026-08-07 00:00:00",
+      "sessions_since_anchor": 4,
+      "pct_move_vs_prev": 1.32
+    },
+    "fundamental": {
+      "symbol": "AVALON",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "AVALON",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "PGIL",
+    "as_of": "2026-08-12",
+    "ep_context": {
+      "label": "SUSTAINED_EP",
+      "trigger_reason_for_research": "Upgraded to Sustained \u2014 check if fundamentals confirm the move is holding",
+      "anchor_date": "2026-08-07 00:00:00",
+      "sessions_since_anchor": 4,
+      "pct_move_vs_prev": 1.87
+    },
+    "fundamental": {
+      "symbol": "PGIL",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "PGIL",
       "catalyst_identified": false,
       "headline": null,
       "source": null,
@@ -694,38 +918,6 @@
     },
     "news": {
       "symbol": "PITTIENG",
-      "catalyst_identified": false,
-      "headline": null,
-      "source": null,
-      "published_date": null,
-      "category": null,
-      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
-      "supporting_links": []
-    }
-  },
-  {
-    "symbol": "PNGSREVA",
-    "as_of": "2026-08-12",
-    "ep_context": {
-      "label": "NEW_EP",
-      "trigger_reason_for_research": "New EP triggered \u2014 establish baseline fundamentals/news context",
-      "anchor_date": "2026-08-12 00:00:00",
-      "sessions_since_anchor": 1,
-      "pct_move_vs_prev": 10.77
-    },
-    "fundamental": {
-      "symbol": "PNGSREVA",
-      "material_change_detected": false,
-      "confidence": "insufficient_data",
-      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
-      "quality_change": null,
-      "leverage_change": null,
-      "earnings_trajectory_change": null,
-      "supporting_data": {},
-      "data_source": "NOT_CONFIGURED"
-    },
-    "news": {
-      "symbol": "PNGSREVA",
       "catalyst_identified": false,
       "headline": null,
       "source": null,

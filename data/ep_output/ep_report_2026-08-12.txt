@@ -3,34 +3,35 @@ EP DAILY ALERT — 12-Aug-26
 
 NEW EP
 ------------------------------------------------------------
-TICKER            % CHANGE    ANCHOR DATE  
--------------------------------------------
-ALICON            +6.09%      12-Aug-26    
-ARIES             +11.68%     12-Aug-26    
-DIVGIITTS         +14.45%     12-Aug-26    
-DOLPHIN           +12.21%     12-Aug-26    
-ELLEN             +9.99%      12-Aug-26    
-GIPCL             +5.72%      12-Aug-26    
-JINDALPOLY        +5.89%      12-Aug-26    
-KENNAMET          +8.19%      12-Aug-26    
-MANINDS           +7.07%      12-Aug-26    
-MARKSANS          +12.06%     12-Aug-26    
-ORISSAMINE        +7.43%      12-Aug-26    
-PITTIENG          +8.72%      12-Aug-26    
-PNGSREVA          +10.77%     12-Aug-26    
-TCPLPACK          +19.56%     12-Aug-26    
-TDPOWERSYS        +16.03%     12-Aug-26    
-TIIL              +10.33%     12-Aug-26    
+TICKER            % CHANGE    ANCHOR DATE    RESULTS                               
+-----------------------------------------------------------------------------------
+ALICON            +6.09%      12-Aug-26      No nearby results                     
+ARIES             +11.68%     12-Aug-26      No nearby results                     
+DIVGIITTS         +14.45%     12-Aug-26      No nearby results                     
+DOLPHIN           +12.21%     12-Aug-26      No nearby results                     
+ELLEN             +9.99%      12-Aug-26      No nearby results                     
+GIPCL             +5.72%      12-Aug-26      No nearby results                     
+JINDALPOLY        +5.89%      12-Aug-26      No nearby results                     
+KENNAMET          +8.19%      12-Aug-26      No nearby results                     
+MANINDS           +7.07%      12-Aug-26      No nearby results                     
+MARKSANS          +12.06%     12-Aug-26      No nearby results                     
+ORISSAMINE        +7.43%      12-Aug-26      No nearby results                     
+PITTIENG          +8.72%      12-Aug-26      No nearby results                     
+TCPLPACK          +19.56%     12-Aug-26      No nearby results                     
+TDPOWERSYS        +16.03%     12-Aug-26      No nearby results                     
+TIIL              +10.33%     12-Aug-26      No nearby results                     
 
 PERSISTENT EP
 ------------------------------------------------------------
-TICKER            % CHANGE    ANCHOR DATE    PERSISTENT COUNT
--------------------------------------------------------------
-EMIL              +4.80%      10-Aug-26      1               
-SURAKSHA          +4.69%      10-Aug-26      1               
-FINCABLES         +5.98%      11-Aug-26      1               
-INDSWFTLAB        +5.38%      11-Aug-26      1               
-YATRA             +4.09%      11-Aug-26      1               
+TICKER            % CHANGE    ANCHOR DATE    PERSISTENT COUNT  RESULTS                               
+-----------------------------------------------------------------------------------------------------
+VINDHYATEL        +6.33%      03-Aug-26      2                 No nearby results                     
+PNGSREVA          +10.77%     04-Aug-26      2                 No nearby results                     
+EMIL              +4.80%      05-Aug-26      3                 No nearby results                     
+SURAKSHA          +4.69%      10-Aug-26      1                 No nearby results                     
+FINCABLES         +5.98%      11-Aug-26      1                 No nearby results                     
+INDSWFTLAB        +5.38%      11-Aug-26      1                 No nearby results                     
+YATRA             +4.09%      11-Aug-26      1                 No nearby results                     
 
 RETRO NEW EP
 ------------------------------------------------------------
@@ -40,15 +41,33 @@ None today
 
 SUSTAINED EP
 ------------------------------------------------------------
-TICKER            % CHANGE    ANCHOR DATE    SUSTAINED COUNT 
--------------------------------------------------------------
-MMP               +2.08%      10-Aug-26      1               
-PAYTM             +1.02%      10-Aug-26      1               
-UNIVCABLES        +2.37%      10-Aug-26      1               
-ZYDUSLIFE         +1.18%      11-Aug-26      1               
+TICKER            % CHANGE    ANCHOR DATE    SUSTAINED COUNT   RESULTS                               
+-----------------------------------------------------------------------------------------------------
+DEEPINDS          +3.89%      03-Aug-26      4                 No nearby results                     
+KIOCL             +1.15%      03-Aug-26      1                 No nearby results                     
+RATNAVEER         +1.87%      03-Aug-26      3                 No nearby results                     
+ROSSTECH          +2.14%      03-Aug-26      2                 No nearby results                     
+ATHERENERG        +2.88%      04-Aug-26      3                 No nearby results                     
+CAPILLARY         +1.07%      04-Aug-26      1                 No nearby results                     
+KEI               +1.93%      04-Aug-26      3                 No nearby results                     
+FIEMIND           +2.07%      05-Aug-26      2                 No nearby results                     
+HINDCOPPER        +2.70%      05-Aug-26      3                 No nearby results                     
+MMP               +2.08%      05-Aug-26      1                 No nearby results                     
+WESTLIFE          +1.93%      05-Aug-26      2                 No nearby results                     
+HAL               +1.75%      06-Aug-26      1                 No nearby results                     
+AVALON            +1.32%      07-Aug-26      1                 No nearby results                     
+PGIL              +1.87%      07-Aug-26      1                 No nearby results                     
+PAYTM             +1.02%      10-Aug-26      1                 No nearby results                     
+UNIVCABLES        +2.37%      10-Aug-26      1                 No nearby results                     
+ZYDUSLIFE         +1.18%      11-Aug-26      1                 No nearby results                     
 
 FIZZLE OUT EP
 ------------------------------------------------------------
 TICKER            % CHANGE    ANCHOR DATE  
 -------------------------------------------
+ATULAUTO          +2.00%      03-Aug-26    
+EPACKPEB          -4.35%      04-Aug-26    
+OMNI              -4.16%      05-Aug-26    
+PTC               -3.80%      05-Aug-26    
+IGARASHI          -2.17%      06-Aug-26    
 ESTER             -7.88%      11-Aug-26
