@@ -1,5 +1,165 @@
 [
   {
+    "symbol": "URBANCO",
+    "as_of": "2026-08-14",
+    "ep_context": {
+      "label": "SUSTAINED_EP",
+      "trigger_reason_for_research": "Upgraded to Sustained \u2014 check if fundamentals confirm the move is holding",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 10,
+      "pct_move_vs_prev": 2.16
+    },
+    "fundamental": {
+      "symbol": "URBANCO",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "URBANCO",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "VSSL",
+    "as_of": "2026-08-14",
+    "ep_context": {
+      "label": "PERSISTENT_EP",
+      "trigger_reason_for_research": "Fresh Persistent pivot \u2014 check if fundamentals still support continued conviction",
+      "anchor_date": "2026-08-05 00:00:00",
+      "sessions_since_anchor": 8,
+      "pct_move_vs_prev": 8.01
+    },
+    "fundamental": {
+      "symbol": "VSSL",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "VSSL",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "DEVYANI",
+    "as_of": "2026-08-14",
+    "ep_context": {
+      "label": "SUSTAINED_EP",
+      "trigger_reason_for_research": "Upgraded to Sustained \u2014 check if fundamentals confirm the move is holding",
+      "anchor_date": "2026-08-07 00:00:00",
+      "sessions_since_anchor": 6,
+      "pct_move_vs_prev": 3.79
+    },
+    "fundamental": {
+      "symbol": "DEVYANI",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "DEVYANI",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "GOCLCORP",
+    "as_of": "2026-08-14",
+    "ep_context": {
+      "label": "FIZZLE_OUT_EP",
+      "trigger_reason_for_research": "Fizzled \u2014 check if the catalyst was real or noise",
+      "anchor_date": "2026-08-07 00:00:00",
+      "sessions_since_anchor": 6,
+      "pct_move_vs_prev": -7.84
+    },
+    "fundamental": {
+      "symbol": "GOCLCORP",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "GOCLCORP",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "SBCL",
+    "as_of": "2026-08-14",
+    "ep_context": {
+      "label": "SUSTAINED_EP",
+      "trigger_reason_for_research": "Upgraded to Sustained \u2014 check if fundamentals confirm the move is holding",
+      "anchor_date": "2026-08-07 00:00:00",
+      "sessions_since_anchor": 6,
+      "pct_move_vs_prev": 3.12
+    },
+    "fundamental": {
+      "symbol": "SBCL",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "SBCL",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
     "symbol": "COMSYN",
     "as_of": "2026-08-14",
     "ep_context": {
@@ -54,38 +214,6 @@
     },
     "news": {
       "symbol": "KPL",
-      "catalyst_identified": false,
-      "headline": null,
-      "source": null,
-      "published_date": null,
-      "category": null,
-      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
-      "supporting_links": []
-    }
-  },
-  {
-    "symbol": "DEVYANI",
-    "as_of": "2026-08-14",
-    "ep_context": {
-      "label": "SUSTAINED_EP",
-      "trigger_reason_for_research": "Upgraded to Sustained \u2014 check if fundamentals confirm the move is holding",
-      "anchor_date": "2026-08-11 00:00:00",
-      "sessions_since_anchor": 4,
-      "pct_move_vs_prev": 3.79
-    },
-    "fundamental": {
-      "symbol": "DEVYANI",
-      "material_change_detected": false,
-      "confidence": "insufficient_data",
-      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
-      "quality_change": null,
-      "leverage_change": null,
-      "earnings_trajectory_change": null,
-      "supporting_data": {},
-      "data_source": "NOT_CONFIGURED"
-    },
-    "news": {
-      "symbol": "DEVYANI",
       "catalyst_identified": false,
       "headline": null,
       "source": null,
