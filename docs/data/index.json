@@ -42,11 +42,11 @@
     "sustained": 22
   },
   "2026-08-11": {
-    "fizzle": 0,
-    "new": 19,
-    "persistent": 3,
+    "fizzle": 3,
+    "new": 13,
+    "persistent": 10,
     "retro": 0,
-    "sustained": 2
+    "sustained": 14
   },
   "2026-08-12": {
     "fizzle": 1,
