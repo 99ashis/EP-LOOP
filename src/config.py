@@ -112,6 +112,21 @@ SITE_DATA_DIR = SITE_DIR / "data"
 SITE_DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------------------
+# Results-timing enrichment (New/Persistent/Sustained only)
+# ---------------------------------------------------------------------------
+# Two NSE feeds: event-calendar is forward-looking (scheduled board meetings,
+# used for the "before results" check); corporates-financial-results is
+# backward-looking (already-filed results, used for "after results").
+NSE_EVENT_CALENDAR_URL = "https://www.nseindia.com/api/event-calendar"
+NSE_FINANCIAL_RESULTS_URL = (
+    "https://www.nseindia.com/api/corporates-financial-results"
+    "?index=equities&period=Quarterly"
+)
+PRE_RESULTS_WINDOW_DAYS = 10   # tag as PRE_RESULTS if results are due within this many days
+POST_RESULTS_WINDOW_DAYS = 5   # tag as POST_RESULTS if results were filed within this many days
+RESULTS_ELIGIBLE_LABELS = {STATUS_NEW, STATUS_PERSISTENT, STATUS_SUSTAINED}
+
+# ---------------------------------------------------------------------------
 # Storage backend for EP state + research results
 # ---------------------------------------------------------------------------
 # "local"    -> parquet/JSON files under data/ (default, zero setup, what's
