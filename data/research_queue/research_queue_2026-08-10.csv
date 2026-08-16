@@ -1,19 +1,32 @@
 SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+ASKAUTOLTD,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-03,569.65,6,655.6,3.25,1.4545128187009075
+VINDHYATEL,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-03,2383.0,6,2438.4,8.77,3.394355694268563
+ALIVUS,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-04,1335.8,5,1374.5,3.36,2.659869758176441
+ALKYLAMINE,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-04,1921.2,5,1916.4,1.19,0.3533536458908865
+JGCHEM,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-05,548.25,4,622.2,12.55,45.00497900708084
+KANSAINER,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-05,210.38,4,215.65,1.55,1.6282850905682422
+MMP,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-05,329.35,4,343.65,5.33,5.642299478468082
+PTC,Fizzled — check if the catalyst was real or noise,FIZZLE_OUT_EP,2026-08-05,198.36,4,177.99,-12.45,2.4346941568760876
+SHILPAMED,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-05,721.75,4,807.55,6.29,3.42001305673067
+SUDEEPPHRM,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-05,958.95,4,1053.3,10.0,2.524404320010244
+UNIPARTS,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-05,801.65,4,824.8,1.25,1.430602507815887
+VARROC,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-05,717.6,4,825.95,1.82,2.8815474576741784
+MAZDOCK,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-06,2530.0,3,2575.0,2.39,1.757484430305985
+STOVEKRAFT,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-06,800.2,3,808.85,1.42,2.0874662638890666
+SUNDRMFAST,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-06,1085.25,3,1121.3,2.82,1.4560711278062728
+ARVSMART,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-07,650.75,2,658.95,1.26,4.625061885600445
+INDRAMEDCO,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-07,380.65,2,390.75,2.65,1.5210561940263327
+SBCL,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-07,920.9,2,1105.05,20.0,20.929434176998612
 AARTIPHARM,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,823.0,1,823.0,20.0,14.37
 BEML,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,1884.4,1,1884.4,5.4,9.52
 COMSYN,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,269.03,1,269.03,19.66,8.56
 DMCC,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,313.1,1,313.1,12.77,15.02
-EMIL,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,180.77,1,180.77,9.01,32.74
 ENTERO,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,1315.1,1,1315.1,5.83,14.02
 GARUDA,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,194.51,1,194.51,7.76,15.43
-JGCHEM,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,622.2,1,622.2,12.55,45.0
-KABRAEXTRU,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,510.75,1,510.75,13.85,9.52
 KPL,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,3134.1,1,3134.1,20.0,12.98
-MMP,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,343.65,1,343.65,5.33,5.64
 PAYTM,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,1584.1,1,1584.1,9.88,6.41
 PIXTRANS,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,1986.5,1,1986.5,15.68,12.55
 RAMCOIND,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,377.2,1,377.2,11.06,25.31
-SBCL,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,1105.05,1,1105.05,20.0,20.93
 SKYGOLD,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,779.6,1,779.6,8.37,5.91
 SURAKSHA,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,265.5,1,265.5,6.39,14.27
 THOMASCOTT,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-10,349.05,1,349.05,10.76,23.09
