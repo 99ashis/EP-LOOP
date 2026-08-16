@@ -1,0 +1,61 @@
+EP DAILY ALERT — 06-Aug-26
+============================================================
+
+NEW EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE    RESULTS                               
+-----------------------------------------------------------------------------------
+BAJAJELEC         +9.88%      06-Aug-26      No nearby results                     
+BIRLANU           +10.17%     06-Aug-26      No nearby results                     
+DECNGOLD          +13.26%     06-Aug-26      No nearby results                     
+GMMPFAUDLR        +14.32%     06-Aug-26      No nearby results                     
+HAL               +5.92%      06-Aug-26      No nearby results                     
+IGARASHI          +7.10%      06-Aug-26      No nearby results                     
+KOLTEPATIL        +9.35%      06-Aug-26      No nearby results                     
+MAZDOCK           +6.28%      06-Aug-26      No nearby results                     
+NAVINFLUOR        +13.67%     06-Aug-26      No nearby results                     
+NEULANDLAB        +7.95%      06-Aug-26      No nearby results                     
+RACLGEAR          +5.88%      06-Aug-26      No nearby results                     
+ROLEXRINGS        +5.51%      06-Aug-26      No nearby results                     
+SOTL              +15.16%     06-Aug-26      No nearby results                     
+STOVEKRAFT        +5.85%      06-Aug-26      No nearby results                     
+SUNDRMFAST        +5.32%      06-Aug-26      No nearby results                     
+TATATECH          +6.31%      06-Aug-26      No nearby results                     
+
+PERSISTENT EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE    PERSISTENT COUNT  RESULTS                               
+-----------------------------------------------------------------------------------------------------
+ASKAUTOLTD        +6.47%      03-Aug-26      2                 No nearby results                     
+KABRAEXTRU        +5.11%      03-Aug-26      2                 No nearby results                     
+PROSTARM          +7.89%      03-Aug-26      1                 No nearby results                     
+
+RETRO NEW EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE  
+-------------------------------------------
+None today
+
+SUSTAINED EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE    SUSTAINED COUNT   RESULTS                               
+-----------------------------------------------------------------------------------------------------
+INDGN             +1.83%      03-Aug-26      2                 No nearby results                     
+RATNAVEER         +1.16%      03-Aug-26      2                 No nearby results                     
+ROSSTECH          +2.40%      03-Aug-26      1                 No nearby results                     
+UTTAMSUGAR        +1.75%      03-Aug-26      1                 No nearby results                     
+BASF              +2.19%      04-Aug-26      2                 No nearby results                     
+GRAPHITE          +1.82%      04-Aug-26      1                 No nearby results                     
+AGARWALEYE        +2.16%      05-Aug-26      1                 No nearby results                     
+EMIL              +1.50%      05-Aug-26      1                 No nearby results                     
+HINDCOPPER        +2.28%      05-Aug-26      1                 No nearby results                     
+SHILPAMED         +2.36%      05-Aug-26      1                 No nearby results                     
+SUDEEPPHRM        +1.59%      05-Aug-26      1                 No nearby results                     
+VSSL              +1.37%      05-Aug-26      1                 No nearby results                     
+VARROC            +2.82%      05-Aug-26      1                 No nearby results                     
+
+FIZZLE OUT EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE  
+-------------------------------------------
+None today
