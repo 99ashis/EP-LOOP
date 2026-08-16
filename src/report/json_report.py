@@ -43,6 +43,17 @@ def _entry(row: pd.Series) -> dict:
         entry["count"] = int(row["PERSISTENT_COUNT"])
     elif label == config.STATUS_SUSTAINED:
         entry["count"] = int(row["SUSTAINED_COUNT"])
+
+    if label in config.RESULTS_ELIGIBLE_LABELS:
+        context = row.get("CATALYST_CONTEXT")
+        if context is not None and not (isinstance(context, float) and pd.isna(context)):
+            result_date = row.get("RESULT_DATE")
+            days = row.get("DAYS_TO_OR_SINCE_RESULTS")
+            entry["results"] = {
+                "context": context,
+                "result_date": None if result_date is None or pd.isna(result_date) else result_date,
+                "days": None if days is None or pd.isna(days) else int(days),
+            }
     return entry
 
 
