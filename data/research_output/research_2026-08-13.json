@@ -1,5 +1,293 @@
 [
   {
+    "symbol": "DHAMPURSUG",
+    "as_of": "2026-08-13",
+    "ep_context": {
+      "label": "SUSTAINED_EP",
+      "trigger_reason_for_research": "Upgraded to Sustained \u2014 check if fundamentals confirm the move is holding",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 9,
+      "pct_move_vs_prev": 1.57
+    },
+    "fundamental": {
+      "symbol": "DHAMPURSUG",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "DHAMPURSUG",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "IGPL",
+    "as_of": "2026-08-13",
+    "ep_context": {
+      "label": "FIZZLE_OUT_EP",
+      "trigger_reason_for_research": "Fizzled \u2014 check if the catalyst was real or noise",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 9,
+      "pct_move_vs_prev": -1.6
+    },
+    "fundamental": {
+      "symbol": "IGPL",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "IGPL",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "RATNAVEER",
+    "as_of": "2026-08-13",
+    "ep_context": {
+      "label": "PERSISTENT_EP",
+      "trigger_reason_for_research": "Fresh Persistent pivot \u2014 check if fundamentals still support continued conviction",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 9,
+      "pct_move_vs_prev": 4.76
+    },
+    "fundamental": {
+      "symbol": "RATNAVEER",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "RATNAVEER",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "UTTAMSUGAR",
+    "as_of": "2026-08-13",
+    "ep_context": {
+      "label": "PERSISTENT_EP",
+      "trigger_reason_for_research": "Fresh Persistent pivot \u2014 check if fundamentals still support continued conviction",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 9,
+      "pct_move_vs_prev": 4.52
+    },
+    "fundamental": {
+      "symbol": "UTTAMSUGAR",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "UTTAMSUGAR",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "PAUSHAKLTD",
+    "as_of": "2026-08-13",
+    "ep_context": {
+      "label": "PERSISTENT_EP",
+      "trigger_reason_for_research": "Fresh Persistent pivot \u2014 check if fundamentals still support continued conviction",
+      "anchor_date": "2026-08-04 00:00:00",
+      "sessions_since_anchor": 8,
+      "pct_move_vs_prev": 6.91
+    },
+    "fundamental": {
+      "symbol": "PAUSHAKLTD",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "PAUSHAKLTD",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "JGCHEM",
+    "as_of": "2026-08-13",
+    "ep_context": {
+      "label": "SUSTAINED_EP",
+      "trigger_reason_for_research": "Upgraded to Sustained \u2014 check if fundamentals confirm the move is holding",
+      "anchor_date": "2026-08-05 00:00:00",
+      "sessions_since_anchor": 7,
+      "pct_move_vs_prev": 1.21
+    },
+    "fundamental": {
+      "symbol": "JGCHEM",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "JGCHEM",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "ROLEXRINGS",
+    "as_of": "2026-08-13",
+    "ep_context": {
+      "label": "SUSTAINED_EP",
+      "trigger_reason_for_research": "Upgraded to Sustained \u2014 check if fundamentals confirm the move is holding",
+      "anchor_date": "2026-08-06 00:00:00",
+      "sessions_since_anchor": 6,
+      "pct_move_vs_prev": 3.03
+    },
+    "fundamental": {
+      "symbol": "ROLEXRINGS",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "ROLEXRINGS",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "SUNDRMFAST",
+    "as_of": "2026-08-13",
+    "ep_context": {
+      "label": "SUSTAINED_EP",
+      "trigger_reason_for_research": "Upgraded to Sustained \u2014 check if fundamentals confirm the move is holding",
+      "anchor_date": "2026-08-06 00:00:00",
+      "sessions_since_anchor": 6,
+      "pct_move_vs_prev": 1.57
+    },
+    "fundamental": {
+      "symbol": "SUNDRMFAST",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "SUNDRMFAST",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "TATATECH",
+    "as_of": "2026-08-13",
+    "ep_context": {
+      "label": "SUSTAINED_EP",
+      "trigger_reason_for_research": "Upgraded to Sustained \u2014 check if fundamentals confirm the move is holding",
+      "anchor_date": "2026-08-06 00:00:00",
+      "sessions_since_anchor": 6,
+      "pct_move_vs_prev": 3.12
+    },
+    "fundamental": {
+      "symbol": "TATATECH",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "TATATECH",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
     "symbol": "ENTERO",
     "as_of": "2026-08-13",
     "ep_context": {
@@ -32,38 +320,6 @@
     }
   },
   {
-    "symbol": "JGCHEM",
-    "as_of": "2026-08-13",
-    "ep_context": {
-      "label": "SUSTAINED_EP",
-      "trigger_reason_for_research": "Upgraded to Sustained \u2014 check if fundamentals confirm the move is holding",
-      "anchor_date": "2026-08-10 00:00:00",
-      "sessions_since_anchor": 4,
-      "pct_move_vs_prev": 1.21
-    },
-    "fundamental": {
-      "symbol": "JGCHEM",
-      "material_change_detected": false,
-      "confidence": "insufficient_data",
-      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
-      "quality_change": null,
-      "leverage_change": null,
-      "earnings_trajectory_change": null,
-      "supporting_data": {},
-      "data_source": "NOT_CONFIGURED"
-    },
-    "news": {
-      "symbol": "JGCHEM",
-      "catalyst_identified": false,
-      "headline": null,
-      "source": null,
-      "published_date": null,
-      "category": null,
-      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
-      "supporting_links": []
-    }
-  },
-  {
     "symbol": "GLAND",
     "as_of": "2026-08-13",
     "ep_context": {
@@ -86,102 +342,6 @@
     },
     "news": {
       "symbol": "GLAND",
-      "catalyst_identified": false,
-      "headline": null,
-      "source": null,
-      "published_date": null,
-      "category": null,
-      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
-      "supporting_links": []
-    }
-  },
-  {
-    "symbol": "OMNI",
-    "as_of": "2026-08-13",
-    "ep_context": {
-      "label": "SUSTAINED_EP",
-      "trigger_reason_for_research": "Upgraded to Sustained \u2014 check if fundamentals confirm the move is holding",
-      "anchor_date": "2026-08-11 00:00:00",
-      "sessions_since_anchor": 3,
-      "pct_move_vs_prev": 2.29
-    },
-    "fundamental": {
-      "symbol": "OMNI",
-      "material_change_detected": false,
-      "confidence": "insufficient_data",
-      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
-      "quality_change": null,
-      "leverage_change": null,
-      "earnings_trajectory_change": null,
-      "supporting_data": {},
-      "data_source": "NOT_CONFIGURED"
-    },
-    "news": {
-      "symbol": "OMNI",
-      "catalyst_identified": false,
-      "headline": null,
-      "source": null,
-      "published_date": null,
-      "category": null,
-      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
-      "supporting_links": []
-    }
-  },
-  {
-    "symbol": "ROLEXRINGS",
-    "as_of": "2026-08-13",
-    "ep_context": {
-      "label": "SUSTAINED_EP",
-      "trigger_reason_for_research": "Upgraded to Sustained \u2014 check if fundamentals confirm the move is holding",
-      "anchor_date": "2026-08-11 00:00:00",
-      "sessions_since_anchor": 3,
-      "pct_move_vs_prev": 3.03
-    },
-    "fundamental": {
-      "symbol": "ROLEXRINGS",
-      "material_change_detected": false,
-      "confidence": "insufficient_data",
-      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
-      "quality_change": null,
-      "leverage_change": null,
-      "earnings_trajectory_change": null,
-      "supporting_data": {},
-      "data_source": "NOT_CONFIGURED"
-    },
-    "news": {
-      "symbol": "ROLEXRINGS",
-      "catalyst_identified": false,
-      "headline": null,
-      "source": null,
-      "published_date": null,
-      "category": null,
-      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
-      "supporting_links": []
-    }
-  },
-  {
-    "symbol": "SUNDRMFAST",
-    "as_of": "2026-08-13",
-    "ep_context": {
-      "label": "SUSTAINED_EP",
-      "trigger_reason_for_research": "Upgraded to Sustained \u2014 check if fundamentals confirm the move is holding",
-      "anchor_date": "2026-08-11 00:00:00",
-      "sessions_since_anchor": 3,
-      "pct_move_vs_prev": 1.57
-    },
-    "fundamental": {
-      "symbol": "SUNDRMFAST",
-      "material_change_detected": false,
-      "confidence": "insufficient_data",
-      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
-      "quality_change": null,
-      "leverage_change": null,
-      "earnings_trajectory_change": null,
-      "supporting_data": {},
-      "data_source": "NOT_CONFIGURED"
-    },
-    "news": {
-      "symbol": "SUNDRMFAST",
       "catalyst_identified": false,
       "headline": null,
       "source": null,
