@@ -31,6 +31,7 @@ from src.research.trigger import build_research_queue, save_research_queue
 from src.research.dispatcher import run_research_for_queue, save_research_output
 from src.report.text_report import build_daily_text_report, save_text_report
 from src.report.json_report import build_and_save_site_data
+from src.enrichment.results_calendar import enrich_with_results_context
 
 logger = logging.getLogger(__name__)
 
@@ -59,6 +60,9 @@ def run_for_date(trade_date: date) -> int:
     if config.STATE_BACKEND == "supabase" and not daily_output.empty:
         from src.ep.state_store_supabase import save_daily_output_history
         save_daily_output_history(daily_output, trade_date)
+
+    daily_output = enrich_with_results_context(daily_output, trade_date)
+    logger.info("Results-timing enrichment complete.")
 
     snapshot_path = config.EP_OUTPUT_DIR / f"ep_snapshot_{trade_date.isoformat()}.csv"
     daily_output.to_csv(snapshot_path, index=False)
