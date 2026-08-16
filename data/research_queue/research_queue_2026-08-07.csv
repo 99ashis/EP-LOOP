@@ -1,0 +1,33 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+DALMIASUG,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-03,411.85,5,404.4,2.17,0.5677691759016672
+DEEPINDS,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-03,649.3,5,638.9,1.9,1.1284368927395687
+PROSTARM,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-03,135.87,5,146.01,1.3,2.016840189958825
+REDINGTON,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-03,347.85,5,354.85,1.17,0.3723739354697322
+PNGSREVA,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-04,510.95,4,511.2,2.38,0.781303435282932
+UNIMECH,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-04,1334.1,4,1446.7,8.25,3.3938288718738945
+ARTEMISMED,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-05,322.15,3,316.3,1.48,1.1232318083343953
+EMIL,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-05,147.56,3,165.83,10.72,24.72189615421742
+FIEMIND,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-05,2498.0,3,2580.3,4.07,3.3982984204578397
+JGCHEM,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-05,548.25,3,552.8,2.47,1.4927793442917563
+OMNI,Fizzled — check if the catalyst was real or noise,FIZZLE_OUT_EP,2026-08-05,732.6,3,578.35,-7.77,6.051647062520073
+PTC,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-05,198.36,3,203.3,1.56,8.788456324405049
+SAPPHIRE,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-05,202.52,3,224.22,12.26,11.466499902311678
+VARROC,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-05,717.6,3,811.2,9.94,78.36134304223313
+WESTLIFE,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-05,587.0,3,594.85,2.78,0.8660641690435391
+BIRLANU,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-06,1538.7,2,1641.5,6.68,5.344421476285617
+KOLTEPATIL,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-06,429.3,2,445.1,3.68,4.034500767652902
+NEULANDLAB,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-06,21543.0,2,22855.0,6.09,5.226578828531808
+ROLEXRINGS,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-06,152.8,2,156.68,2.54,3.2571230537129154
+TATATECH,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-06,801.55,2,872.8,8.89,10.895161627040004
+ARVSMART,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-07,650.75,1,650.75,7.87,62.84
+AVALON,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-07,1965.3,1,1965.3,10.75,5.08
+DEVYANI,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-07,134.73,1,134.73,8.78,7.29
+GOCLCORP,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-07,438.25,1,438.25,6.75,14.77
+INDRAMEDCO,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-07,380.65,1,380.65,5.2,41.53
+PGIL,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-07,2464.1,1,2464.1,10.92,14.81
+DIAMONDYD,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-07,1227.4,1,1227.4,5.25,8.84
+MOTHERSON,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-07,168.5,1,168.5,8.71,5.25
+SBCL,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-07,920.9,1,920.9,19.99,14.44
+ENRIN,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-07,3648.8,1,3648.8,12.19,14.85
+TRAVELFOOD,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-07,1428.6,1,1428.6,6.84,25.7
+WINDMACHIN,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-07,303.55,1,303.55,9.78,12.19
