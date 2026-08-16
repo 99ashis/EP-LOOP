@@ -1,0 +1,32 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+APLAPOLLO,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-03,1941.5,3,1948.5,1.48,0.747167684673028
+ASKAUTOLTD,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-03,569.65,3,637.55,15.64,77.11960776492465
+ATULAUTO,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-03,563.35,3,580.95,4.15,5.390192742860011
+KABRAEXTRU,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-03,418.6,3,454.4,10.17,6.258096918515293
+LUMAXIND,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-03,5772.5,3,5798.0,1.64,1.606231192485728
+NOCIL,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-03,174.05,3,172.99,1.17,0.3482031631042941
+ATHERENERG,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-04,1450.4,2,1470.8,1.41,1.4090579342839002
+BASF,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-04,3947.1,2,4036.6,2.27,7.347695100958836
+CAPILLARY,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-04,534.95,2,576.35,7.74,15.104093853473344
+KEI,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-04,5500.0,2,5577.0,1.4,2.7807475042067025
+MANINFRA,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-04,111.61,2,113.47,1.67,1.3166924932878572
+MANYAVAR,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-04,485.9,2,504.35,3.8,20.058336647373707
+ARTEMISMED,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-05,322.15,1,322.15,6.76,5.69
+CELLO,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-05,398.95,1,398.95,15.69,116.92
+AGARWALEYE,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-05,521.05,1,521.05,5.58,7.77
+EMIL,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-05,147.56,1,147.56,10.81,10.37
+FIEMIND,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-05,2498.0,1,2498.0,7.46,7.76
+GODIGIT,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-05,280.4,1,280.4,6.49,8.29
+HINDCOPPER,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-05,533.8,1,533.8,8.42,6.48
+JGCHEM,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-05,548.25,1,548.25,8.4,9.43
+KANSAINER,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-05,210.38,1,210.38,5.76,5.07
+MMP,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-05,329.35,1,329.35,9.4,8.07
+OMNI,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-05,732.6,1,732.6,20.0,18.75
+PTC,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-05,198.36,1,198.36,8.13,17.77
+SAPPHIRE,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-05,202.52,1,202.52,5.31,7.92
+SHILPAMED,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-05,721.75,1,721.75,11.96,14.63
+SUDEEPPHRM,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-05,958.95,1,958.95,10.0,5.35
+UNIPARTS,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-05,801.65,1,801.65,9.37,5.96
+VSSL,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-05,329.35,1,329.35,8.05,6.53
+VARROC,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-05,717.6,1,717.6,5.41,8.5
+WESTLIFE,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-05,587.0,1,587.0,8.19,5.65

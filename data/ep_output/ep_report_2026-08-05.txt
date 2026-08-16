@@ -1,0 +1,61 @@
+EP DAILY ALERT — 05-Aug-26
+============================================================
+
+NEW EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE    RESULTS                               
+-----------------------------------------------------------------------------------
+ARTEMISMED        +6.76%      05-Aug-26      No nearby results                     
+CELLO             +15.69%     05-Aug-26      No nearby results                     
+AGARWALEYE        +5.58%      05-Aug-26      No nearby results                     
+EMIL              +10.81%     05-Aug-26      No nearby results                     
+FIEMIND           +7.46%      05-Aug-26      No nearby results                     
+GODIGIT           +6.49%      05-Aug-26      No nearby results                     
+HINDCOPPER        +8.42%      05-Aug-26      No nearby results                     
+JGCHEM            +8.40%      05-Aug-26      No nearby results                     
+KANSAINER         +5.76%      05-Aug-26      No nearby results                     
+MMP               +9.40%      05-Aug-26      No nearby results                     
+OMNI              +20.00%     05-Aug-26      No nearby results                     
+PTC               +8.13%      05-Aug-26      No nearby results                     
+SAPPHIRE          +5.31%      05-Aug-26      No nearby results                     
+SHILPAMED         +11.96%     05-Aug-26      No nearby results                     
+SUDEEPPHRM        +10.00%     05-Aug-26      No nearby results                     
+UNIPARTS          +9.37%      05-Aug-26      No nearby results                     
+VSSL              +8.05%      05-Aug-26      No nearby results                     
+VARROC            +5.41%      05-Aug-26      No nearby results                     
+WESTLIFE          +8.19%      05-Aug-26      No nearby results                     
+
+PERSISTENT EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE    PERSISTENT COUNT  RESULTS                               
+-----------------------------------------------------------------------------------------------------
+ASKAUTOLTD        +15.64%     03-Aug-26      1                 No nearby results                     
+ATULAUTO          +4.15%      03-Aug-26      1                 No nearby results                     
+KABRAEXTRU        +10.17%     03-Aug-26      1                 No nearby results                     
+CAPILLARY         +7.74%      04-Aug-26      1                 No nearby results                     
+
+RETRO NEW EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE  
+-------------------------------------------
+None today
+
+SUSTAINED EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE    SUSTAINED COUNT   RESULTS                               
+-----------------------------------------------------------------------------------------------------
+APLAPOLLO         +1.48%      03-Aug-26      1                 No nearby results                     
+IGPL              +2.09%      03-Aug-26      2                 No nearby results                     
+LUMAXIND          +1.64%      03-Aug-26      1                 No nearby results                     
+NOCIL             +1.17%      03-Aug-26      1                 No nearby results                     
+ATHERENERG        +1.41%      04-Aug-26      1                 No nearby results                     
+BASF              +2.27%      04-Aug-26      1                 No nearby results                     
+KEI               +1.40%      04-Aug-26      1                 No nearby results                     
+MANINFRA          +1.67%      04-Aug-26      1                 No nearby results                     
+MANYAVAR          +3.80%      04-Aug-26      1                 No nearby results                     
+
+FIZZLE OUT EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE  
+-------------------------------------------
+None today
