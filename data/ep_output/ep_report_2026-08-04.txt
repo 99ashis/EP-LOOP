@@ -1,0 +1,49 @@
+EP DAILY ALERT — 04-Aug-26
+============================================================
+
+NEW EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE    RESULTS                               
+-----------------------------------------------------------------------------------
+ALIVUS            +10.00%     04-Aug-26      No nearby results                     
+ALKYLAMINE        +5.31%      04-Aug-26      No nearby results                     
+ATHERENERG        +13.96%     04-Aug-26      No nearby results                     
+BASF              +5.83%      04-Aug-26      No nearby results                     
+CAPILLARY         +7.95%      04-Aug-26      No nearby results                     
+EPACKPEB          +6.72%      04-Aug-26      No nearby results                     
+GRAPHITE          +7.92%      04-Aug-26      No nearby results                     
+KEI               +9.49%      04-Aug-26      No nearby results                     
+MANINFRA          +11.81%     04-Aug-26      No nearby results                     
+PAUSHAKLTD        +12.62%     04-Aug-26      No nearby results                     
+PNGSREVA          +15.27%     04-Aug-26      No nearby results                     
+UNIMECH           +5.90%      04-Aug-26      No nearby results                     
+MANYAVAR          +16.04%     04-Aug-26      No nearby results                     
+YASHO             +12.23%     04-Aug-26      No nearby results                     
+
+PERSISTENT EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE    PERSISTENT COUNT  RESULTS                               
+-----------------------------------------------------------------------------------------------------
+DHAMPURSUG        +5.24%      03-Aug-26      1                 No nearby results                     
+UTTAMSUGAR        +5.27%      03-Aug-26      1                 No nearby results                     
+
+RETRO NEW EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE  
+-------------------------------------------
+None today
+
+SUSTAINED EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE    SUSTAINED COUNT   RESULTS                               
+-----------------------------------------------------------------------------------------------------
+BALRAMCHIN        +1.84%      03-Aug-26      1                 No nearby results                     
+IGPL              +1.46%      03-Aug-26      1                 No nearby results                     
+INDGN             +1.56%      03-Aug-26      1                 No nearby results                     
+RATNAVEER         +1.72%      03-Aug-26      1                 No nearby results                     
+
+FIZZLE OUT EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE  
+-------------------------------------------
+None today

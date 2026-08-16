@@ -1,0 +1,21 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+BALRAMCHIN,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-03,646.8,2,658.7,1.84,2.361805117509464
+DHAMPURSUG,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-03,143.84,2,151.38,5.24,7.24414555548633
+IGPL,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-03,496.65,2,503.9,1.46,2.000028221937315
+INDGN,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-03,545.25,2,553.75,1.56,4.119955642099028
+RATNAVEER,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-03,205.79,2,209.33,1.72,4.522326018327217
+UTTAMSUGAR,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-03,240.45,2,253.12,5.27,9.349465950527765
+ALIVUS,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-04,1335.8,1,1335.8,10.0,11.94
+ALKYLAMINE,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-04,1921.2,1,1921.2,5.31,7.92
+ATHERENERG,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-04,1450.4,1,1450.4,13.96,5.27
+BASF,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-04,3947.1,1,3947.1,5.83,35.39
+CAPILLARY,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-04,534.95,1,534.95,7.95,16.59
+EPACKPEB,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-04,260.35,1,260.35,6.72,8.52
+GRAPHITE,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-04,710.05,1,710.05,7.92,7.19
+KEI,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-04,5500.0,1,5500.0,9.49,11.99
+MANINFRA,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-04,111.61,1,111.61,11.81,5.59
+PAUSHAKLTD,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-04,735.2,1,735.2,12.62,34.44
+PNGSREVA,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-04,510.95,1,510.95,15.27,24.15
+UNIMECH,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-04,1334.1,1,1334.1,5.9,8.12
+MANYAVAR,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-04,485.9,1,485.9,16.04,135.54
+YASHO,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-04,4359.9,1,4359.9,12.23,7.73
