@@ -1,0 +1,738 @@
+[
+  {
+    "symbol": "APLAPOLLO",
+    "as_of": "2026-08-03",
+    "ep_context": {
+      "label": "NEW_EP",
+      "trigger_reason_for_research": "New EP triggered \u2014 establish baseline fundamentals/news context",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 1,
+      "pct_move_vs_prev": 6.71
+    },
+    "fundamental": {
+      "symbol": "APLAPOLLO",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "APLAPOLLO",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "ASKAUTOLTD",
+    "as_of": "2026-08-03",
+    "ep_context": {
+      "label": "NEW_EP",
+      "trigger_reason_for_research": "New EP triggered \u2014 establish baseline fundamentals/news context",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 1,
+      "pct_move_vs_prev": 7.88
+    },
+    "fundamental": {
+      "symbol": "ASKAUTOLTD",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "ASKAUTOLTD",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "ATULAUTO",
+    "as_of": "2026-08-03",
+    "ep_context": {
+      "label": "NEW_EP",
+      "trigger_reason_for_research": "New EP triggered \u2014 establish baseline fundamentals/news context",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 1,
+      "pct_move_vs_prev": 9.29
+    },
+    "fundamental": {
+      "symbol": "ATULAUTO",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "ATULAUTO",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "BALRAMCHIN",
+    "as_of": "2026-08-03",
+    "ep_context": {
+      "label": "NEW_EP",
+      "trigger_reason_for_research": "New EP triggered \u2014 establish baseline fundamentals/news context",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 1,
+      "pct_move_vs_prev": 10.34
+    },
+    "fundamental": {
+      "symbol": "BALRAMCHIN",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "BALRAMCHIN",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "BLUEDART",
+    "as_of": "2026-08-03",
+    "ep_context": {
+      "label": "NEW_EP",
+      "trigger_reason_for_research": "New EP triggered \u2014 establish baseline fundamentals/news context",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 1,
+      "pct_move_vs_prev": 5.17
+    },
+    "fundamental": {
+      "symbol": "BLUEDART",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "BLUEDART",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "DALMIASUG",
+    "as_of": "2026-08-03",
+    "ep_context": {
+      "label": "NEW_EP",
+      "trigger_reason_for_research": "New EP triggered \u2014 establish baseline fundamentals/news context",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 1,
+      "pct_move_vs_prev": 17.37
+    },
+    "fundamental": {
+      "symbol": "DALMIASUG",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "DALMIASUG",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "DEEPINDS",
+    "as_of": "2026-08-03",
+    "ep_context": {
+      "label": "NEW_EP",
+      "trigger_reason_for_research": "New EP triggered \u2014 establish baseline fundamentals/news context",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 1,
+      "pct_move_vs_prev": 8.78
+    },
+    "fundamental": {
+      "symbol": "DEEPINDS",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "DEEPINDS",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "DHAMPURSUG",
+    "as_of": "2026-08-03",
+    "ep_context": {
+      "label": "NEW_EP",
+      "trigger_reason_for_research": "New EP triggered \u2014 establish baseline fundamentals/news context",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 1,
+      "pct_move_vs_prev": 6.17
+    },
+    "fundamental": {
+      "symbol": "DHAMPURSUG",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "DHAMPURSUG",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "ETHOSLTD",
+    "as_of": "2026-08-03",
+    "ep_context": {
+      "label": "NEW_EP",
+      "trigger_reason_for_research": "New EP triggered \u2014 establish baseline fundamentals/news context",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 1,
+      "pct_move_vs_prev": 15.04
+    },
+    "fundamental": {
+      "symbol": "ETHOSLTD",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "ETHOSLTD",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "IGPL",
+    "as_of": "2026-08-03",
+    "ep_context": {
+      "label": "NEW_EP",
+      "trigger_reason_for_research": "New EP triggered \u2014 establish baseline fundamentals/news context",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 1,
+      "pct_move_vs_prev": 5.39
+    },
+    "fundamental": {
+      "symbol": "IGPL",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "IGPL",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "INDGN",
+    "as_of": "2026-08-03",
+    "ep_context": {
+      "label": "NEW_EP",
+      "trigger_reason_for_research": "New EP triggered \u2014 establish baseline fundamentals/news context",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 1,
+      "pct_move_vs_prev": 5.84
+    },
+    "fundamental": {
+      "symbol": "INDGN",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "INDGN",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "KABRAEXTRU",
+    "as_of": "2026-08-03",
+    "ep_context": {
+      "label": "NEW_EP",
+      "trigger_reason_for_research": "New EP triggered \u2014 establish baseline fundamentals/news context",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 1,
+      "pct_move_vs_prev": 5.99
+    },
+    "fundamental": {
+      "symbol": "KABRAEXTRU",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "KABRAEXTRU",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "KIOCL",
+    "as_of": "2026-08-03",
+    "ep_context": {
+      "label": "NEW_EP",
+      "trigger_reason_for_research": "New EP triggered \u2014 establish baseline fundamentals/news context",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 1,
+      "pct_move_vs_prev": 8.03
+    },
+    "fundamental": {
+      "symbol": "KIOCL",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "KIOCL",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "LUMAXIND",
+    "as_of": "2026-08-03",
+    "ep_context": {
+      "label": "NEW_EP",
+      "trigger_reason_for_research": "New EP triggered \u2014 establish baseline fundamentals/news context",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 1,
+      "pct_move_vs_prev": 9.23
+    },
+    "fundamental": {
+      "symbol": "LUMAXIND",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "LUMAXIND",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "NOCIL",
+    "as_of": "2026-08-03",
+    "ep_context": {
+      "label": "NEW_EP",
+      "trigger_reason_for_research": "New EP triggered \u2014 establish baseline fundamentals/news context",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 1,
+      "pct_move_vs_prev": 6.02
+    },
+    "fundamental": {
+      "symbol": "NOCIL",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "NOCIL",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "PROSTARM",
+    "as_of": "2026-08-03",
+    "ep_context": {
+      "label": "NEW_EP",
+      "trigger_reason_for_research": "New EP triggered \u2014 establish baseline fundamentals/news context",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 1,
+      "pct_move_vs_prev": 6.95
+    },
+    "fundamental": {
+      "symbol": "PROSTARM",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "PROSTARM",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "RATNAVEER",
+    "as_of": "2026-08-03",
+    "ep_context": {
+      "label": "NEW_EP",
+      "trigger_reason_for_research": "New EP triggered \u2014 establish baseline fundamentals/news context",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 1,
+      "pct_move_vs_prev": 13.46
+    },
+    "fundamental": {
+      "symbol": "RATNAVEER",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "RATNAVEER",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "REDINGTON",
+    "as_of": "2026-08-03",
+    "ep_context": {
+      "label": "NEW_EP",
+      "trigger_reason_for_research": "New EP triggered \u2014 establish baseline fundamentals/news context",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 1,
+      "pct_move_vs_prev": 8.15
+    },
+    "fundamental": {
+      "symbol": "REDINGTON",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "REDINGTON",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "ROSSTECH",
+    "as_of": "2026-08-03",
+    "ep_context": {
+      "label": "NEW_EP",
+      "trigger_reason_for_research": "New EP triggered \u2014 establish baseline fundamentals/news context",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 1,
+      "pct_move_vs_prev": 11.84
+    },
+    "fundamental": {
+      "symbol": "ROSSTECH",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "ROSSTECH",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "SPORTKING",
+    "as_of": "2026-08-03",
+    "ep_context": {
+      "label": "NEW_EP",
+      "trigger_reason_for_research": "New EP triggered \u2014 establish baseline fundamentals/news context",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 1,
+      "pct_move_vs_prev": 14.1
+    },
+    "fundamental": {
+      "symbol": "SPORTKING",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "SPORTKING",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "URBANCO",
+    "as_of": "2026-08-03",
+    "ep_context": {
+      "label": "NEW_EP",
+      "trigger_reason_for_research": "New EP triggered \u2014 establish baseline fundamentals/news context",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 1,
+      "pct_move_vs_prev": 12.98
+    },
+    "fundamental": {
+      "symbol": "URBANCO",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "URBANCO",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "UTTAMSUGAR",
+    "as_of": "2026-08-03",
+    "ep_context": {
+      "label": "NEW_EP",
+      "trigger_reason_for_research": "New EP triggered \u2014 establish baseline fundamentals/news context",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 1,
+      "pct_move_vs_prev": 8.15
+    },
+    "fundamental": {
+      "symbol": "UTTAMSUGAR",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "UTTAMSUGAR",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  },
+  {
+    "symbol": "VINDHYATEL",
+    "as_of": "2026-08-03",
+    "ep_context": {
+      "label": "NEW_EP",
+      "trigger_reason_for_research": "New EP triggered \u2014 establish baseline fundamentals/news context",
+      "anchor_date": "2026-08-03 00:00:00",
+      "sessions_since_anchor": 1,
+      "pct_move_vs_prev": 20.0
+    },
+    "fundamental": {
+      "symbol": "VINDHYATEL",
+      "material_change_detected": false,
+      "confidence": "insufficient_data",
+      "summary": "Fundamental analysis not yet configured \u2014 this is a placeholder result.",
+      "quality_change": null,
+      "leverage_change": null,
+      "earnings_trajectory_change": null,
+      "supporting_data": {},
+      "data_source": "NOT_CONFIGURED"
+    },
+    "news": {
+      "symbol": "VINDHYATEL",
+      "catalyst_identified": false,
+      "headline": null,
+      "source": null,
+      "published_date": null,
+      "category": null,
+      "summary": "News analysis not yet configured \u2014 this is a placeholder result.",
+      "supporting_links": []
+    }
+  }
+]

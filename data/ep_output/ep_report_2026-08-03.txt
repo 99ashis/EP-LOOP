@@ -1,0 +1,54 @@
+EP DAILY ALERT — 03-Aug-26
+============================================================
+
+NEW EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE    RESULTS                               
+-----------------------------------------------------------------------------------
+APLAPOLLO         +6.71%      03-Aug-26      No nearby results                     
+ASKAUTOLTD        +7.88%      03-Aug-26      No nearby results                     
+ATULAUTO          +9.29%      03-Aug-26      No nearby results                     
+BALRAMCHIN        +10.34%     03-Aug-26      No nearby results                     
+BLUEDART          +5.17%      03-Aug-26      No nearby results                     
+DALMIASUG         +17.37%     03-Aug-26      No nearby results                     
+DEEPINDS          +8.78%      03-Aug-26      No nearby results                     
+DHAMPURSUG        +6.17%      03-Aug-26      No nearby results                     
+ETHOSLTD          +15.04%     03-Aug-26      No nearby results                     
+IGPL              +5.39%      03-Aug-26      No nearby results                     
+INDGN             +5.84%      03-Aug-26      No nearby results                     
+KABRAEXTRU        +5.99%      03-Aug-26      No nearby results                     
+KIOCL             +8.03%      03-Aug-26      No nearby results                     
+LUMAXIND          +9.23%      03-Aug-26      No nearby results                     
+NOCIL             +6.02%      03-Aug-26      No nearby results                     
+PROSTARM          +6.95%      03-Aug-26      No nearby results                     
+RATNAVEER         +13.46%     03-Aug-26      No nearby results                     
+REDINGTON         +8.15%      03-Aug-26      No nearby results                     
+ROSSTECH          +11.84%     03-Aug-26      No nearby results                     
+SPORTKING         +14.10%     03-Aug-26      No nearby results                     
+URBANCO           +12.98%     03-Aug-26      No nearby results                     
+UTTAMSUGAR        +8.15%      03-Aug-26      No nearby results                     
+VINDHYATEL        +20.00%     03-Aug-26      No nearby results                     
+
+PERSISTENT EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE    PERSISTENT COUNT  RESULTS                               
+-----------------------------------------------------------------------------------------------------
+None today
+
+RETRO NEW EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE  
+-------------------------------------------
+None today
+
+SUSTAINED EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE    SUSTAINED COUNT   RESULTS                               
+-----------------------------------------------------------------------------------------------------
+None today
+
+FIZZLE OUT EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE  
+-------------------------------------------
+None today
