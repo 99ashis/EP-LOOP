@@ -1,0 +1,40 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+BALRAMCHIN,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-03,646.8,11,655.75,4.95,2.009226529701754
+DALMIASUG,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-03,411.85,11,459.6,8.81,2.625410552135152
+DHAMPURSUG,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-03,143.84,11,170.87,6.18,4.037470814396801
+VINDHYATEL,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-03,2383.0,11,2486.6,3.54,0.6055251717154442
+EMIL,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-05,147.56,9,192.42,1.57,0.47078830893728574
+GODIGIT,Fizzled — check if the catalyst was real or noise,FIZZLE_OUT_EP,2026-08-05,280.4,9,254.85,-1.85,0.401059718224954
+HINDCOPPER,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-05,533.8,9,572.65,8.24,5.419401388209699
+VSSL,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-05,329.35,9,361.55,2.32,2.515891720236476
+RACLGEAR,Fizzled — check if the catalyst was real or noise,FIZZLE_OUT_EP,2026-08-06,1475.0,8,1343.4,-3.16,0.7823419969022705
+AVALON,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-07,1965.3,7,2059.4,6.11,2.3449826807344816
+ENRIN,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-07,3648.8,7,3605.7,1.96,0.47923802261511955
+AARTIPHARM,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-10,823.0,6,861.95,1.26,0.8142817830858686
+BEML,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-10,1884.4,6,1908.5,1.82,1.1772934213667092
+KPL,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-10,3134.1,6,3598.1,4.7,2.0265931296327917
+PIXTRANS,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-10,1986.5,6,1938.8,2.21,0.20012088322439228
+SURAKSHA,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-10,265.5,6,308.45,1.16,1.9410391862483956
+THOMASCOTT,Fizzled — check if the catalyst was real or noise,FIZZLE_OUT_EP,2026-08-10,349.05,6,301.1,-13.2,4.133793208229209
+POLYMED,Fizzled — check if the catalyst was real or noise,FIZZLE_OUT_EP,2026-08-11,1863.9,5,1733.6,-2.94,0.9503999189671202
+DOLPHIN,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-12,494.35,4,576.85,13.53,3.657960122821921
+GPIL,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-13,243.31,3,250.82,6.54,2.8493110378142013
+SKFINDIA,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-13,1606.3,3,1652.8,5.05,5.32828237517644
+BALUFORGE,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-14,493.75,2,513.35,3.97,6.227287115466367
+ELGIEQUIP,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-14,609.5,2,624.2,2.41,3.1986623480607386
+HAPPSTMNDS,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-14,420.2,2,426.8,1.57,2.2694085185819572
+MANORAMA,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-14,1737.1,2,1943.4,11.88,23.847651774883822
+SHANTIGOLD,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-14,247.66,2,266.84,7.74,3.968354731020127
+TVSSRICHAK,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-14,4478.1,2,4868.9,8.73,14.299143523681613
+CAMLINFINE,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-17,114.11,1,114.11,9.97,10.12
+EXPLEOSOL,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-17,923.05,1,923.05,13.13,86.93
+GKSL,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-17,151.36,1,151.36,10.94,12.02
+IPCALAB,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-17,1884.6,1,1884.6,8.67,25.57
+JYOTHYLAB,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-17,213.93,1,213.93,7.31,6.73
+MAXESTATES,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-17,474.35,1,474.35,7.33,6.92
+MOTILALOFS,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-17,955.0,1,955.0,5.68,5.34
+PTCIL,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-17,20584.0,1,20584.0,8.05,16.83
+RISHABH,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-17,694.6,1,694.6,7.08,5.44
+RUBICON,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-17,1798.7,1,1798.7,11.09,9.8
+UFLEX,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-17,586.05,1,586.05,19.99,10.57
+VIKRAMSOLR,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-17,183.1,1,183.1,14.33,20.88
