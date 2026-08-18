@@ -75,5 +75,12 @@
     "persistent": 16,
     "retro": 0,
     "sustained": 26
+  },
+  "2026-08-18": {
+    "fizzle": 9,
+    "new": 9,
+    "persistent": 9,
+    "retro": 0,
+    "sustained": 31
   }
 }

@@ -1,0 +1,36 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+ETHOSLTD,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-03,2962.7,12,2892.2,3.72,12.037593843726324
+RATNAVEER,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-03,205.79,12,252.19,2.99,2.0232440829513383
+UTTAMSUGAR,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-03,240.45,12,290.32,2.59,3.8491130045634825
+PAUSHAKLTD,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-04,735.2,11,752.35,2.47,0.5824573328862936
+YASHO,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-04,4359.9,11,4915.8,12.69,4.270336599781462
+FIEMIND,Fizzled — check if the catalyst was real or noise,FIZZLE_OUT_EP,2026-08-05,2498.0,10,2219.1,-2.74,1.7162718721979773
+MMP,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-05,329.35,10,377.05,7.73,3.0039152854025404
+BIRLANU,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-06,1538.7,9,1588.8,2.38,0.4679994011136737
+MOTHERSON,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-07,168.5,8,170.4,1.39,0.5991323522347373
+WINDMACHIN,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-07,303.55,8,318.9,6.16,8.758568802362657
+CHENNPETRO,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-11,1426.1,6,1404.0,1.56,1.9064388918007344
+INDSWFTLAB,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-11,284.68,6,346.87,10.81,3.6122508201587804
+YATRA,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-11,114.31,6,115.5,1.36,0.5169855013412182
+ARIES,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-12,397.35,5,442.7,1.85,3.880247113678919
+MANINDS,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-12,598.65,5,645.15,2.35,1.27837976296378
+TDPOWERSYS,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-12,1480.1,5,1586.6,2.44,1.2990892673914125
+GPIL,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-13,243.31,4,255.22,1.75,1.6903356184514446
+MIDHANI,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-13,444.85,4,437.5,2.08,1.248663307517616
+SOLARINDS,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-13,20324.0,4,20280.0,1.4,1.258313947010199
+BALUFORGE,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-14,493.75,3,542.55,5.69,4.8379857123629915
+GALAXYSURF,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-14,2508.4,3,2438.4,1.44,3.078960827097562
+RGL,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-14,123.03,3,124.9,2.46,0.5532600150005789
+SUDARSCHEM,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-14,1118.1,3,1130.6,3.45,1.8630733953279566
+TASTYBITE,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-14,10005.0,3,10142.5,1.28,2.463279615196978
+GKSL,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-17,151.36,2,153.46,1.39,8.604103168913571
+UFLEX,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-17,586.05,2,613.3,4.65,14.122117134483531
+ASIANENE,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-18,463.05,1,463.05,8.89,9.41
+INDIAGLYCO,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-18,1139.2,1,1139.2,6.38,13.76
+ICIL,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-18,437.7,1,437.7,12.61,27.23
+JINDRILL,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-18,651.15,1,651.15,11.08,18.99
+MMFL,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-18,680.2,1,680.2,7.58,5.91
+NITINSPIN,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-18,606.9,1,606.9,9.6,33.13
+PRABHA,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-18,192.2,1,192.2,17.64,46.73
+TIINDIA,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-18,2959.0,1,2959.0,7.94,14.06
+WELSPUNLIV,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-18,177.79,1,177.79,5.73,12.15
