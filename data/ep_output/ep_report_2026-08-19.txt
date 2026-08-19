@@ -1,0 +1,83 @@
+EP DAILY ALERT — 19-Aug-26
+============================================================
+
+NEW EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE    RESULTS                               
+-----------------------------------------------------------------------------------
+DLINKINDIA        +6.42%      19-Aug-26      No nearby results                     
+EXCELINDUS        +15.03%     19-Aug-26      No nearby results                     
+GLAXO             +5.39%      19-Aug-26      No nearby results                     
+GOPAL             +5.22%      19-Aug-26      No nearby results                     
+KIRIINDUS         +5.47%      19-Aug-26      No nearby results                     
+NILKAMAL          +10.13%     19-Aug-26      No nearby results                     
+ORIENTHOT         +15.09%     19-Aug-26      No nearby results                     
+PRSMJOHNSN        +5.03%      19-Aug-26      No nearby results                     
+ZAGGLE            +12.15%     19-Aug-26      No nearby results                     
+
+PERSISTENT EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE    PERSISTENT COUNT  RESULTS                               
+-----------------------------------------------------------------------------------------------------
+DHAMPURSUG        +4.46%      03-Aug-26      4                 No nearby results                     
+WINDLAS           +5.12%      11-Aug-26      2                 No nearby results                     
+RISHABH           +4.39%      17-Aug-26      1                 No nearby results                     
+
+RETRO NEW EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE  
+-------------------------------------------
+None today
+
+SUSTAINED EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE    SUSTAINED COUNT   RESULTS                               
+-----------------------------------------------------------------------------------------------------
+ASKAUTOLTD        +1.27%      03-Aug-26      2                 No nearby results                     
+PROSTARM          +2.07%      03-Aug-26      3                 No nearby results                     
+URBANCO           +1.97%      03-Aug-26      2                 No nearby results                     
+UTTAMSUGAR        +3.68%      03-Aug-26      4                 No nearby results                     
+ALKYLAMINE        +3.25%      04-Aug-26      4                 No nearby results                     
+MANINFRA          +3.74%      04-Aug-26      3                 No nearby results                     
+PAUSHAKLTD        +3.38%      04-Aug-26      2                 No nearby results                     
+MANYAVAR          +1.06%      04-Aug-26      6                 No nearby results                     
+MMP               +3.83%      05-Aug-26      3                 No nearby results                     
+RACLGEAR          +2.83%      06-Aug-26      1                 No nearby results                     
+SUNDRMFAST        +1.13%      06-Aug-26      4                 No nearby results                     
+AVALON            +2.20%      07-Aug-26      2                 No nearby results                     
+INDRAMEDCO        +1.49%      07-Aug-26      2                 No nearby results                     
+PGIL              +2.24%      07-Aug-26      2                 No nearby results                     
+PAYTM             +2.41%      10-Aug-26      3                 No nearby results                     
+CHENNPETRO        +2.59%      11-Aug-26      2                 No nearby results                     
+ELLEN             +1.15%      12-Aug-26      1                 No nearby results                     
+KENNAMET          +3.25%      12-Aug-26      3                 No nearby results                     
+PITTIENG          +3.24%      12-Aug-26      2                 No nearby results                     
+ASTRAL            +1.64%      13-Aug-26      1                 No nearby results                     
+DREDGECORP        +2.45%      14-Aug-26      1                 No nearby results                     
+ELGIEQUIP         +3.84%      14-Aug-26      2                 No nearby results                     
+MANORAMA          +1.79%      14-Aug-26      1                 No nearby results                     
+TASTYBITE         +2.46%      14-Aug-26      2                 No nearby results                     
+TVSSRICHAK        +1.58%      14-Aug-26      1                 No nearby results                     
+GKSL              +2.47%      17-Aug-26      2                 No nearby results                     
+IPCALAB           +1.15%      17-Aug-26      1                 No nearby results                     
+MAXESTATES        +2.57%      17-Aug-26      1                 No nearby results                     
+UFLEX             +1.25%      17-Aug-26      1                 No nearby results                     
+ASIANENE          +3.39%      18-Aug-26      1                 No nearby results                     
+ICIL              +1.39%      18-Aug-26      1                 No nearby results                     
+PRABHA            +3.95%      18-Aug-26      1                 No nearby results                     
+WELSPUNLIV        +1.94%      18-Aug-26      1                 No nearby results                     
+
+FIZZLE OUT EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE  
+-------------------------------------------
+ATULAUTO          -0.85%      03-Aug-26    
+EPACKPEB          -0.36%      04-Aug-26    
+FIEMIND           +0.99%      05-Aug-26    
+GODIGIT           -1.45%      05-Aug-26    
+OMNI              +0.87%      05-Aug-26    
+PTC               -2.13%      05-Aug-26    
+IGARASHI          -2.55%      06-Aug-26    
+GOCLCORP          -0.77%      07-Aug-26    
+THOMASCOTT        +3.59%      10-Aug-26    
+ESTER             -1.51%      11-Aug-26
