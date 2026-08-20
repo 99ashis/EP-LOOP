@@ -25,6 +25,7 @@ from datetime import date
 from src import config
 from src.data.bhavcopy_downloader import download_bhavcopy, BhavcopyDownloadError
 from src.data.price_store import append_daily_bhavcopy
+from src.data.nifty_downloader import download_benchmark_closes, append_benchmark_closes, NiftyDownloadError
 from src.ep.classifier import run_daily_classification
 from src.ep import state_store
 from src.research.trigger import build_research_queue, save_research_queue
@@ -32,6 +33,8 @@ from src.research.dispatcher import run_research_for_queue, save_research_output
 from src.report.text_report import build_daily_text_report, save_text_report
 from src.report.json_report import build_and_save_site_data
 from src.enrichment.results_calendar import enrich_with_results_context
+from src.efficacy.pipeline import run_efficacy_daily
+from src.efficacy.track_record import save_track_record
 
 logger = logging.getLogger(__name__)
 
@@ -51,6 +54,19 @@ def run_for_date(trade_date: date) -> int:
         return 1
 
     append_daily_bhavcopy(daily_bhavcopy)
+
+    try:
+        benchmark_closes = download_benchmark_closes(trade_date)
+        if benchmark_closes is not None:
+            append_benchmark_closes(trade_date, benchmark_closes)
+            logger.info("Saved benchmark closes for %s: %s", trade_date, benchmark_closes)
+        else:
+            logger.info("No benchmark data for %s.", trade_date)
+    except NiftyDownloadError:
+        # Never let a benchmark hiccup take down the whole day's run — the
+        # efficacy study just leaves the affected dates pending and
+        # retries automatically once this data eventually shows up.
+        logger.exception("Benchmark download failed for %s — efficacy returns will be delayed, not lost.", trade_date)
 
     prior_anchors = state_store.load_state_as_of(trade_date)
     updated_anchors, daily_output = run_daily_classification(prior_anchors, daily_bhavcopy, trade_date)
@@ -77,6 +93,12 @@ def run_for_date(trade_date: date) -> int:
 
     build_and_save_site_data(daily_output, trade_date)
     logger.info("Wrote site data: docs/data/%s.json + updated index.json", trade_date.isoformat())
+
+    run_efficacy_daily(daily_output, trade_date)
+    logger.info("Efficacy study updated for %s.", trade_date)
+
+    save_track_record()
+    logger.info("Wrote track record: docs/data/track_record.json")
 
     # --- Research trigger loop ---
     queue = build_research_queue(daily_output, trade_date)
