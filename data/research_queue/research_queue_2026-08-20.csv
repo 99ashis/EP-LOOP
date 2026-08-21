@@ -1,0 +1,28 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+UTTAMSUGAR,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-03,240.45,14,336.22,11.7,14.02932140763436
+SAPPHIRE,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-05,202.52,12,241.35,3.27,1.0285234849938154
+KOLTEPATIL,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-06,429.3,11,465.9,2.01,2.0439042525176236
+WINDMACHIN,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-07,303.55,10,320.5,1.97,1.5244297202067254
+INDSWFTLAB,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-11,284.68,8,333.51,3.56,0.5286789880204441
+WINDLAS,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-11,943.1,8,988.2,2.41,1.3737717462979395
+MANINDS,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-12,598.65,7,676.9,5.26,3.0510795113198497
+TIIL,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-12,2878.3,7,3200.2,2.32,1.1972078474742545
+INGERRAND,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-13,4606.4,6,4705.6,1.38,0.7700525767693007
+BALUFORGE,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-14,493.75,5,546.75,1.72,1.586524057007574
+SUDARSCHEM,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-14,1118.1,5,1186.5,4.55,2.3291990052161737
+MOTILALOFS,Upgraded to Sustained — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-17,955.0,4,973.4,3.32,1.9600459124457779
+PRABHA,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-18,192.2,3,212.89,6.56,4.17277979296253
+WELSPUNLIV,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-18,177.79,3,188.69,4.11,3.837456391778015
+KIRIINDUS,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-19,431.3,2,461.3,6.96,19.93027407952651
+ZAGGLE,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-19,186.04,2,197.56,6.19,12.6623880927447
+EPL,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-20,270.1,1,270.1,7.7,6.6
+HUBTOWN,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-20,198.81,1,198.81,10.38,8.49
+INDOBORAX,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-20,498.15,1,498.15,14.82,10.64
+KCP,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-20,165.08,1,165.08,9.04,7.44
+KRONOX,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-20,186.19,1,186.19,20.0,27.2
+KRYSTAL,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-20,681.35,1,681.35,8.25,17.37
+MAGADSUGAR,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-20,620.6,1,620.6,6.9,6.4
+MANGLMCEM,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-20,981.85,1,981.85,9.73,51.81
+SOLARA,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-20,640.0,1,640.0,16.35,26.12
+VERANDA,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-20,255.9,1,255.9,9.5,22.25
+ZUARIIND,New EP triggered — establish baseline fundamentals/news context,NEW_EP,2026-08-20,285.15,1,285.15,8.79,9.38

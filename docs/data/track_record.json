@@ -1,0 +1,402 @@
+{
+  "horizons": [
+    10,
+    20,
+    30
+  ],
+  "benchmarks": [
+    "NIFTY500",
+    "MIDSMALL400"
+  ],
+  "all_time": {
+    "10": {
+      "1": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      },
+      "2": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      },
+      "3": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      },
+      "4": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      },
+      "5": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      },
+      "6": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      },
+      "7": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      },
+      "8": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      },
+      "9": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      }
+    },
+    "20": {
+      "1": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      },
+      "2": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      },
+      "3": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      },
+      "4": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      },
+      "5": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      },
+      "6": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      },
+      "7": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      },
+      "8": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      },
+      "9": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      }
+    },
+    "30": {
+      "1": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      },
+      "2": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      },
+      "3": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      },
+      "4": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      },
+      "5": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      },
+      "6": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      },
+      "7": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      },
+      "8": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      },
+      "9": {
+        "NIFTY500": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        },
+        "MIDSMALL400": {
+          "n": 0,
+          "mean_excess": null,
+          "median_excess": null,
+          "hit_rate": null
+        }
+      }
+    }
+  },
+  "cohorts": {
+    "10": {},
+    "20": {},
+    "30": {}
+  }
+}
