@@ -127,6 +127,52 @@ POST_RESULTS_WINDOW_DAYS = 5   # tag as POST_RESULTS if results were filed withi
 RESULTS_ELIGIBLE_LABELS = {STATUS_NEW, STATUS_PERSISTENT, STATUS_SUSTAINED}
 
 # ---------------------------------------------------------------------------
+# Benchmark indices (for excess-return calculations in the efficacy study)
+# ---------------------------------------------------------------------------
+# NIFTY 50 was deliberately rejected as the benchmark: EP-triggering stocks
+# are overwhelmingly NOT Nifty 50 constituents — that's structurally why
+# they're EP candidates at all (efficiently-priced mega-caps rarely gap 5%+
+# on 5x volume). NIFTY 500 (broad market) and NIFTY MIDSML 400 (the
+# mid+small-cap segment, where EP events actually cluster) are used
+# instead. Both are just rows in the same daily market report already
+# needed for Nifty 50 — no extra download, confirmed against real fetched
+# data (13-Jan-2026) during this conversation.
+BENCHMARK_INDICES = {
+    "NIFTY500": "Nifty 500",              # exact string as it appears in NSE's INDEX column
+    "MIDSMALL400": "NIFTY MIDSML 400",    # exact string as it appears in NSE's INDEX column
+}
+
+BENCHMARK_DIR = DATA_DIR / "benchmarks"
+BENCHMARK_HISTORY_PATH = BENCHMARK_DIR / "benchmark_history.parquet"
+BENCHMARK_DIR.mkdir(parents=True, exist_ok=True)
+
+NSE_MARKET_REPORT_URL_TEMPLATE = (
+    "https://nsearchives.nseindia.com/archives/equities/mkt/MA{ddmmyy}.csv"
+)
+
+# ---------------------------------------------------------------------------
+# Episodic Pivot efficacy study (forward-test, not backtest — see conversation)
+# ---------------------------------------------------------------------------
+EFFICACY_DIR = DATA_DIR / "efficacy"
+EFFICACY_EVENTS_LOG_PATH = EFFICACY_DIR / "events_log.parquet"      # (symbol, date, label) — every labeled day, ever
+EFFICACY_TRACKER_PATH = EFFICACY_DIR / "new_ep_tracker.parquet"     # one row per original NEW_EP, tracked through its lifecycle
+EFFICACY_DIR.mkdir(parents=True, exist_ok=True)
+
+EFFICACY_CLASSIFICATION_WINDOW_SESSIONS = 10  # trading sessions after NEW_EP to observe before classifying
+EFFICACY_RETURN_HORIZONS = [10, 20, 30]        # trading sessions from the anchor close, for each bucket
+
+# The 9 buckets — see conversation for full reasoning behind each.
+BUCKET_PURE_NEW = 1
+BUCKET_PERSISTENT_1 = 2
+BUCKET_PERSISTENT_2 = 3
+BUCKET_PERSISTENT_3PLUS = 4
+BUCKET_SUSTAINED_1 = 5
+BUCKET_SUSTAINED_2 = 6
+BUCKET_SUSTAINED_3PLUS = 7
+BUCKET_FIZZLE = 8
+BUCKET_MIXED = 9
+
+# ---------------------------------------------------------------------------
 # Storage backend for EP state + research results
 # ---------------------------------------------------------------------------
 # "local"    -> parquet/JSON files under data/ (default, zero setup, what's
