@@ -8,8 +8,8 @@ Pipeline:
      Fizzle — see src/ep/classifier.py for the exact lifecycle rules)
   4. Persist the updated anchor tracking state + write today's labeled-only
      EP snapshot output file
-  5. Build the research queue from label changes, and run the (currently
-     stub) fundamental/news research stage
+  5. Build the research queue from label changes (fundamental/news research
+     itself runs elsewhere — this repo only publishes the queue)
 
 Usage:
     python -m src.run_daily                      # run for today
@@ -29,7 +29,6 @@ from src.data.nifty_downloader import download_benchmark_closes, append_benchmar
 from src.ep.classifier import run_daily_classification
 from src.ep import state_store
 from src.research.trigger import build_research_queue, save_research_queue
-from src.research.dispatcher import run_research_for_queue, save_research_output
 from src.report.text_report import build_daily_text_report, save_text_report
 from src.report.json_report import build_and_save_site_data
 from src.enrichment.results_calendar import enrich_with_results_context
@@ -103,17 +102,7 @@ def run_for_date(trade_date: date) -> int:
     # --- Research trigger loop ---
     queue = build_research_queue(daily_output, trade_date)
     save_research_queue(queue, trade_date)
-
-    if not queue.empty:
-        results = run_research_for_queue(queue, trade_date)
-        save_research_output(results, trade_date)
-        logger.info(
-            "NOTE: fundamental_analysis.py / news_analysis.py are still stubs — "
-            "research output for %s is placeholder data until your framework is wired in.",
-            trade_date,
-        )
-    else:
-        logger.info("No symbols flagged for research today (%s).", trade_date)
+    logger.info("Research queue built for %s: %d symbol(s).", trade_date, len(queue))
 
     return 0
 
