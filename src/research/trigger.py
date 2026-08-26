@@ -1,13 +1,16 @@
 """
 Turns today's EP classification output (classifier.py's daily_output
 DataFrame — only symbols that got a label today) into a queue of symbols
-needing fundamental/news research.
+needing fundamental research.
 
-Trigger rule: research fires whenever LABEL_CHANGED is True — i.e. today's
-label is different from the last label that fired for this anchor (New,
-or an upgrade to Sustained, or a fresh Persistent pivot, or a Fizzle).
-A repeat of the same label two days running (e.g. Sustained again) does not
-re-trigger — that's "still going," not new information.
+Trigger rule (confirmed): research fires only when today's label is
+PERSISTENT_EP AND LABEL_CHANGED is True — i.e. a fresh Persistent pivot.
+SUSTAINED_EP, NEW_EP, RETRO_NEW_EP, and FIZZLE_OUT_EP do NOT trigger
+fundamental research (deliberately narrower than results-timing
+enrichment's eligible-labels set in config.py, which is a separate,
+unrelated scope decision — don't conflate the two).
+A repeat of the same label two days running does not re-trigger — that's
+"still going," not new information.
 """
 from __future__ import annotations
 
@@ -15,6 +18,8 @@ import logging
 from datetime import date
 
 import pandas as pd
+
+from src import config
 
 logger = logging.getLogger(__name__)
 
@@ -24,12 +29,14 @@ QUEUE_COLUMNS = [
     "CLOSE", "PCT_MOVE_VS_PREV", "VOLUME_MULTIPLE",
 ]
 
+# Only this label ever queues fundamental research (confirmed: narrowed
+# from Persistent+Sustained to Persistent only). Kept as a set (rather
+# than inline) so it's easy to find/change in one place if this scope
+# decision ever gets revisited again.
+RESEARCH_TRIGGER_LABELS = {config.STATUS_PERSISTENT}
+
 _REASONS = {
-    "NEW_EP": "New EP triggered — establish baseline fundamentals/news context",
     "PERSISTENT_EP": "Fresh Persistent pivot — check if fundamentals still support continued conviction",
-    "RETRO_NEW_EP": "Episode re-anchored to an earlier pivot that outlasted the original — worth a fresh fundamentals check",
-    "SUSTAINED_EP": "Upgraded to Sustained — check if fundamentals confirm the move is holding",
-    "FIZZLE_OUT_EP": "Fizzled — check if the catalyst was real or noise",
 }
 
 
@@ -37,7 +44,10 @@ def build_research_queue(daily_output: pd.DataFrame, as_of: date) -> pd.DataFram
     if daily_output.empty:
         return pd.DataFrame(columns=QUEUE_COLUMNS)
 
-    changed = daily_output[daily_output["LABEL_CHANGED"] == True]  # noqa: E712
+    changed = daily_output[
+        (daily_output["LABEL_CHANGED"] == True)  # noqa: E712
+        & (daily_output["LABEL"].isin(RESEARCH_TRIGGER_LABELS))
+    ]
     if changed.empty:
         return pd.DataFrame(columns=QUEUE_COLUMNS)
 
