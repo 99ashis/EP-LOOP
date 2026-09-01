@@ -1,0 +1,6 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+GRAPHITE,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-04,710.05,21,732.9,4.32,5.207089661956836
+JINDALPOLY,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-12,666.55,15,694.45,9.99,3.436591049015916
+GODREJAGRO,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-25,610.1,6,654.4,6.35,48.03683378682045
+AYMSYNTEX,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-31,280.45,2,294.2,4.9,7.074814431434843
+TNPETRO,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-31,120.77,2,132.35,9.59,16.28143869587642
