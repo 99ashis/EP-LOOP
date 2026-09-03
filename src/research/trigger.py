@@ -3,14 +3,22 @@ Turns today's EP classification output (classifier.py's daily_output
 DataFrame — only symbols that got a label today) into a queue of symbols
 needing fundamental research.
 
-Trigger rule (confirmed): research fires only when today's label is
-PERSISTENT_EP AND LABEL_CHANGED is True — i.e. a fresh Persistent pivot.
-SUSTAINED_EP, NEW_EP, RETRO_NEW_EP, and FIZZLE_OUT_EP do NOT trigger
-fundamental research (deliberately narrower than results-timing
-enrichment's eligible-labels set in config.py, which is a separate,
-unrelated scope decision — don't conflate the two).
-A repeat of the same label two days running does not re-trigger — that's
-"still going," not new information.
+Trigger rule (confirmed): research fires on exactly two count-based
+events, per anchor GENERATION (not per calendar day):
+  - the 1st PERSISTENT_EP occurrence for this generation (PERSISTENT_COUNT == 1)
+  - the 3rd SUSTAINED_EP occurrence for this generation (SUSTAINED_COUNT == 3)
+PERSISTENT_COUNT / SUSTAINED_COUNT are running counts classifier.py
+already tracks per anchor generation — they increment every day that
+label fires and never reset mid-generation (only reset to 0 when a fresh
+generation starts, including a Retro_New_EP promotion), so each of these
+conditions is a one-time event within a given generation by construction.
+A promoted generation gets its own fresh counts and can independently
+trigger its own 1st-Persistent / 3rd-Sustained, separate from the
+original generation's.
+NEW_EP, RETRO_NEW_EP, and FIZZLE_OUT_EP never trigger fundamental
+research (deliberately narrower than results-timing enrichment's
+eligible-labels set in config.py, which is a separate, unrelated scope
+decision — don't conflate the two).
 """
 from __future__ import annotations
 
@@ -29,14 +37,15 @@ QUEUE_COLUMNS = [
     "CLOSE", "PCT_MOVE_VS_PREV", "VOLUME_MULTIPLE",
 ]
 
-# Only this label ever queues fundamental research (confirmed: narrowed
-# from Persistent+Sustained to Persistent only). Kept as a set (rather
-# than inline) so it's easy to find/change in one place if this scope
-# decision ever gets revisited again.
-RESEARCH_TRIGGER_LABELS = {config.STATUS_PERSISTENT}
+# The exact count each label must hit to trigger — kept as named
+# constants (rather than inline literals) so this is easy to find/change
+# in one place if the trigger points ever get revisited again.
+PERSISTENT_TRIGGER_COUNT = 1
+SUSTAINED_TRIGGER_COUNT = 3
 
 _REASONS = {
-    "PERSISTENT_EP": "Fresh Persistent pivot — check if fundamentals still support continued conviction",
+    "PERSISTENT_EP": "1st Persistent pivot for this anchor — check if fundamentals support continued conviction",
+    "SUSTAINED_EP": "3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding",
 }
 
 
@@ -45,8 +54,8 @@ def build_research_queue(daily_output: pd.DataFrame, as_of: date) -> pd.DataFram
         return pd.DataFrame(columns=QUEUE_COLUMNS)
 
     changed = daily_output[
-        (daily_output["LABEL_CHANGED"] == True)  # noqa: E712
-        & (daily_output["LABEL"].isin(RESEARCH_TRIGGER_LABELS))
+        ((daily_output["LABEL"] == config.STATUS_PERSISTENT) & (daily_output["PERSISTENT_COUNT"] == PERSISTENT_TRIGGER_COUNT))
+        | ((daily_output["LABEL"] == config.STATUS_SUSTAINED) & (daily_output["SUSTAINED_COUNT"] == SUSTAINED_TRIGGER_COUNT))
     ]
     if changed.empty:
         return pd.DataFrame(columns=QUEUE_COLUMNS)
