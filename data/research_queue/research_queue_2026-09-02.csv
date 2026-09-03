@@ -1,10 +1,10 @@
 SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
-VINDHYATEL,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-03,2383.0,23,2737.1,6.23,2.6775603802815335
-WINDLAS,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-11,943.1,17,1096.6,8.75,13.570732742825044
-RISHABH,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-17,694.6,13,746.0,7.23,3.726270545049062
-UFLEX,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-17,586.05,13,701.8,8.8,4.018322188252381
-KLBRENG-B,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-21,397.4,9,443.25,4.48,2.0460655442460527
-WELENT,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-21,631.45,9,741.7,5.12,2.079688833705703
-JAYKAY,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-26,168.94,6,169.4,4.59,3.327412664752564
-OMAXE,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-08-28,131.74,4,132.67,4.65,6.454182220155701
-TBZ,Fresh Persistent pivot — check if fundamentals still support continued conviction,PERSISTENT_EP,2026-09-01,366.8,2,418.25,14.03,10.528679961738815
+URBANCO,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-03,146.19,23,171.84,2.51,0.7124804927818124
+PNGSREVA,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-04,510.95,22,521.7,2.04,0.4620728878181822
+DOLPHIN,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-12,494.35,16,603.45,3.45,0.39134900465178746
+MARKSANS,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-12,312.6,16,332.5,3.13,1.8599061701109758
+DLINKINDIA,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-19,445.75,11,447.85,2.69,1.8759343952144367
+HATSUN,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-24,1044.5,8,1193.6,1.28,4.257055383026924
+JAYKAY,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-08-26,168.94,6,169.4,4.59,3.327412664752564
+OMAXE,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-08-28,131.74,4,132.67,4.65,6.454182220155701
+TBZ,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-01,366.8,2,418.25,14.03,10.528679961738815
