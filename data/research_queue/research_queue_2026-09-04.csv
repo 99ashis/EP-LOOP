@@ -1,0 +1,12 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+UNIMECH,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-04,1334.1,24,1502.7,2.55,0.8965830449395744
+ARTEMISMED,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-08-05,322.15,23,332.8,4.05,2.6312784563686304
+GMMPFAUDLR,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-08-06,979.85,22,1147.9,6.93,4.070824788474249
+HAL,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-06,4920.0,22,4856.0,1.9,1.7032705878453098
+MANORAMA,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-14,1737.1,16,1993.4,1.38,1.0199754722836023
+KLBRENG-B,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-21,397.4,11,467.85,3.22,1.2909730466771592
+NCC,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-21,149.56,11,149.7,1.67,1.0467699019436476
+PARADEEP,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-25,159.63,9,157.0,2.26,0.4309219053219366
+INOXINDIA,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-27,2177.9,7,2247.8,3.29,2.9238113730900843
+TEJASNET,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-08-28,550.15,6,614.15,8.23,8.982003050415877
+NIACL,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-02,199.11,3,229.91,17.7,20.553350532897007
