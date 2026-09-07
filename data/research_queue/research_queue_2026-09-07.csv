@@ -1,0 +1,21 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+BALRAMCHIN,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-03,646.8,26,711.55,3.03,1.62630549015953
+STOVEKRAFT,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-06,800.2,23,849.25,2.01,0.7117214442708149
+KSHINTL,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-11,988.95,20,1105.65,1.64,0.9021642521027482
+ZYDUSLIFE,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-11,1191.0,20,1156.9,3.29,1.4846169457184122
+MANINDS,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-12,598.65,19,819.4,3.91,1.0126524140199928
+GPIL,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-13,243.31,18,244.05,1.4,0.9736853489649049
+RGL,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-14,123.03,17,153.1,2.57,1.068755503105043
+TVSSRICHAK,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-14,4478.1,17,5305.0,1.29,0.1597155075309762
+UFLEX,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-17,586.05,16,682.7,1.05,0.2248928579545641
+SOLARA,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-08-20,640.0,13,697.05,9.06,5.191449028012607
+SHANTIGEAR,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-21,464.25,12,640.0,2.94,1.0371983528780853
+GUJTHEM,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-08-24,411.7,11,429.3,4.36,4.466303522462663
+KAMATHOTEL,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-24,225.94,11,228.19,1.19,0.5264027688013019
+GODREJAGRO,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-25,610.1,10,665.5,3.2,0.6844983086693075
+OAL,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-26,401.25,9,537.35,3.36,1.6523884358784284
+HIKAL,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-03,240.36,3,243.0,9.31,28.20714104515014
+RAYMOND,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-03,757.9,3,772.4,4.26,3.638132883330296
+RML,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-04,1295.9,2,1388.2,7.12,9.48774796139246
+SPLPETRO,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-04,771.05,2,802.5,4.08,4.166801743025332
+WOCKPHARMA,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-04,2088.7,2,2208.0,5.71,5.9588536718811405

@@ -68,16 +68,16 @@
       },
       "5": {
         "NIFTY500": {
-          "n": 0,
-          "mean_excess": null,
-          "median_excess": null,
-          "hit_rate": null
+          "n": 2,
+          "mean_excess": -2.44,
+          "median_excess": -2.44,
+          "hit_rate": 0.0
         },
         "MIDSMALL400": {
-          "n": 0,
-          "mean_excess": null,
-          "median_excess": null,
-          "hit_rate": null
+          "n": 2,
+          "mean_excess": -3.14,
+          "median_excess": -3.14,
+          "hit_rate": 0.0
         }
       },
       "6": {
@@ -447,16 +447,16 @@
       "5": {
         "2026-08": {
           "NIFTY500": {
-            "n": 0,
-            "mean_excess": null,
-            "median_excess": null,
-            "hit_rate": null
+            "n": 2,
+            "mean_excess": -2.44,
+            "median_excess": -2.44,
+            "hit_rate": 0.0
           },
           "MIDSMALL400": {
-            "n": 0,
-            "mean_excess": null,
-            "median_excess": null,
-            "hit_rate": null
+            "n": 2,
+            "mean_excess": -3.14,
+            "median_excess": -3.14,
+            "hit_rate": 0.0
           }
         },
         "2026-09": {
@@ -476,6 +476,20 @@
       },
       "6": {
         "2026-08": {
+          "NIFTY500": {
+            "n": 0,
+            "mean_excess": null,
+            "median_excess": null,
+            "hit_rate": null
+          },
+          "MIDSMALL400": {
+            "n": 0,
+            "mean_excess": null,
+            "median_excess": null,
+            "hit_rate": null
+          }
+        },
+        "2026-09": {
           "NIFTY500": {
             "n": 0,
             "mean_excess": null,
@@ -674,6 +688,20 @@
             "median_excess": null,
             "hit_rate": null
           }
+        },
+        "2026-09": {
+          "NIFTY500": {
+            "n": 0,
+            "mean_excess": null,
+            "median_excess": null,
+            "hit_rate": null
+          },
+          "MIDSMALL400": {
+            "n": 0,
+            "mean_excess": null,
+            "median_excess": null,
+            "hit_rate": null
+          }
         }
       },
       "7": {
@@ -848,6 +876,20 @@
       },
       "6": {
         "2026-08": {
+          "NIFTY500": {
+            "n": 0,
+            "mean_excess": null,
+            "median_excess": null,
+            "hit_rate": null
+          },
+          "MIDSMALL400": {
+            "n": 0,
+            "mean_excess": null,
+            "median_excess": null,
+            "hit_rate": null
+          }
+        },
+        "2026-09": {
           "NIFTY500": {
             "n": 0,
             "mean_excess": null,
