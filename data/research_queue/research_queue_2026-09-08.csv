@@ -1,0 +1,18 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+KABRAEXTRU,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-03,418.6,27,656.45,3.46,1.4398726920552567
+NOCIL,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-08-03,174.05,27,185.07,7.46,8.916831534292081
+NAVINFLUOR,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-06,8650.0,24,8731.0,1.48,0.5509851536998962
+TATATECH,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-06,801.55,24,798.5,1.71,0.5608727920767325
+MOTHERSON,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-07,168.5,23,163.85,1.14,0.5945694045557105
+MIDHANI,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-08-13,444.85,19,477.0,13.6,35.233812105269195
+SARDAEN,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-13,523.3,19,519.85,1.43,0.9817341436638594
+ASIANENE,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-08-18,463.05,16,553.55,8.16,3.2432931696297187
+PARAGMILK,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-21,225.5,13,254.4,1.66,1.1997852750376843
+CLSEL,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-24,312.75,12,305.65,2.0,0.8356258638218899
+GUJALKALI,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-24,723.0,12,718.75,1.54,0.4524907888473908
+LTFOODS,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-24,459.0,12,455.25,1.4,0.8439408818895864
+AYMSYNTEX,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-31,280.45,7,320.1,1.55,1.1273077758158996
+NORTHARC,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-31,311.65,7,310.85,1.58,0.9549255610153801
+SAKAR,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-01,965.75,6,1157.85,4.39,3.3380558971879704
+XPROINDIA,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-02,1285.6,5,1389.7,2.03,1.409159598280692
+VENUSPIPES,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-07,1805.4,2,1949.9,8.0,8.552789131277688
