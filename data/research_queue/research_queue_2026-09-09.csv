@@ -1,0 +1,10 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+CHENNPETRO,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-08-11,1426.1,22,1604.4,10.06,4.042755395767518
+FINCABLES,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-11,1207.85,22,1353.4,3.92,2.6125670116907567
+SARDAEN,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-08-13,523.3,20,545.85,5.0,6.7376166131534605
+JINDALSAW,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-21,291.65,14,311.7,1.33,0.8731503739943364
+INNOVISION,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-08-31,274.25,8,280.3,11.23,20.70383760509232
+HINDOILEXP,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-03,184.38,5,195.83,1.12,2.9324324727380047
+ASTEC,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-08,662.8,2,761.0,14.82,85.83649413269109
+NOVARTIND,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-08,1822.0,2,2186.4,20.0,17.43718923025852
+WHEELS,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-08,2106.4,2,2400.6,13.97,31.346090087799723
