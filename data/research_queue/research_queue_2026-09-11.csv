@@ -1,0 +1,8 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+RACLGEAR,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-08-06,1475.0,27,1756.7,10.61,26.30493016327077
+GOCLCORP,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-07,438.25,26,441.55,2.16,0.896096134728655
+RUBICON,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-17,1798.7,20,1835.4,2.54,0.9503655782288248
+GENESYS,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-25,214.25,14,307.81,2.72,2.038675767912937
+VENKEYS,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-08-31,1702.0,10,1787.2,4.72,2.6760469662882667
+SAKAR,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-01,965.75,9,1158.55,3.69,0.9853846080232737
+MEDICAMEQ,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-09,312.9,3,323.05,5.06,3.070181198214954
