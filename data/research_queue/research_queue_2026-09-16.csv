@@ -1,0 +1,7 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+QUADFUTURE,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-21,405.35,18,491.95,1.52,0.8166748934143725
+SHREEPUSHK,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-24,426.9,17,506.95,1.1,1.361994039927817
+TNPETRO,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-31,120.77,12,127.72,1.6,0.6020724386388444
+SSWL,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-01,357.25,11,350.05,3.26,0.8964006104049067
+SAMHI,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-10,160.2,4,160.27,4.94,4.0858582761989
+EMUDHRA,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-15,592.85,2,642.3,8.34,95.17740845192357
