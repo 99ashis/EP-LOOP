@@ -1,0 +1,14 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+GOCLCORP,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-08-07,438.25,29,456.15,6.48,4.790141406237197
+RISHABH,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-17,694.6,23,778.35,2.61,0.6755320864923805
+KRYSTAL,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-20,681.35,20,674.9,2.94,3.797564444400676
+OPTIEMUS,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-24,585.7,18,610.0,2.89,1.139230318071106
+TVSSCS,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-24,132.99,18,130.09,3.02,0.23070334905886206
+CGCL,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-26,256.35,16,262.35,2.22,0.44443277597656955
+SANATHAN,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-04,456.2,9,461.95,1.74,0.5450042227807643
+SPLPETRO,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-04,771.05,9,807.0,1.8,0.4415973285201808
+STAR,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-07,1178.8,8,1200.2,1.38,0.5569331557456653
+SFL,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-08,675.95,7,673.0,1.5,0.22245382221194546
+SHAREINDIA,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-09,189.46,6,218.44,11.42,5.894598652368446
+SHOPERSTOP,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-15,398.5,3,413.3,4.55,3.9625214979490178
+TATAINVEST,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-15,718.35,3,719.3,5.48,3.5962076915155174
