@@ -1,0 +1,155 @@
+EP DAILY ALERT — 21-Sep-26
+============================================================
+
+NEW EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE    RESULTS                               
+-----------------------------------------------------------------------------------
+AGI               +9.97%      21-Sep-26      No nearby results                     
+ASHIANA           +14.32%     21-Sep-26      No nearby results                     
+COHANCE           +5.13%      21-Sep-26      No nearby results                     
+INDORAMA          +17.02%     21-Sep-26      No nearby results                     
+ISGEC             +8.47%      21-Sep-26      No nearby results                     
+JASH              +10.51%     21-Sep-26      No nearby results                     
+KPIGREEN          +12.99%     21-Sep-26      No nearby results                     
+ORCHPHARMA        +9.31%      21-Sep-26      No nearby results                     
+PROTEAN           +20.00%     21-Sep-26      No nearby results                     
+REFEX             +7.85%      21-Sep-26      No nearby results                     
+STUDDS            +5.75%      21-Sep-26      No nearby results                     
+SUNDROP           +6.72%      21-Sep-26      No nearby results                     
+SURAJEST          +12.57%     21-Sep-26      No nearby results                     
+ZOTA              +12.52%     21-Sep-26      No nearby results                     
+
+PERSISTENT EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE    PERSISTENT COUNT  RESULTS                               
+-----------------------------------------------------------------------------------------------------
+IGPL              +4.84%      03-Aug-26      3                 No nearby results                     
+RATNAVEER         +11.80%     03-Aug-26      5                 No nearby results                     
+UNIMECH           +6.73%      04-Aug-26      4                 No nearby results                     
+KPL               +10.77%     10-Aug-26      4                 No nearby results                     
+JAYKAY            +12.19%     26-Aug-26      2                 No nearby results                     
+ENGINERSIN        +7.10%      01-Sep-26      1                 No nearby results                     
+RAYMOND           +10.94%     03-Sep-26      5                 No nearby results                     
+WOCKPHARMA        +4.85%      04-Sep-26      2                 No nearby results                     
+CENTUM            +9.37%      07-Sep-26      1                 No nearby results                     
+KROSS             +7.42%      10-Sep-26      1                 No nearby results                     
+SMSPHARMA         +5.32%      11-Sep-26      1                 No nearby results                     
+PATANJALI         +7.96%      16-Sep-26      1                 No nearby results                     
+SAATVIKGL         +4.81%      16-Sep-26      1                 No nearby results                     
+TEGA              +9.57%      17-Sep-26      1                 No nearby results                     
+ACMESOLAR         +5.25%      18-Sep-26      1                 No nearby results                     
+LUXIND            +4.67%      18-Sep-26      1                 No nearby results                     
+SAMBHV            +5.12%      18-Sep-26      1                 No nearby results                     
+
+RETRO NEW EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE  
+-------------------------------------------
+None today
+
+SUSTAINED EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE    SUSTAINED COUNT   RESULTS                               
+-----------------------------------------------------------------------------------------------------
+DHAMPURSUG        +3.89%      03-Aug-26      9                 No nearby results                     
+URBANCO           +2.54%      03-Aug-26      8                 No nearby results                     
+PNGSREVA          +3.09%      04-Aug-26      7                 No nearby results                     
+MMP               +2.32%      05-Aug-26      9                 No nearby results                     
+SAPPHIRE          +3.59%      05-Aug-26      4                 No nearby results                     
+UNIPARTS          +2.81%      05-Aug-26      9                 No nearby results                     
+VSSL              +1.51%      05-Aug-26      8                 No nearby results                     
+VARROC            +1.28%      05-Aug-26      10                No nearby results                     
+GMMPFAUDLR        +2.74%      06-Aug-26      12                No nearby results                     
+DEVYANI           +1.85%      07-Aug-26      7                 No nearby results                     
+GOCLCORP          +1.65%      07-Aug-26      4                 No nearby results                     
+AARTIPHARM        +3.18%      10-Aug-26      8                 No nearby results                     
+ENTERO            +3.65%      10-Aug-26      9                 No nearby results                     
+SKYGOLD           +1.41%      10-Aug-26      5                 No nearby results                     
+INDSWFTLAB        +1.65%      11-Aug-26      9                 No nearby results                     
+WINDLAS           +1.80%      11-Aug-26      7                 No nearby results                     
+DOLPHIN           +2.78%      12-Aug-26      5                 No nearby results                     
+JINDALPOLY        +3.21%      12-Aug-26      3                 No nearby results                     
+KENNAMET          +1.56%      12-Aug-26      10                No nearby results                     
+GPIL              +1.43%      13-Aug-26      5                 No nearby results                     
+SHANTIGOLD        +2.95%      14-Aug-26      4                 No nearby results                     
+GKSL              +1.08%      17-Aug-26      11                No nearby results                     
+KIRIINDUS         +1.08%      19-Aug-26      6                 No nearby results                     
+SOLARA            +1.51%      20-Aug-26      7                 No nearby results                     
+JINDALSAW         +1.23%      21-Aug-26      6                 No nearby results                     
+PARAGMILK         +1.45%      21-Aug-26      6                 No nearby results                     
+QUADFUTURE        +1.48%      21-Aug-26      5                 No nearby results                     
+WELCORP           +3.86%      21-Aug-26      2                 No nearby results                     
+KAMATHOTEL        +3.11%      24-Aug-26      5                 No nearby results                     
+MARATHON          +2.11%      24-Aug-26      2                 No nearby results                     
+QUESS             +3.26%      26-Aug-26      2                 No nearby results                     
+AYMSYNTEX         +1.84%      31-Aug-26      4                 No nearby results                     
+NORTHARC          +1.77%      31-Aug-26      4                 No nearby results                     
+TNPETRO           +3.67%      31-Aug-26      4                 No nearby results                     
+ULTRAMAR          +2.50%      31-Aug-26      3                 No nearby results                     
+RML               +1.59%      04-Sep-26      4                 No nearby results                     
+STAR              +1.25%      07-Sep-26      5                 No nearby results                     
+EIEL              +1.94%      09-Sep-26      2                 No nearby results                     
+SWANCORP          +2.46%      10-Sep-26      2                 No nearby results                     
+HOMEFIRST         +1.32%      18-Sep-26      1                 No nearby results                     
+
+FIZZLE OUT EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE  
+-------------------------------------------
+ATULAUTO          +0.57%      03-Aug-26    
+BLUEDART          -0.31%      03-Aug-26    
+KIOCL             +0.10%      03-Aug-26    
+KEI               -1.16%      04-Aug-26    
+CELLO             -0.16%      05-Aug-26    
+FIEMIND           -1.87%      05-Aug-26    
+GODIGIT           +1.03%      05-Aug-26    
+KANSAINER         -0.92%      05-Aug-26    
+OMNI              -0.86%      05-Aug-26    
+PTC               +0.03%      05-Aug-26    
+BAJAJELEC         +0.91%      06-Aug-26    
+IGARASHI          -1.87%      06-Aug-26    
+MAZDOCK           -2.11%      06-Aug-26    
+TATATECH          +0.34%      06-Aug-26    
+ARVSMART          +4.42%      07-Aug-26    
+PGIL              -0.67%      07-Aug-26    
+DIAMONDYD         +1.03%      07-Aug-26    
+TRAVELFOOD        -2.20%      07-Aug-26    
+GARUDA            +0.71%      10-Aug-26    
+RAMCOIND          -1.79%      10-Aug-26    
+THOMASCOTT        +0.06%      10-Aug-26    
+ARE&M             -0.21%      11-Aug-26    
+POLYMED           -1.15%      11-Aug-26    
+ORISSAMINE        -0.01%      12-Aug-26    
+TDPOWERSYS        -2.15%      12-Aug-26    
+ASTRAL            -1.88%      13-Aug-26    
+APEX              +1.82%      14-Aug-26    
+DREDGECORP        +0.24%      14-Aug-26    
+HAPPSTMNDS        -1.17%      14-Aug-26    
+CAMLINFINE        +1.51%      17-Aug-26    
+JYOTHYLAB         -0.21%      17-Aug-26    
+INDIAGLYCO        -3.00%      18-Aug-26    
+MMFL              -2.50%      18-Aug-26    
+TIINDIA           -0.46%      18-Aug-26    
+EXCELINDUS        -0.49%      19-Aug-26    
+GOPAL             +0.12%      19-Aug-26    
+EPL               +0.13%      20-Aug-26    
+HUBTOWN           -1.10%      20-Aug-26    
+MAGADSUGAR        -3.16%      20-Aug-26    
+IIFL              +1.32%      21-Aug-26    
+JBMA              -1.18%      21-Aug-26    
+NCC               -0.80%      21-Aug-26    
+RIIL              +0.31%      21-Aug-26    
+GUJALKALI         -1.44%      24-Aug-26    
+KRBL              +0.18%      24-Aug-26    
+APOLLOPIPE        -0.75%      25-Aug-26    
+FMGOETZE          -1.58%      25-Aug-26    
+WEL               +4.99%      26-Aug-26    
+WHIRLPOOL         +0.83%      27-Aug-26    
+DYCL              +0.07%      01-Sep-26    
+VTL               -4.13%      01-Sep-26    
+BRIGADE           -2.08%      03-Sep-26    
+IFCI              -2.95%      04-Sep-26    
+MAITHANALL        -1.08%      04-Sep-26    
+GNRL              -1.28%      07-Sep-26    
+TATACHEM          +0.21%      17-Sep-26
