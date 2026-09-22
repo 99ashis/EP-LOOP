@@ -1,0 +1,10 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+RAMRAT,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-27,569.6,18,562.75,2.3,2.236735734269994
+VENKEYS,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-31,1702.0,16,1675.9,2.17,0.5730389121563312
+CHEMPLASTS,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-07,185.53,11,198.67,9.66,9.261388529199039
+KSL,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-10,968.2,8,959.15,1.56,0.5277499338283469
+JSWINFRA,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-18,348.25,3,367.6,5.15,4.869045490168863
+KPIGREEN,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-21,321.4,2,346.45,7.79,7.7439522015930935
+PROTEAN,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-21,588.35,2,620.65,5.49,36.02065243238468
+SUNDROP,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-21,707.95,2,742.35,4.86,9.383556660908843
+ZOTA,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-21,1287.8,2,1356.0,5.3,13.620190857035151
