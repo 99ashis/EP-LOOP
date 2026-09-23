@@ -152,6 +152,11 @@
   }
   .horizon-btn.active{color:var(--bg); background:var(--gold); border-color:var(--gold);}
   .tr-note{color:var(--ink-muted); font-size:12px; margin-bottom:18px; line-height:1.5;}
+  .window-btn{
+    background:var(--surface-2); border:1px solid var(--hairline); color:var(--ink-muted);
+    font-family:'Space Mono',monospace; font-size:12px; padding:6px 14px; border-radius:100px; cursor:pointer;
+  }
+  .window-btn.active{color:var(--bg); background:var(--emerald); border-color:var(--emerald);}
 
   .tr-row{
     display:grid; grid-template-columns:1.5fr 0.5fr 1.1fr 1.1fr; gap:8px; align-items:center;
@@ -226,6 +231,7 @@
         <div class="horizon-tabs" id="horizonTabs"></div>
       </div>
       <div class="tr-note">Forward-tested, not backtested — tracking starts the day this went live. A thin sample early on is expected, not a bug. Tap a row for the month-by-month breakdown. Excess return is measured against each benchmark over the same window.</div>
+      <div class="window-tabs" id="windowTabs" style="display:flex; gap:6px; margin-bottom:14px;"></div>
       <div class="tr-head-row">
         <div>Bucket</div><div>N</div><div id="benchHead1">Nifty 500</div><div id="benchHead2">Midsmall 400</div>
       </div>
@@ -480,6 +486,7 @@ const BENCH_LABELS = {NIFTY500: 'Nifty 500', MIDSMALL400: 'Midsmall 400'};
 
 let TRACK_RECORD = null;
 let currentHorizon = null;
+let currentWindow = null;
 
 async function loadTrackRecord(){
   try{
@@ -495,9 +502,12 @@ async function loadTrackRecord(){
 
 function renderTrackRecordShell(){
   const horizonTabsEl = document.getElementById('horizonTabs');
+  const windowTabsEl = document.getElementById('windowTabs');
   horizonTabsEl.innerHTML = '';
+  windowTabsEl.innerHTML = '';
 
-  if(!TRACK_RECORD || !TRACK_RECORD.horizons || TRACK_RECORD.horizons.length === 0){
+  if(!TRACK_RECORD || !TRACK_RECORD.horizons || TRACK_RECORD.horizons.length === 0
+     || !TRACK_RECORD.windows || TRACK_RECORD.windows.length === 0){
     document.getElementById('trBody').innerHTML =
       '<div class="empty-note">No matured events yet — check back once the pipeline has been running a while (roughly 3–4 weeks minimum for the first numbers).</div>';
     return;
@@ -506,6 +516,19 @@ function renderTrackRecordShell(){
   const [b1, b2] = TRACK_RECORD.benchmarks;
   document.getElementById('benchHead1').textContent = BENCH_LABELS[b1] || b1;
   document.getElementById('benchHead2').textContent = BENCH_LABELS[b2] || b2;
+
+  TRACK_RECORD.windows.forEach((w, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'window-btn' + (i === 0 ? ' active' : '');
+    btn.textContent = w + ' window';
+    btn.addEventListener('click', () => {
+      currentWindow = w;
+      document.querySelectorAll('.window-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderTrackRecordTable();
+    });
+    windowTabsEl.appendChild(btn);
+  });
 
   TRACK_RECORD.horizons.forEach((h, i) => {
     const btn = document.createElement('button');
@@ -520,6 +543,7 @@ function renderTrackRecordShell(){
     horizonTabsEl.appendChild(btn);
   });
 
+  currentWindow = TRACK_RECORD.windows[0];
   currentHorizon = TRACK_RECORD.horizons[0];
   renderTrackRecordTable();
 }
@@ -540,8 +564,8 @@ function renderTrackRecordTable(){
   const body = document.getElementById('trBody');
   body.innerHTML = '';
   const [b1, b2] = TRACK_RECORD.benchmarks;
-  const allTime = TRACK_RECORD.all_time[String(currentHorizon)] || {};
-  const cohorts = TRACK_RECORD.cohorts[String(currentHorizon)] || {};
+  const allTime = (TRACK_RECORD.all_time[currentWindow] && TRACK_RECORD.all_time[currentWindow][String(currentHorizon)]) || {};
+  const cohorts = (TRACK_RECORD.cohorts[currentWindow] && TRACK_RECORD.cohorts[currentWindow][String(currentHorizon)]) || {};
 
   BUCKET_ORDER.forEach(bucket => {
     const stats = allTime[String(bucket)] || {};
