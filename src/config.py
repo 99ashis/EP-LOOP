@@ -158,7 +158,11 @@ EFFICACY_EVENTS_LOG_PATH = EFFICACY_DIR / "events_log.parquet"      # (symbol, d
 EFFICACY_TRACKER_PATH = EFFICACY_DIR / "new_ep_tracker.parquet"     # one row per original NEW_EP, tracked through its lifecycle
 EFFICACY_DIR.mkdir(parents=True, exist_ok=True)
 
-EFFICACY_CLASSIFICATION_WINDOW_SESSIONS = 10  # trading sessions after NEW_EP to observe before classifying
+EFFICACY_CLASSIFICATION_WINDOWS = {
+    "10D": 10,   # the original window — kept exactly as-is, existing data migrates into this
+    "15D": 15,   # confirmed addition
+    "20D": 20,   # confirmed addition
+}
 EFFICACY_RETURN_HORIZONS = [10, 20, 30]        # trading sessions from the anchor close, for each bucket
 
 # The 9 buckets — see conversation for full reasoning behind each.
