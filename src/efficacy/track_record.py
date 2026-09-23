@@ -1,14 +1,12 @@
 """
-Computes the EP efficacy Track Record: all-time aggregate stats per bucket
-per horizon per benchmark, plus a cohort breakdown by ANCHOR_DATE's month
-(confirmed with the user: cohorts group by ANCHOR_DATE, not NEW_EP_DATE —
-the anchor is when each bucket's return clock actually starts, and for
-buckets 2-9 that can land well after the original NEW_EP).
+Computes the EP efficacy Track Record: all-time aggregate stats AND monthly
+cohort stats, per classification window (10D/20D), per return horizon, per
+bucket, per benchmark. Cohorts group by each window's OWN ANCHOR_DATE — the
+10D and 20D windows can (and often do) anchor to different dates for the
+same underlying event, so their cohort placement can differ too.
 
 Reads only MATURED rows — an event with no computed return for a given
-horizon is silently excluded from that horizon's stats, exactly as it
-should be for a forward-test track record (no partial/pending numbers
-leaking into an aggregate).
+window+horizon combination is silently excluded from those stats.
 """
 from __future__ import annotations
 
@@ -22,8 +20,8 @@ from src.efficacy import tracker_store
 BUCKET_ORDER = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 
-def _stats_for_group(df: pd.DataFrame, horizon: int, short_key: str) -> dict:
-    col = f"EXCESS_RETURN_{short_key}_{horizon}"
+def _stats_for_group(df: pd.DataFrame, window_key: str, horizon: int, short_key: str) -> dict:
+    col = f"{window_key}__EXCESS_RETURN_{short_key}_{horizon}"
     matured = df[df[col].notna()] if col in df.columns else df.iloc[0:0]
     n = len(matured)
     if n == 0:
@@ -43,6 +41,7 @@ def build_track_record(tracker: pd.DataFrame | None = None) -> dict:
         tracker = tracker_store.load_tracker()
 
     result = {
+        "windows": list(config.EFFICACY_CLASSIFICATION_WINDOWS.keys()),
         "horizons": list(config.EFFICACY_RETURN_HORIZONS),
         "benchmarks": list(config.BENCHMARK_INDICES.keys()),
         "all_time": {},
@@ -53,33 +52,41 @@ def build_track_record(tracker: pd.DataFrame | None = None) -> dict:
         return result
 
     tracker = tracker.copy()
-    tracker["ANCHOR_MONTH"] = pd.to_datetime(tracker["ANCHOR_DATE"]).dt.strftime("%Y-%m")
 
-    for horizon in config.EFFICACY_RETURN_HORIZONS:
-        result["all_time"][str(horizon)] = {}
-        for bucket in BUCKET_ORDER:
-            bucket_df = tracker[tracker["BUCKET"] == bucket]
-            result["all_time"][str(horizon)][str(bucket)] = {
-                short_key: _stats_for_group(bucket_df, horizon, short_key)
-                for short_key in config.BENCHMARK_INDICES.keys()
-            }
+    for window_key in config.EFFICACY_CLASSIFICATION_WINDOWS.keys():
+        bucket_col = f"{window_key}__BUCKET"
+        anchor_col = f"{window_key}__ANCHOR_DATE"
+        month_col = f"_{window_key}_ANCHOR_MONTH"
+        tracker[month_col] = pd.to_datetime(tracker[anchor_col]).dt.strftime("%Y-%m")
 
-    for horizon in config.EFFICACY_RETURN_HORIZONS:
-        result["cohorts"][str(horizon)] = {}
-        for bucket in BUCKET_ORDER:
-            bucket_df = tracker[tracker["BUCKET"] == bucket]
-            if bucket_df.empty:
-                continue
-            months = sorted(bucket_df["ANCHOR_MONTH"].dropna().unique())
-            bucket_cohorts = {}
-            for month in months:
-                month_df = bucket_df[bucket_df["ANCHOR_MONTH"] == month]
-                bucket_cohorts[month] = {
-                    short_key: _stats_for_group(month_df, horizon, short_key)
+        result["all_time"][window_key] = {}
+        result["cohorts"][window_key] = {}
+
+        for horizon in config.EFFICACY_RETURN_HORIZONS:
+            result["all_time"][window_key][str(horizon)] = {}
+            for bucket in BUCKET_ORDER:
+                bucket_df = tracker[tracker[bucket_col] == bucket]
+                result["all_time"][window_key][str(horizon)][str(bucket)] = {
+                    short_key: _stats_for_group(bucket_df, window_key, horizon, short_key)
                     for short_key in config.BENCHMARK_INDICES.keys()
                 }
-            if bucket_cohorts:
-                result["cohorts"][str(horizon)][str(bucket)] = bucket_cohorts
+
+        for horizon in config.EFFICACY_RETURN_HORIZONS:
+            result["cohorts"][window_key][str(horizon)] = {}
+            for bucket in BUCKET_ORDER:
+                bucket_df = tracker[tracker[bucket_col] == bucket]
+                if bucket_df.empty:
+                    continue
+                months = sorted(bucket_df[month_col].dropna().unique())
+                bucket_cohorts = {}
+                for month in months:
+                    month_df = bucket_df[bucket_df[month_col] == month]
+                    bucket_cohorts[month] = {
+                        short_key: _stats_for_group(month_df, window_key, horizon, short_key)
+                        for short_key in config.BENCHMARK_INDICES.keys()
+                    }
+                if bucket_cohorts:
+                    result["cohorts"][window_key][str(horizon)][str(bucket)] = bucket_cohorts
 
     return result
 
