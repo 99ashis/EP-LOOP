@@ -115,6 +115,12 @@
           "label": "FIZZLE_OUT_EP",
           "close": 239.1,
           "inside_windows": []
+        },
+        {
+          "date": "2026-09-24",
+          "label": "FIZZLE_OUT_EP",
+          "close": 238.05,
+          "inside_windows": []
         }
       ]
     },
@@ -176,6 +182,12 @@
           "date": "2026-09-22",
           "label": "FIZZLE_OUT_EP",
           "close": 175.61,
+          "inside_windows": []
+        },
+        {
+          "date": "2026-09-24",
+          "label": "FIZZLE_OUT_EP",
+          "close": 173.38,
           "inside_windows": []
         }
       ]
@@ -905,6 +917,12 @@
           "label": "SUSTAINED_EP",
           "close": 278.9,
           "inside_windows": []
+        },
+        {
+          "date": "2026-09-24",
+          "label": "SUSTAINED_EP",
+          "close": 282.85,
+          "inside_windows": []
         }
       ]
     },
@@ -1105,6 +1123,12 @@
           "label": "FIZZLE_OUT_EP",
           "close": 617.55,
           "inside_windows": []
+        },
+        {
+          "date": "2026-09-24",
+          "label": "FIZZLE_OUT_EP",
+          "close": 617.55,
+          "inside_windows": []
         }
       ]
     },
@@ -1191,6 +1215,12 @@
           "date": "2026-09-23",
           "label": "FIZZLE_OUT_EP",
           "close": 601.8,
+          "inside_windows": []
+        },
+        {
+          "date": "2026-09-24",
+          "label": "FIZZLE_OUT_EP",
+          "close": 593.05,
           "inside_windows": []
         }
       ]
@@ -1504,6 +1534,12 @@
           "label": "FIZZLE_OUT_EP",
           "close": 136.05,
           "inside_windows": []
+        },
+        {
+          "date": "2026-09-24",
+          "label": "FIZZLE_OUT_EP",
+          "close": 133.42,
+          "inside_windows": []
         }
       ]
     },
@@ -1809,6 +1845,12 @@
           "date": "2026-09-23",
           "label": "FIZZLE_OUT_EP",
           "close": 719.95,
+          "inside_windows": []
+        },
+        {
+          "date": "2026-09-24",
+          "label": "FIZZLE_OUT_EP",
+          "close": 703.45,
           "inside_windows": []
         }
       ]
@@ -2320,6 +2362,12 @@
           "label": "FIZZLE_OUT_EP",
           "close": 633.0,
           "inside_windows": []
+        },
+        {
+          "date": "2026-09-24",
+          "label": "FIZZLE_OUT_EP",
+          "close": 620.8,
+          "inside_windows": []
         }
       ]
     },
@@ -2741,6 +2789,12 @@
           "inside_windows": [
             "20D"
           ]
+        },
+        {
+          "date": "2026-09-24",
+          "label": "FIZZLE_OUT_EP",
+          "close": 398.2,
+          "inside_windows": []
         }
       ]
     },
@@ -3334,6 +3388,12 @@
           "inside_windows": [
             "20D"
           ]
+        },
+        {
+          "date": "2026-09-24",
+          "label": "FIZZLE_OUT_EP",
+          "close": 510.5,
+          "inside_windows": []
         }
       ]
     },
@@ -3618,6 +3678,12 @@
           "inside_windows": [
             "20D"
           ]
+        },
+        {
+          "date": "2026-09-24",
+          "label": "FIZZLE_OUT_EP",
+          "close": 468.45,
+          "inside_windows": []
         }
       ]
     },
@@ -3896,10 +3962,10 @@
           "anchor_close": 270.65
         },
         "20D": {
-          "bucket": null,
-          "bucket_label": null,
-          "anchor_date": null,
-          "anchor_close": null
+          "bucket": 9,
+          "bucket_label": "Mixed",
+          "anchor_date": "2026-09-18",
+          "anchor_close": 270.65
         }
       },
       "events": [
@@ -3909,7 +3975,8 @@
           "close": 257.98,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -3918,7 +3985,8 @@
           "close": 256.6,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -3927,7 +3995,8 @@
           "close": 271.7,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -3936,7 +4005,8 @@
           "close": 279.9,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -3944,14 +4014,17 @@
           "label": "SUSTAINED_EP",
           "close": 262.35,
           "inside_windows": [
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
           "date": "2026-09-18",
           "label": "SUSTAINED_EP",
           "close": 270.65,
-          "inside_windows": []
+          "inside_windows": [
+            "20D"
+          ]
         }
       ]
     },
@@ -3972,10 +4045,10 @@
           "anchor_close": 154.11
         },
         "20D": {
-          "bucket": null,
-          "bucket_label": null,
-          "anchor_date": null,
-          "anchor_close": null
+          "bucket": 8,
+          "bucket_label": "Fizzle",
+          "anchor_date": "2026-08-28",
+          "anchor_close": 154.11
         }
       },
       "events": [
@@ -3985,7 +4058,8 @@
           "close": 154.11,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -3994,7 +4068,8 @@
           "close": 149.57,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4003,7 +4078,8 @@
           "close": 169.4,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4012,7 +4088,8 @@
           "close": 153.69,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4020,26 +4097,33 @@
           "label": "FIZZLE_OUT_EP",
           "close": 154.77,
           "inside_windows": [
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
           "date": "2026-09-21",
           "label": "PERSISTENT_EP",
           "close": 187.56,
-          "inside_windows": []
+          "inside_windows": [
+            "20D"
+          ]
         },
         {
           "date": "2026-09-22",
           "label": "SUSTAINED_EP",
           "close": 189.5,
-          "inside_windows": []
+          "inside_windows": [
+            "20D"
+          ]
         },
         {
           "date": "2026-09-23",
           "label": "PERSISTENT_EP",
           "close": 212.76,
-          "inside_windows": []
+          "inside_windows": [
+            "20D"
+          ]
         }
       ]
     },
@@ -4060,10 +4144,10 @@
           "anchor_close": 556.9
         },
         "20D": {
-          "bucket": null,
-          "bucket_label": null,
-          "anchor_date": null,
-          "anchor_close": null
+          "bucket": 9,
+          "bucket_label": "Mixed",
+          "anchor_date": "2026-09-22",
+          "anchor_close": 556.9
         }
       },
       "events": [
@@ -4073,7 +4157,8 @@
           "close": 428.95,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4082,7 +4167,8 @@
           "close": 487.8,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4091,7 +4177,8 @@
           "close": 457.95,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4100,7 +4187,8 @@
           "close": 502.3,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4109,7 +4197,8 @@
           "close": 519.9,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4118,7 +4207,8 @@
           "close": 537.35,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4127,7 +4217,8 @@
           "close": 540.3,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4135,14 +4226,17 @@
           "label": "SUSTAINED_EP",
           "close": 532.1,
           "inside_windows": [
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
           "date": "2026-09-22",
           "label": "SUSTAINED_EP",
           "close": 556.9,
-          "inside_windows": []
+          "inside_windows": [
+            "20D"
+          ]
         }
       ]
     },
@@ -4163,10 +4257,10 @@
           "anchor_close": 339.6
         },
         "20D": {
-          "bucket": null,
-          "bucket_label": null,
-          "anchor_date": null,
-          "anchor_close": null
+          "bucket": 8,
+          "bucket_label": "Fizzle",
+          "anchor_date": "2026-09-07",
+          "anchor_close": 339.6
         }
       },
       "events": [
@@ -4176,7 +4270,8 @@
           "close": 381.75,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4185,7 +4280,8 @@
           "close": 339.6,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4194,14 +4290,17 @@
           "close": 337.5,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
           "date": "2026-09-21",
           "label": "SUSTAINED_EP",
           "close": 363.1,
-          "inside_windows": []
+          "inside_windows": [
+            "20D"
+          ]
         }
       ]
     },
@@ -4222,10 +4321,10 @@
           "anchor_close": 90.41
         },
         "20D": {
-          "bucket": null,
-          "bucket_label": null,
-          "anchor_date": null,
-          "anchor_close": null
+          "bucket": 8,
+          "bucket_label": "Fizzle",
+          "anchor_date": "2026-09-22",
+          "anchor_close": 90.41
         }
       },
       "events": [
@@ -4235,7 +4334,8 @@
           "close": 99.95,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4244,14 +4344,25 @@
           "close": 99.59,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
           "date": "2026-09-22",
           "label": "FIZZLE_OUT_EP",
           "close": 90.41,
-          "inside_windows": []
+          "inside_windows": [
+            "20D"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "label": "FIZZLE_OUT_EP",
+          "close": 89.14,
+          "inside_windows": [
+            "20D"
+          ]
         }
       ]
     },
@@ -4272,10 +4383,10 @@
           "anchor_close": 124.74
         },
         "20D": {
-          "bucket": null,
-          "bucket_label": null,
-          "anchor_date": null,
-          "anchor_close": null
+          "bucket": 8,
+          "bucket_label": "Fizzle",
+          "anchor_date": "2026-08-27",
+          "anchor_close": 124.74
         }
       },
       "events": [
@@ -4285,7 +4396,8 @@
           "close": 124.74,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4294,7 +4406,8 @@
           "close": 99.8,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4303,7 +4416,8 @@
           "close": 89.82,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4312,7 +4426,8 @@
           "close": 80.84,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4321,7 +4436,8 @@
           "close": 75.98,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4330,7 +4446,8 @@
           "close": 79.37,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4339,7 +4456,8 @@
           "close": 76.03,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4348,7 +4466,8 @@
           "close": 72.23,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4357,7 +4476,8 @@
           "close": 69.39,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4366,7 +4486,8 @@
           "close": 72.85,
           "inside_windows": [
             "10D",
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4374,7 +4495,8 @@
           "label": "FIZZLE_OUT_EP",
           "close": 74.2,
           "inside_windows": [
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4382,7 +4504,8 @@
           "label": "FIZZLE_OUT_EP",
           "close": 72.34,
           "inside_windows": [
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4390,7 +4513,8 @@
           "label": "FIZZLE_OUT_EP",
           "close": 69.18,
           "inside_windows": [
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4398,7 +4522,8 @@
           "label": "FIZZLE_OUT_EP",
           "close": 69.42,
           "inside_windows": [
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
@@ -4406,32 +4531,49 @@
           "label": "FIZZLE_OUT_EP",
           "close": 69.47,
           "inside_windows": [
-            "15D"
+            "15D",
+            "20D"
           ]
         },
         {
           "date": "2026-09-18",
           "label": "FIZZLE_OUT_EP",
           "close": 72.94,
-          "inside_windows": []
+          "inside_windows": [
+            "20D"
+          ]
         },
         {
           "date": "2026-09-21",
           "label": "FIZZLE_OUT_EP",
           "close": 76.58,
-          "inside_windows": []
+          "inside_windows": [
+            "20D"
+          ]
         },
         {
           "date": "2026-09-22",
           "label": "FIZZLE_OUT_EP",
           "close": 80.4,
-          "inside_windows": []
+          "inside_windows": [
+            "20D"
+          ]
         },
         {
           "date": "2026-09-23",
           "label": "FIZZLE_OUT_EP",
           "close": 76.93,
-          "inside_windows": []
+          "inside_windows": [
+            "20D"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "label": "FIZZLE_OUT_EP",
+          "close": 74.18,
+          "inside_windows": [
+            "20D"
+          ]
         }
       ]
     },
@@ -4799,6 +4941,12 @@
           "label": "FIZZLE_OUT_EP",
           "close": 151.05,
           "inside_windows": []
+        },
+        {
+          "date": "2026-09-24",
+          "label": "FIZZLE_OUT_EP",
+          "close": 150.24,
+          "inside_windows": []
         }
       ]
     },
@@ -4836,6 +4984,12 @@
           "date": "2026-09-23",
           "label": "FIZZLE_OUT_EP",
           "close": 1573.3,
+          "inside_windows": []
+        },
+        {
+          "date": "2026-09-24",
+          "label": "FIZZLE_OUT_EP",
+          "close": 1543.6,
           "inside_windows": []
         }
       ]
@@ -5434,6 +5588,12 @@
             "10D",
             "15D"
           ]
+        },
+        {
+          "date": "2026-09-24",
+          "label": "SUSTAINED_EP",
+          "close": 2867.4,
+          "inside_windows": []
         }
       ]
     },
@@ -5572,6 +5732,12 @@
           "inside_windows": [
             "15D"
           ]
+        },
+        {
+          "date": "2026-09-24",
+          "label": "FIZZLE_OUT_EP",
+          "close": 473.2,
+          "inside_windows": []
         }
       ]
     },
@@ -5901,6 +6067,12 @@
           "inside_windows": [
             "15D"
           ]
+        },
+        {
+          "date": "2026-09-24",
+          "label": "SUSTAINED_EP",
+          "close": 376.1,
+          "inside_windows": []
         }
       ]
     },
@@ -6019,10 +6191,10 @@
           "anchor_close": 1170.95
         },
         "15D": {
-          "bucket": null,
-          "bucket_label": null,
-          "anchor_date": null,
-          "anchor_close": null
+          "bucket": 9,
+          "bucket_label": "Mixed",
+          "anchor_date": "2026-09-16",
+          "anchor_close": 1170.95
         },
         "20D": {
           "bucket": null,
@@ -6037,7 +6209,8 @@
           "label": "PERSISTENT_EP",
           "close": 1013.3,
           "inside_windows": [
-            "10D"
+            "10D",
+            "15D"
           ]
         },
         {
@@ -6045,7 +6218,8 @@
           "label": "SUSTAINED_EP",
           "close": 985.3,
           "inside_windows": [
-            "10D"
+            "10D",
+            "15D"
           ]
         },
         {
@@ -6053,7 +6227,8 @@
           "label": "PERSISTENT_EP",
           "close": 1099.15,
           "inside_windows": [
-            "10D"
+            "10D",
+            "15D"
           ]
         },
         {
@@ -6061,7 +6236,8 @@
           "label": "PERSISTENT_EP",
           "close": 1169.4,
           "inside_windows": [
-            "10D"
+            "10D",
+            "15D"
           ]
         },
         {
@@ -6069,7 +6245,8 @@
           "label": "SUSTAINED_EP",
           "close": 1139.35,
           "inside_windows": [
-            "10D"
+            "10D",
+            "15D"
           ]
         },
         {
@@ -6077,7 +6254,8 @@
           "label": "PERSISTENT_EP",
           "close": 1170.95,
           "inside_windows": [
-            "10D"
+            "10D",
+            "15D"
           ]
         }
       ]
@@ -6093,10 +6271,10 @@
           "anchor_close": 616.65
         },
         "15D": {
-          "bucket": null,
-          "bucket_label": null,
-          "anchor_date": null,
-          "anchor_close": null
+          "bucket": 5,
+          "bucket_label": "Sustained x1",
+          "anchor_date": "2026-09-03",
+          "anchor_close": 616.65
         },
         "20D": {
           "bucket": null,
@@ -6111,7 +6289,8 @@
           "label": "SUSTAINED_EP",
           "close": 616.65,
           "inside_windows": [
-            "10D"
+            "10D",
+            "15D"
           ]
         }
       ]
@@ -6127,10 +6306,10 @@
           "anchor_close": 408.65
         },
         "15D": {
-          "bucket": null,
-          "bucket_label": null,
-          "anchor_date": null,
-          "anchor_close": null
+          "bucket": 9,
+          "bucket_label": "Mixed",
+          "anchor_date": "2026-09-23",
+          "anchor_close": 424.05
         },
         "20D": {
           "bucket": null,
@@ -6145,7 +6324,8 @@
           "label": "SUSTAINED_EP",
           "close": 382.35,
           "inside_windows": [
-            "10D"
+            "10D",
+            "15D"
           ]
         },
         {
@@ -6153,7 +6333,8 @@
           "label": "PERSISTENT_EP",
           "close": 398.05,
           "inside_windows": [
-            "10D"
+            "10D",
+            "15D"
           ]
         },
         {
@@ -6161,7 +6342,8 @@
           "label": "PERSISTENT_EP",
           "close": 417.4,
           "inside_windows": [
-            "10D"
+            "10D",
+            "15D"
           ]
         },
         {
@@ -6169,20 +6351,25 @@
           "label": "SUSTAINED_EP",
           "close": 408.65,
           "inside_windows": [
-            "10D"
+            "10D",
+            "15D"
           ]
         },
         {
           "date": "2026-09-18",
           "label": "SUSTAINED_EP",
           "close": 418.1,
-          "inside_windows": []
+          "inside_windows": [
+            "15D"
+          ]
         },
         {
           "date": "2026-09-23",
           "label": "SUSTAINED_EP",
           "close": 424.05,
-          "inside_windows": []
+          "inside_windows": [
+            "15D"
+          ]
         }
       ]
     },
@@ -6197,10 +6384,10 @@
           "anchor_close": 231.18
         },
         "15D": {
-          "bucket": null,
-          "bucket_label": null,
-          "anchor_date": null,
-          "anchor_close": null
+          "bucket": 8,
+          "bucket_label": "Fizzle",
+          "anchor_date": "2026-09-09",
+          "anchor_close": 231.18
         },
         "20D": {
           "bucket": null,
@@ -6215,7 +6402,8 @@
           "label": "FIZZLE_OUT_EP",
           "close": 231.18,
           "inside_windows": [
-            "10D"
+            "10D",
+            "15D"
           ]
         }
       ]
@@ -6231,10 +6419,10 @@
           "anchor_close": 229.91
         },
         "15D": {
-          "bucket": null,
-          "bucket_label": null,
-          "anchor_date": null,
-          "anchor_close": null
+          "bucket": 8,
+          "bucket_label": "Fizzle",
+          "anchor_date": "2026-09-24",
+          "anchor_close": 180.4
         },
         "20D": {
           "bucket": null,
@@ -6249,7 +6437,16 @@
           "label": "PERSISTENT_EP",
           "close": 229.91,
           "inside_windows": [
-            "10D"
+            "10D",
+            "15D"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "label": "FIZZLE_OUT_EP",
+          "close": 180.4,
+          "inside_windows": [
+            "15D"
           ]
         }
       ]
@@ -6265,10 +6462,10 @@
           "anchor_close": 1389.7
         },
         "15D": {
-          "bucket": null,
-          "bucket_label": null,
-          "anchor_date": null,
-          "anchor_close": null
+          "bucket": 7,
+          "bucket_label": "Sustained x3+",
+          "anchor_date": "2026-09-08",
+          "anchor_close": 1389.7
         },
         "20D": {
           "bucket": null,
@@ -6283,7 +6480,8 @@
           "label": "SUSTAINED_EP",
           "close": 1325.1,
           "inside_windows": [
-            "10D"
+            "10D",
+            "15D"
           ]
         },
         {
@@ -6291,7 +6489,8 @@
           "label": "SUSTAINED_EP",
           "close": 1362.0,
           "inside_windows": [
-            "10D"
+            "10D",
+            "15D"
           ]
         },
         {
@@ -6299,7 +6498,8 @@
           "label": "SUSTAINED_EP",
           "close": 1389.7,
           "inside_windows": [
-            "10D"
+            "10D",
+            "15D"
           ]
         },
         {
@@ -6307,7 +6507,8 @@
           "label": "SUSTAINED_EP",
           "close": 1294.7,
           "inside_windows": [
-            "10D"
+            "10D",
+            "15D"
           ]
         }
       ]
@@ -6351,6 +6552,12 @@
           "inside_windows": [
             "10D"
           ]
+        },
+        {
+          "date": "2026-09-24",
+          "label": "SUSTAINED_EP",
+          "close": 107.18,
+          "inside_windows": []
         }
       ]
     },
@@ -6497,6 +6704,12 @@
           "date": "2026-09-23",
           "label": "FIZZLE_OUT_EP",
           "close": 616.45,
+          "inside_windows": []
+        },
+        {
+          "date": "2026-09-24",
+          "label": "FIZZLE_OUT_EP",
+          "close": 606.2,
           "inside_windows": []
         }
       ]
@@ -6667,6 +6880,12 @@
           "date": "2026-09-22",
           "label": "SUSTAINED_EP",
           "close": 1116.95,
+          "inside_windows": []
+        },
+        {
+          "date": "2026-09-24",
+          "label": "PERSISTENT_EP",
+          "close": 1203.85,
           "inside_windows": []
         }
       ]
@@ -6868,6 +7087,12 @@
           "label": "FIZZLE_OUT_EP",
           "close": 79.49,
           "inside_windows": []
+        },
+        {
+          "date": "2026-09-24",
+          "label": "FIZZLE_OUT_EP",
+          "close": 75.19,
+          "inside_windows": []
         }
       ]
     },
@@ -7003,6 +7228,12 @@
           "date": "2026-09-23",
           "label": "FIZZLE_OUT_EP",
           "close": 1009.9,
+          "inside_windows": []
+        },
+        {
+          "date": "2026-09-24",
+          "label": "FIZZLE_OUT_EP",
+          "close": 977.1,
           "inside_windows": []
         }
       ]
@@ -7217,6 +7448,12 @@
           "date": "2026-09-23",
           "label": "PERSISTENT_EP",
           "close": 506.35,
+          "inside_windows": []
+        },
+        {
+          "date": "2026-09-24",
+          "label": "PERSISTENT_EP",
+          "close": 529.25,
           "inside_windows": []
         }
       ]
@@ -8195,10 +8432,10 @@
       "new_ep_close": 206.06,
       "windows": {
         "10D": {
-          "bucket": null,
-          "bucket_label": null,
-          "anchor_date": null,
-          "anchor_close": null
+          "bucket": 7,
+          "bucket_label": "Sustained x3+",
+          "anchor_date": "2026-09-23",
+          "anchor_close": 203.32
         },
         "15D": {
           "bucket": null,
@@ -8218,19 +8455,25 @@
           "date": "2026-09-10",
           "label": "SUSTAINED_EP",
           "close": 211.65,
-          "inside_windows": []
+          "inside_windows": [
+            "10D"
+          ]
         },
         {
           "date": "2026-09-21",
           "label": "SUSTAINED_EP",
           "close": 203.89,
-          "inside_windows": []
+          "inside_windows": [
+            "10D"
+          ]
         },
         {
           "date": "2026-09-23",
           "label": "SUSTAINED_EP",
           "close": 203.32,
-          "inside_windows": []
+          "inside_windows": [
+            "10D"
+          ]
         }
       ]
     },
@@ -8239,10 +8482,10 @@
       "new_ep_close": 1313.3,
       "windows": {
         "10D": {
-          "bucket": null,
-          "bucket_label": null,
-          "anchor_date": null,
-          "anchor_close": null
+          "bucket": 2,
+          "bucket_label": "Persistent x1",
+          "anchor_date": "2026-09-10",
+          "anchor_close": 1369.0
         },
         "15D": {
           "bucket": null,
@@ -8262,7 +8505,9 @@
           "date": "2026-09-10",
           "label": "PERSISTENT_EP",
           "close": 1369.0,
-          "inside_windows": []
+          "inside_windows": [
+            "10D"
+          ]
         }
       ]
     },
@@ -8271,10 +8516,10 @@
       "new_ep_close": 783.3,
       "windows": {
         "10D": {
-          "bucket": null,
-          "bucket_label": null,
-          "anchor_date": null,
-          "anchor_close": null
+          "bucket": 8,
+          "bucket_label": "Fizzle",
+          "anchor_date": "2026-09-15",
+          "anchor_close": 723.55
         },
         "15D": {
           "bucket": null,
@@ -8294,7 +8539,9 @@
           "date": "2026-09-15",
           "label": "FIZZLE_OUT_EP",
           "close": 723.55,
-          "inside_windows": []
+          "inside_windows": [
+            "10D"
+          ]
         }
       ]
     },
@@ -8303,10 +8550,10 @@
       "new_ep_close": 312.9,
       "windows": {
         "10D": {
-          "bucket": null,
-          "bucket_label": null,
-          "anchor_date": null,
-          "anchor_close": null
+          "bucket": 3,
+          "bucket_label": "Persistent x2",
+          "anchor_date": "2026-09-16",
+          "anchor_close": 345.5
         },
         "15D": {
           "bucket": null,
@@ -8326,13 +8573,17 @@
           "date": "2026-09-11",
           "label": "PERSISTENT_EP",
           "close": 323.05,
-          "inside_windows": []
+          "inside_windows": [
+            "10D"
+          ]
         },
         {
           "date": "2026-09-16",
           "label": "PERSISTENT_EP",
           "close": 345.5,
-          "inside_windows": []
+          "inside_windows": [
+            "10D"
+          ]
         }
       ]
     },
@@ -8341,10 +8592,10 @@
       "new_ep_close": 169.59,
       "windows": {
         "10D": {
-          "bucket": null,
-          "bucket_label": null,
-          "anchor_date": null,
-          "anchor_close": null
+          "bucket": 5,
+          "bucket_label": "Sustained x1",
+          "anchor_date": "2026-09-11",
+          "anchor_close": 173.27
         },
         "15D": {
           "bucket": null,
@@ -8364,7 +8615,9 @@
           "date": "2026-09-11",
           "label": "SUSTAINED_EP",
           "close": 173.27,
-          "inside_windows": []
+          "inside_windows": [
+            "10D"
+          ]
         }
       ]
     },
@@ -8373,10 +8626,10 @@
       "new_ep_close": 189.46,
       "windows": {
         "10D": {
-          "bucket": null,
-          "bucket_label": null,
-          "anchor_date": null,
-          "anchor_close": null
+          "bucket": 9,
+          "bucket_label": "Mixed",
+          "anchor_date": "2026-09-18",
+          "anchor_close": 228.15
         },
         "15D": {
           "bucket": null,
@@ -8396,25 +8649,33 @@
           "date": "2026-09-10",
           "label": "SUSTAINED_EP",
           "close": 196.32,
-          "inside_windows": []
+          "inside_windows": [
+            "10D"
+          ]
         },
         {
           "date": "2026-09-11",
           "label": "SUSTAINED_EP",
           "close": 198.93,
-          "inside_windows": []
+          "inside_windows": [
+            "10D"
+          ]
         },
         {
           "date": "2026-09-17",
           "label": "PERSISTENT_EP",
           "close": 218.44,
-          "inside_windows": []
+          "inside_windows": [
+            "10D"
+          ]
         },
         {
           "date": "2026-09-18",
           "label": "PERSISTENT_EP",
           "close": 228.15,
-          "inside_windows": []
+          "inside_windows": [
+            "10D"
+          ]
         }
       ]
     },
@@ -8920,6 +9181,12 @@
           "label": "PERSISTENT_EP",
           "close": 642.3,
           "inside_windows": []
+        },
+        {
+          "date": "2026-09-24",
+          "label": "SUSTAINED_EP",
+          "close": 659.4,
+          "inside_windows": []
         }
       ]
     },
@@ -9294,6 +9561,12 @@
           "label": "SUSTAINED_EP",
           "close": 767.15,
           "inside_windows": []
+        },
+        {
+          "date": "2026-09-24",
+          "label": "SUSTAINED_EP",
+          "close": 775.3,
+          "inside_windows": []
         }
       ]
     },
@@ -9343,6 +9616,12 @@
           "date": "2026-09-23",
           "label": "FIZZLE_OUT_EP",
           "close": 669.9,
+          "inside_windows": []
+        },
+        {
+          "date": "2026-09-24",
+          "label": "FIZZLE_OUT_EP",
+          "close": 652.2,
           "inside_windows": []
         }
       ]
@@ -9666,6 +9945,12 @@
           "date": "2026-09-23",
           "label": "FIZZLE_OUT_EP",
           "close": 97.56,
+          "inside_windows": []
+        },
+        {
+          "date": "2026-09-24",
+          "label": "FIZZLE_OUT_EP",
+          "close": 96.78,
           "inside_windows": []
         }
       ]
@@ -10194,6 +10479,12 @@
           "label": "PERSISTENT_EP",
           "close": 742.35,
           "inside_windows": []
+        },
+        {
+          "date": "2026-09-24",
+          "label": "SUSTAINED_EP",
+          "close": 756.2,
+          "inside_windows": []
         }
       ]
     },
@@ -10429,7 +10720,14 @@
           "anchor_close": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "date": "2026-09-24",
+          "label": "PERSISTENT_EP",
+          "close": 512.7,
+          "inside_windows": []
+        }
+      ]
     },
     "TRANSRAILL": {
       "new_ep_date": "2026-09-22",
@@ -10586,7 +10884,14 @@
           "anchor_close": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "date": "2026-09-24",
+          "label": "PERSISTENT_EP",
+          "close": 1510.4,
+          "inside_windows": []
+        }
+      ]
     },
     "GNA": {
       "new_ep_date": "2026-09-23",
@@ -10611,7 +10916,14 @@
           "anchor_close": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "date": "2026-09-24",
+          "label": "SUSTAINED_EP",
+          "close": 620.45,
+          "inside_windows": []
+        }
+      ]
     },
     "INNOVACAP": {
       "new_ep_date": "2026-09-23",
@@ -10686,7 +10998,14 @@
           "anchor_close": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "date": "2026-09-24",
+          "label": "PERSISTENT_EP",
+          "close": 708.3,
+          "inside_windows": []
+        }
+      ]
     },
     "RPGLIFE": {
       "new_ep_date": "2026-09-23",
@@ -10766,6 +11085,206 @@
     "TEXINFRA": {
       "new_ep_date": "2026-09-23",
       "new_ep_close": 123.47,
+      "windows": {
+        "10D": {
+          "bucket": null,
+          "bucket_label": null,
+          "anchor_date": null,
+          "anchor_close": null
+        },
+        "15D": {
+          "bucket": null,
+          "bucket_label": null,
+          "anchor_date": null,
+          "anchor_close": null
+        },
+        "20D": {
+          "bucket": null,
+          "bucket_label": null,
+          "anchor_date": null,
+          "anchor_close": null
+        }
+      },
+      "events": []
+    },
+    "ABDL": {
+      "new_ep_date": "2026-09-24",
+      "new_ep_close": 712.15,
+      "windows": {
+        "10D": {
+          "bucket": null,
+          "bucket_label": null,
+          "anchor_date": null,
+          "anchor_close": null
+        },
+        "15D": {
+          "bucket": null,
+          "bucket_label": null,
+          "anchor_date": null,
+          "anchor_close": null
+        },
+        "20D": {
+          "bucket": null,
+          "bucket_label": null,
+          "anchor_date": null,
+          "anchor_close": null
+        }
+      },
+      "events": []
+    },
+    "AVANTEL": {
+      "new_ep_date": "2026-09-24",
+      "new_ep_close": 155.34,
+      "windows": {
+        "10D": {
+          "bucket": null,
+          "bucket_label": null,
+          "anchor_date": null,
+          "anchor_close": null
+        },
+        "15D": {
+          "bucket": null,
+          "bucket_label": null,
+          "anchor_date": null,
+          "anchor_close": null
+        },
+        "20D": {
+          "bucket": null,
+          "bucket_label": null,
+          "anchor_date": null,
+          "anchor_close": null
+        }
+      },
+      "events": []
+    },
+    "GREAVESCOT": {
+      "new_ep_date": "2026-09-24",
+      "new_ep_close": 221.83,
+      "windows": {
+        "10D": {
+          "bucket": null,
+          "bucket_label": null,
+          "anchor_date": null,
+          "anchor_close": null
+        },
+        "15D": {
+          "bucket": null,
+          "bucket_label": null,
+          "anchor_date": null,
+          "anchor_close": null
+        },
+        "20D": {
+          "bucket": null,
+          "bucket_label": null,
+          "anchor_date": null,
+          "anchor_close": null
+        }
+      },
+      "events": []
+    },
+    "JAGSNPHARM": {
+      "new_ep_date": "2026-09-24",
+      "new_ep_close": 243.97,
+      "windows": {
+        "10D": {
+          "bucket": null,
+          "bucket_label": null,
+          "anchor_date": null,
+          "anchor_close": null
+        },
+        "15D": {
+          "bucket": null,
+          "bucket_label": null,
+          "anchor_date": null,
+          "anchor_close": null
+        },
+        "20D": {
+          "bucket": null,
+          "bucket_label": null,
+          "anchor_date": null,
+          "anchor_close": null
+        }
+      },
+      "events": []
+    },
+    "JAMNAAUTO": {
+      "new_ep_date": "2026-09-24",
+      "new_ep_close": 138.39,
+      "windows": {
+        "10D": {
+          "bucket": null,
+          "bucket_label": null,
+          "anchor_date": null,
+          "anchor_close": null
+        },
+        "15D": {
+          "bucket": null,
+          "bucket_label": null,
+          "anchor_date": null,
+          "anchor_close": null
+        },
+        "20D": {
+          "bucket": null,
+          "bucket_label": null,
+          "anchor_date": null,
+          "anchor_close": null
+        }
+      },
+      "events": []
+    },
+    "KSCL": {
+      "new_ep_date": "2026-09-24",
+      "new_ep_close": 783.85,
+      "windows": {
+        "10D": {
+          "bucket": null,
+          "bucket_label": null,
+          "anchor_date": null,
+          "anchor_close": null
+        },
+        "15D": {
+          "bucket": null,
+          "bucket_label": null,
+          "anchor_date": null,
+          "anchor_close": null
+        },
+        "20D": {
+          "bucket": null,
+          "bucket_label": null,
+          "anchor_date": null,
+          "anchor_close": null
+        }
+      },
+      "events": []
+    },
+    "REMSONSIND": {
+      "new_ep_date": "2026-09-24",
+      "new_ep_close": 111.12,
+      "windows": {
+        "10D": {
+          "bucket": null,
+          "bucket_label": null,
+          "anchor_date": null,
+          "anchor_close": null
+        },
+        "15D": {
+          "bucket": null,
+          "bucket_label": null,
+          "anchor_date": null,
+          "anchor_close": null
+        },
+        "20D": {
+          "bucket": null,
+          "bucket_label": null,
+          "anchor_date": null,
+          "anchor_close": null
+        }
+      },
+      "events": []
+    },
+    "SEDEMAC": {
+      "new_ep_date": "2026-09-24",
+      "new_ep_close": 3313.6,
       "windows": {
         "10D": {
           "bucket": null,
