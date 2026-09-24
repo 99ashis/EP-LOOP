@@ -34,6 +34,7 @@ from src.report.json_report import build_and_save_site_data
 from src.enrichment.results_calendar import enrich_with_results_context
 from src.efficacy.pipeline import run_efficacy_daily
 from src.efficacy.track_record import save_track_record
+from src.efficacy.audit import save_audit
 
 logger = logging.getLogger(__name__)
 
@@ -98,6 +99,9 @@ def run_for_date(trade_date: date) -> int:
 
     save_track_record()
     logger.info("Wrote track record: docs/data/track_record.json")
+
+    save_audit()
+    logger.info("Wrote efficacy audit: docs/data/efficacy_audit.json")
 
     # --- Research trigger loop ---
     queue = build_research_queue(daily_output, trade_date)
