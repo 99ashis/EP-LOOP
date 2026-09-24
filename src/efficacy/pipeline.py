@@ -57,8 +57,19 @@ def run_efficacy_daily(daily_output: pd.DataFrame, as_of: date) -> None:
                 if offset is None or offset < window_sessions:
                     continue  # this window isn't ready yet — other window may still proceed below
 
+                # Capped to exactly window_sessions after NEW_EP_DATE — NOT
+                # to `as_of`. If this runs "late" relative to when a window
+                # should have closed (e.g. a catch-up run classifying
+                # already-old events for a newly-added window), events_log
+                # already has weeks of history sitting past the window
+                # boundary — without this cap, a later Persistent/Sustained/
+                # Fizzle that happened AFTER the window truly closed would
+                # incorrectly leak into this classification.
+                new_ep_idx = sorted_dates.index(pd.Timestamp(row["NEW_EP_DATE"]))
+                window_end_date = sorted_dates[new_ep_idx + window_sessions]
+
                 window_events = events_log.events_for_symbol_between(
-                    row["SYMBOL"], row["NEW_EP_DATE"] + pd.Timedelta(days=1), as_of,
+                    row["SYMBOL"], row["NEW_EP_DATE"] + pd.Timedelta(days=1), window_end_date,
                 )
                 window_events = window_events[window_events["LABEL"].isin(
                     [config.STATUS_PERSISTENT, config.STATUS_SUSTAINED, config.STATUS_FIZZLE]
