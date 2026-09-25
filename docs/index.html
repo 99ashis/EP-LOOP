@@ -171,12 +171,30 @@
   .audit-windows{display:flex; gap:10px; flex-wrap:wrap; margin:16px 0;}
   .audit-window-card{
     background:var(--surface-2); border:1px solid var(--hairline); border-radius:12px;
-    padding:12px 14px; flex:1; min-width:140px;
+    padding:12px 14px; flex:1; min-width:220px;
   }
   .audit-window-card .wname{font-family:'Space Mono',monospace; font-size:11px; color:var(--ink-muted); text-transform:uppercase; margin-bottom:6px;}
   .audit-window-card .wbucket{font-family:'Manrope',sans-serif; font-weight:700; font-size:14px;}
   .audit-window-card .wbucket.pending{color:var(--ink-muted); font-weight:400; font-style:italic;}
   .audit-window-card .wanchor{font-size:11px; color:var(--ink-muted); margin-top:4px; font-family:'Space Mono',monospace;}
+  .audit-returns{margin-top:10px; padding-top:10px; border-top:1px dashed var(--hairline);}
+  .audit-return-row{padding:6px 0;}
+  .audit-return-row:not(:last-child){border-bottom:1px solid var(--hairline);}
+  .audit-return-head{
+    display:flex; justify-content:space-between; align-items:baseline;
+    font-family:'Space Mono',monospace; font-size:11px; color:var(--ink-muted); margin-bottom:3px;
+  }
+  .audit-return-head .horizon-label{text-transform:uppercase; letter-spacing:0.04em;}
+  .audit-return-head .stock-return{font-family:'Manrope',sans-serif; font-weight:700; font-size:13px;}
+  .audit-return-head .stock-return.up{color:var(--emerald);}
+  .audit-return-head .stock-return.down{color:var(--coral);}
+  .audit-bench-line{
+    display:flex; justify-content:space-between; font-size:11px; color:var(--ink-muted);
+    font-family:'Space Mono',monospace; padding:1px 0;
+  }
+  .audit-bench-line .excess.up{color:var(--emerald);}
+  .audit-bench-line .excess.down{color:var(--coral);}
+  .audit-return-pending{font-size:11px; color:var(--ink-muted); font-style:italic;}
   .audit-timeline-title{font-family:'Space Mono',monospace; font-size:11px; letter-spacing:0.06em; text-transform:uppercase; color:var(--ink-muted); margin:20px 0 10px;}
   .audit-event{
     display:flex; justify-content:space-between; align-items:center; gap:10px;
@@ -685,6 +703,55 @@ async function loadAudit(){
   }
 }
 
+// A stock's own matured return/excess-return numbers, read straight off its
+// tracker row (see src/efficacy/audit.py). Nothing here is blended across
+// stocks — this is what makes a specific number like "RAYMOND's 10D/10-session
+// excess return" checkable instead of inferred from a Track Record cohort.
+function renderAuditReturns(wd){
+  if(!wd.returns) return '';
+  const horizons = Object.keys(wd.returns).sort((a,b) => Number(a) - Number(b));
+  if(horizons.length === 0) return '';
+
+  const rows = horizons.map(h => {
+    const r = wd.returns[h];
+    if(!r.matured){
+      const expected = r.expected_maturity_date
+        ? ` — matures ~${r.expected_maturity_date}`
+        : '';
+      return `<div class="audit-return-row">
+          <div class="audit-return-head">
+            <span class="horizon-label">${h}-session</span>
+            <span class="audit-return-pending">Pending${expected}</span>
+          </div>
+        </div>`;
+    }
+    const stockCls = r.stock_return >= 0 ? 'up' : 'down';
+    const stockSign = r.stock_return >= 0 ? '+' : '';
+    const benchLines = Object.entries(r.benchmarks).map(([key, b]) => {
+      if(b.benchmark_return === null || b.excess_return === null){
+        return `<div class="audit-bench-line"><span>${b.label}</span><span>—</span></div>`;
+      }
+      const bSign = b.benchmark_return >= 0 ? '+' : '';
+      const eSign = b.excess_return >= 0 ? '+' : '';
+      const eCls = b.excess_return >= 0 ? 'up' : 'down';
+      return `<div class="audit-bench-line">
+          <span>vs ${b.label} (${bSign}${b.benchmark_return.toFixed(2)}%)</span>
+          <span class="excess ${eCls}">${eSign}${b.excess_return.toFixed(2)}% excess</span>
+        </div>`;
+    }).join('');
+
+    return `<div class="audit-return-row">
+        <div class="audit-return-head">
+          <span class="horizon-label">${h}-session</span>
+          <span class="stock-return ${stockCls}">${stockSign}${r.stock_return.toFixed(2)}%</span>
+        </div>
+        ${benchLines}
+      </div>`;
+  }).join('');
+
+  return `<div class="audit-returns">${rows}</div>`;
+}
+
 function renderAuditResult(query){
   const resultEl = document.getElementById('auditResult');
   if(!query){
@@ -715,6 +782,7 @@ function renderAuditResult(query){
           <div class="wname">${w} window</div>
           <div class="wbucket">${wd.bucket} — ${wd.bucket_label}</div>
           <div class="wanchor">Anchor: ${wd.anchor_date} @ ${wd.anchor_close}</div>
+          ${renderAuditReturns(wd)}
         </div>`;
     } else {
       html += `<div class="audit-window-card">
