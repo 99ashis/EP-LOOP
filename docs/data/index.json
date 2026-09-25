@@ -264,5 +264,12 @@
     "persistent": 5,
     "retro": 0,
     "sustained": 15
+  },
+  "2026-09-25": {
+    "fizzle": 62,
+    "new": 4,
+    "persistent": 20,
+    "retro": 0,
+    "sustained": 56
   }
 }
