@@ -169,7 +169,7 @@ def build_audit(tracker: pd.DataFrame | None = None, events: pd.DataFrame | None
     if tracker is None:
         tracker = tracker_store.load_tracker()
     if events is None:
-        events = events_log.load_events()
+        events = events_log.load_events_log()
 
     window_keys = _detect_windows(tracker)
     window_sessions = {w: config.EFFICACY_CLASSIFICATION_WINDOWS[w] for w in window_keys}
