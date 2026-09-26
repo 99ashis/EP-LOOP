@@ -9,7 +9,11 @@ Pipeline:
   4. Persist the updated anchor tracking state + write today's labeled-only
      EP snapshot output file
   5. Build the research queue from label changes (fundamental/news research
-     itself runs elsewhere — this repo only publishes the queue)
+     itself runs elsewhere — this repo only publishes the queue). Two
+     rules feed this queue now: today's same-day Persistent/Sustained
+     count trigger, and any 5D/10D efficacy window that resolved today to
+     a repeat-confirmed bucket (Persistent x2, Persistent x3+, Sustained
+     x3+) — see src/research/trigger.py for the full rationale.
 
 Usage:
     python -m src.run_daily                      # run for today
@@ -94,8 +98,8 @@ def run_for_date(trade_date: date) -> int:
     build_and_save_site_data(daily_output, trade_date)
     logger.info("Wrote site data: docs/data/%s.json + updated index.json", trade_date.isoformat())
 
-    run_efficacy_daily(daily_output, trade_date)
-    logger.info("Efficacy study updated for %s.", trade_date)
+    resolved_windows = run_efficacy_daily(daily_output, trade_date)
+    logger.info("Efficacy study updated for %s (%d window(s) resolved).", trade_date, len(resolved_windows))
 
     save_track_record()
     logger.info("Wrote track record: docs/data/track_record.json")
@@ -104,7 +108,7 @@ def run_for_date(trade_date: date) -> int:
     logger.info("Wrote efficacy audit: docs/data/efficacy_audit.json")
 
     # --- Research trigger loop ---
-    queue = build_research_queue(daily_output, trade_date)
+    queue = build_research_queue(daily_output, trade_date, resolved_windows=resolved_windows)
     save_research_queue(queue, trade_date)
     logger.info("Research queue built for %s: %d symbol(s).", trade_date, len(queue))
 
