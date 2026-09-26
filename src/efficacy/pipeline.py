@@ -1,9 +1,9 @@
 """
 Daily orchestration for the efficacy study: records new NEW_EP events, then
-for EACH configured classification window (10D, 20D — see config.py)
+for EACH configured classification window (5D/10D/15D/20D — see config.py)
 independently classifies events whose window has matured and computes
-their matured excess returns. Same event, same row, two parallel
-classifications — not two separate tracker tables. Called once a day from
+their matured excess returns. Same event, same row, parallel
+classifications — not separate tracker tables. Called once a day from
 run_daily.py, entirely separate from — and after — the core EP
 classification. Never touches src/ep/.
 """
@@ -83,6 +83,18 @@ def run_efficacy_daily(daily_output: pd.DataFrame, as_of: date) -> None:
 
             # --- Step 2: compute matured excess returns for each horizon, for THIS window ---
             if pd.isna(row[anchor_date_col]):
+                continue
+
+            # A Fizzle classification means the episode failed within this
+            # window — there's no "gain" to measure, and showing a return
+            # for it would mix failed episodes into cohorts meant to answer
+            # "how did survivors do." So returns are deliberately never
+            # computed for the Fizzle bucket, in any window. The columns
+            # stay permanently null, which makes Track Record report N=0
+            # for bucket 8 automatically (see track_record.py's
+            # `_stats_for_group`, which filters on notna()) — no changes
+            # needed there.
+            if row[bucket_col] == config.BUCKET_FIZZLE:
                 continue
 
             for horizon in config.EFFICACY_RETURN_HORIZONS:
