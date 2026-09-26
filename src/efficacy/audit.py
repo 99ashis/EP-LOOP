@@ -3,14 +3,14 @@ Per-stock audit view for the efficacy study.
 
 Purpose: let a person look up ONE symbol and see, in one place, everything
 the system has decided about it — which window(s) it's classified under,
-what bucket each window landed on, and (new in this version) the stock's
-OWN matured return and excess-return numbers for every horizon/benchmark
-combination the pipeline has computed so far. Before this, the only place
-those numbers existed was blended into Track Record's monthly cohort
-aggregates, which made it impossible to check a single stock's number
-without guessing which cohort row it fell into. This view removes that
-guesswork: every figure here is read directly off that stock's own tracker
-row, nothing is blended or inferred.
+what bucket each window landed on, and the stock's OWN matured return and
+excess-return numbers for every horizon/benchmark combination the pipeline
+has computed so far. Before this, the only place those numbers existed was
+blended into Track Record's monthly cohort aggregates, which made it
+impossible to check a single stock's number without guessing which cohort
+row it fell into. This view removes that guesswork: every figure here is
+read directly off that stock's own tracker row, nothing is blended or
+inferred.
 
 Design note on "matured": a window field is only ever written by
 pipeline.py once enough trading sessions have actually elapsed — so
@@ -19,6 +19,13 @@ compute an expected maturity date (anchor_date + horizon trading sessions)
 for anything still pending, purely as a courtesy for the UI; if the trading
 calendar isn't available for some reason, we just omit that field rather
 than fail the whole audit build.
+
+Design note on "excluded": a Fizzle bucket (8) never gets return columns
+populated by pipeline.py, in any window — the episode failed within that
+window, so there's no "gain" to measure. Rather than showing "Pending"
+forever (which would wrongly suggest the numbers are just running late),
+every horizon under a Fizzle-bucket window is explicitly flagged
+`excluded: true` with a reason.
 """
 from __future__ import annotations
 
@@ -83,12 +90,28 @@ def _expected_maturity_date(anchor_date, horizon: int) -> str | None:
         return None
 
 
-def _build_window_returns(row: pd.Series, window_key: str) -> dict[str, Any]:
+def _build_window_returns(row: pd.Series, window_key: str, bucket: int | None) -> dict[str, Any]:
     anchor_date = row.get(f"{window_key}__ANCHOR_DATE")
     has_anchor = anchor_date is not None and not pd.isna(anchor_date)
 
+    # A Fizzle bucket never gets returns computed (see pipeline.py) — the
+    # episode failed within this window, so there's no "gain" to measure.
+    # Flag it explicitly rather than showing "Pending" forever, which would
+    # wrongly imply the numbers are just running late.
+    is_fizzle = bucket == config.BUCKET_FIZZLE
+
     returns: dict[str, Any] = {}
     for horizon in config.EFFICACY_RETURN_HORIZONS:
+        if is_fizzle:
+            returns[str(horizon)] = {
+                "matured": False,
+                "excluded": True,
+                "reason": "Fizzled in this window — returns are not tracked",
+                "stock_return": None,
+                "benchmarks": {},
+            }
+            continue
+
         ret_col = f"{window_key}__RETURN_{horizon}"
         stock_return = _num(row.get(ret_col)) if ret_col in row else None
         matured = stock_return is not None
@@ -105,6 +128,7 @@ def _build_window_returns(row: pd.Series, window_key: str) -> dict[str, Any]:
 
         entry: dict[str, Any] = {
             "matured": matured,
+            "excluded": False,
             "stock_return": stock_return,
             "benchmarks": benchmarks,
         }
@@ -127,7 +151,7 @@ def _build_stock_windows(row: pd.Series, window_keys: list[str]) -> dict[str, An
             "bucket_label": BUCKET_LABELS.get(bucket) if bucket is not None else None,
             "anchor_date": _iso(row.get(f"{window_key}__ANCHOR_DATE")),
             "anchor_close": _num(row.get(f"{window_key}__ANCHOR_CLOSE")),
-            "returns": _build_window_returns(row, window_key),
+            "returns": _build_window_returns(row, window_key, bucket),
         }
     return windows
 
