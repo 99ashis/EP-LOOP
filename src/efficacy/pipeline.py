@@ -6,6 +6,14 @@ their matured excess returns. Same event, same row, parallel
 classifications — not separate tracker tables. Called once a day from
 run_daily.py, entirely separate from — and after — the core EP
 classification. Never touches src/ep/.
+
+Also returns every window that resolved (got its bucket assigned) during
+THIS run, as a small DataFrame — src/research/trigger.py uses this to
+additionally queue fundamental research for symbols whose 5D or 10D
+window just landed on a repeat-confirmed bucket (Persistent x2, Persistent
+x3+, Sustained x3+), alongside the existing same-day count-based trigger.
+This return value is new; nothing about the classification/return logic
+itself changed.
 """
 from __future__ import annotations
 
@@ -22,6 +30,8 @@ from src.efficacy.classifier import classify
 
 logger = logging.getLogger(__name__)
 
+RESOLVED_WINDOW_COLUMNS = ["SYMBOL", "WINDOW_KEY", "BUCKET", "ANCHOR_DATE", "ANCHOR_CLOSE"]
+
 
 def _session_offset(sorted_dates: list[pd.Timestamp], d1, d2) -> int | None:
     """How many trading sessions have elapsed from d1 to d2 (0 = same day)."""
@@ -32,16 +42,20 @@ def _session_offset(sorted_dates: list[pd.Timestamp], d1, d2) -> int | None:
         return None
 
 
-def run_efficacy_daily(daily_output: pd.DataFrame, as_of: date) -> None:
+def run_efficacy_daily(daily_output: pd.DataFrame, as_of: date) -> pd.DataFrame:
+    """Returns a DataFrame of every window that resolved (got its bucket
+    assigned for the first time) during this run — empty if none did.
+    See RESOLVED_WINDOW_COLUMNS for its shape."""
     events_log.append_daily_events(daily_output, as_of)
     tracker_store.register_new_events(daily_output, as_of)
 
     tracker = tracker_store.load_tracker()
     if tracker.empty:
-        return
+        return pd.DataFrame(columns=RESOLVED_WINDOW_COLUMNS)
 
     sorted_dates = price_store.list_trading_sessions()
     changed = False
+    resolved_windows: list[dict] = []
 
     for idx in tracker.index:
         row = tracker.loc[idx]
@@ -80,6 +94,14 @@ def run_efficacy_daily(daily_output: pd.DataFrame, as_of: date) -> None:
                 tracker.at[idx, anchor_close_col] = result.anchor_close
                 changed = True
                 row = tracker.loc[idx]  # refresh so the returns step below sees the new anchor
+
+                resolved_windows.append({
+                    "SYMBOL": row["SYMBOL"],
+                    "WINDOW_KEY": window_key,
+                    "BUCKET": result.bucket,
+                    "ANCHOR_DATE": result.anchor_date,
+                    "ANCHOR_CLOSE": result.anchor_close,
+                })
 
             # --- Step 2: compute matured excess returns for each horizon, for THIS window ---
             if pd.isna(row[anchor_date_col]):
@@ -139,3 +161,7 @@ def run_efficacy_daily(daily_output: pd.DataFrame, as_of: date) -> None:
     if changed:
         tracker_store.save_tracker(tracker)
         logger.info("Efficacy tracker updated: %d events tracked.", len(tracker))
+
+    if resolved_windows:
+        logger.info("Windows resolved this run: %d.", len(resolved_windows))
+    return pd.DataFrame(resolved_windows, columns=RESOLVED_WINDOW_COLUMNS)
