@@ -159,11 +159,12 @@ EFFICACY_TRACKER_PATH = EFFICACY_DIR / "new_ep_tracker.parquet"     # one row pe
 EFFICACY_DIR.mkdir(parents=True, exist_ok=True)
 
 EFFICACY_CLASSIFICATION_WINDOWS = {
+    "5D": 5,     # short survival filter — same 9-bucket logic, tighter patience
     "10D": 10,   # the original window — kept exactly as-is, existing data migrates into this
-    "15D": 15,   # confirmed addition
-    "20D": 20,   # confirmed addition
+    "15D": 15,
+    "20D": 20,
 }
-EFFICACY_RETURN_HORIZONS = [10, 20, 30]        # trading sessions from the anchor close, for each bucket
+EFFICACY_RETURN_HORIZONS = [5, 10, 20, 30]        # trading sessions from the anchor close, for each bucket
 
 # The 9 buckets — see conversation for full reasoning behind each.
 BUCKET_PURE_NEW = 1
