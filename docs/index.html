@@ -714,6 +714,14 @@ function renderAuditReturns(wd){
 
   const rows = horizons.map(h => {
     const r = wd.returns[h];
+    if(r.excluded){
+      return `<div class="audit-return-row">
+          <div class="audit-return-head">
+            <span class="horizon-label">${h}-session</span>
+            <span class="audit-return-pending">${r.reason || 'Not tracked'}</span>
+          </div>
+        </div>`;
+    }
     if(!r.matured){
       const expected = r.expected_maturity_date
         ? ` — matures ~${r.expected_maturity_date}`
