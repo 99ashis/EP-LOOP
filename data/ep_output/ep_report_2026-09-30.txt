@@ -1,0 +1,168 @@
+EP DAILY ALERT — 30-Sep-26
+============================================================
+
+NEW EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE    RESULTS                               
+-----------------------------------------------------------------------------------
+AXISCADES         +7.92%      30-Sep-26      No nearby results                     
+IRCON             +14.27%     30-Sep-26      No nearby results                     
+JWL               +6.05%      30-Sep-26      No nearby results                     
+RITES             +8.70%      30-Sep-26      No nearby results                     
+TVSELECT          +11.18%     30-Sep-26      No nearby results                     
+VESUVIUS          +6.00%      30-Sep-26      No nearby results                     
+
+PERSISTENT EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE    PERSISTENT COUNT  RESULTS                               
+-----------------------------------------------------------------------------------------------------
+ALICON            +20.00%     12-Aug-26      1                 No nearby results                     
+CYIENT            +4.30%      25-Aug-26      4                 No nearby results                     
+SUNTV             +9.35%      22-Sep-26      3                 No nearby results                     
+MUKANDLTD         +4.43%      23-Sep-26      2                 No nearby results                     
+DPABHUSHAN        +7.38%      29-Sep-26      1                 No nearby results                     
+
+RETRO NEW EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE  
+-------------------------------------------
+None today
+
+SUSTAINED EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE    SUSTAINED COUNT   RESULTS                               
+-----------------------------------------------------------------------------------------------------
+ASKAUTOLTD        +3.27%      03-Aug-26      8                 No nearby results                     
+NOCIL             +1.06%      03-Aug-26      7                 No nearby results                     
+ROSSTECH          +1.45%      03-Aug-26      9                 No nearby results                     
+ALIVUS            +1.66%      04-Aug-26      10                No nearby results                     
+ATHERENERG        +1.28%      04-Aug-26      5                 No nearby results                     
+UNIMECH           +2.93%      04-Aug-26      9                 No nearby results                     
+VARROC            +3.05%      05-Aug-26      12                No nearby results                     
+BEML              +1.31%      10-Aug-26      10                No nearby results                     
+COMSYN            +2.96%      10-Aug-26      7                 No nearby results                     
+FINCABLES         +1.03%      11-Aug-26      8                 No nearby results                     
+LUMAXTECH         +3.23%      11-Aug-26      7                 No nearby results                     
+KENNAMET          +2.26%      12-Aug-26      11                No nearby results                     
+RSL               +1.76%      13-Aug-26      10                No nearby results                     
+ELGIEQUIP         +2.35%      14-Aug-26      7                 No nearby results                     
+GKSL              +1.80%      17-Aug-26      13                No nearby results                     
+MAXESTATES        +3.14%      17-Aug-26      13                No nearby results                     
+UFLEX             +1.57%      17-Aug-26      7                 No nearby results                     
+ORIENTHOT         +2.17%      19-Aug-26      9                 No nearby results                     
+PARAGMILK         +1.15%      21-Aug-26      9                 No nearby results                     
+SHREEPUSHK        +2.25%      24-Aug-26      6                 No nearby results                     
+AYMSYNTEX         +2.17%      31-Aug-26      7                 No nearby results                     
+SSWL              +1.86%      01-Sep-26      8                 No nearby results                     
+RAYMOND           +2.30%      03-Sep-26      2                 No nearby results                     
+MAHSEAMLES        +2.19%      04-Sep-26      5                 No nearby results                     
+SIGNPOST          +1.61%      07-Sep-26      5                 No nearby results                     
+ASTEC             +3.81%      08-Sep-26      2                 No nearby results                     
+TEGA              +2.24%      17-Sep-26      4                 No nearby results                     
+JSWINFRA          +1.89%      18-Sep-26      1                 No nearby results                     
+SAMBHV            +1.64%      18-Sep-26      1                 No nearby results                     
+AGI               +1.45%      21-Sep-26      2                 No nearby results                     
+JAINREC           +1.63%      22-Sep-26      2                 No nearby results                     
+STEELCAS          +1.45%      22-Sep-26      2                 No nearby results                     
+AVANTEL           +3.24%      24-Sep-26      1                 No nearby results                     
+JAGSNPHARM        +1.29%      24-Sep-26      1                 No nearby results                     
+REMSONSIND        +2.12%      24-Sep-26      2                 No nearby results                     
+AEQUS             +2.89%      28-Sep-26      1                 No nearby results                     
+AZAD              +1.68%      29-Sep-26      1                 No nearby results                     
+
+FIZZLE OUT EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE  
+-------------------------------------------
+ATULAUTO          +2.14%      03-Aug-26    
+BLUEDART          +1.16%      03-Aug-26    
+KIOCL             -1.13%      03-Aug-26    
+ALKYLAMINE        -1.10%      04-Aug-26    
+BASF              +0.36%      04-Aug-26    
+KEI               -0.13%      04-Aug-26    
+CELLO             -2.34%      05-Aug-26    
+AGARWALEYE        -3.22%      05-Aug-26    
+FIEMIND           -2.26%      05-Aug-26    
+HINDCOPPER        -0.36%      05-Aug-26    
+KANSAINER         -1.84%      05-Aug-26    
+OMNI              +0.65%      05-Aug-26    
+PTC               -0.12%      05-Aug-26    
+BAJAJELEC         -2.08%      06-Aug-26    
+IGARASHI          -1.98%      06-Aug-26    
+MAZDOCK           +1.24%      06-Aug-26    
+TATATECH          +3.02%      06-Aug-26    
+GOCLCORP          -0.33%      07-Aug-26    
+INDRAMEDCO        -1.65%      07-Aug-26    
+PGIL              -0.64%      07-Aug-26    
+DIAMONDYD         +5.46%      07-Aug-26    
+TRAVELFOOD        +0.31%      07-Aug-26    
+GARUDA            -1.07%      10-Aug-26    
+RAMCOIND          -0.81%      10-Aug-26    
+THOMASCOTT        +6.79%      10-Aug-26    
+ARE&M             -1.53%      11-Aug-26    
+GODAVARIB         -1.89%      11-Aug-26    
+POLYMED           +1.77%      11-Aug-26    
+YATRA             -1.46%      11-Aug-26    
+ORISSAMINE        -0.59%      12-Aug-26    
+TDPOWERSYS        +1.12%      12-Aug-26    
+ASTRAL            -0.33%      13-Aug-26    
+GPIL              +0.45%      13-Aug-26    
+INGERRAND         -1.22%      13-Aug-26    
+APEX              -1.92%      14-Aug-26    
+DREDGECORP        -1.36%      14-Aug-26    
+HAPPSTMNDS        +0.62%      14-Aug-26    
+CAMLINFINE        -0.02%      17-Aug-26    
+JYOTHYLAB         +1.32%      17-Aug-26    
+INDIAGLYCO        +0.95%      18-Aug-26    
+MMFL              -2.27%      18-Aug-26    
+TIINDIA           -1.57%      18-Aug-26    
+EXCELINDUS        +2.21%      19-Aug-26    
+GLAXO             -0.52%      19-Aug-26    
+GOPAL             -0.81%      19-Aug-26    
+EPL               +1.69%      20-Aug-26    
+MAGADSUGAR        -1.02%      20-Aug-26    
+VERANDA           -1.15%      20-Aug-26    
+IIFL              -1.11%      21-Aug-26    
+JBMA              -1.18%      21-Aug-26    
+NCC               +0.48%      21-Aug-26    
+RIIL              +0.04%      21-Aug-26    
+GUJALKALI         -1.32%      24-Aug-26    
+KRBL              -1.19%      24-Aug-26    
+LTFOODS           -0.60%      24-Aug-26    
+VMM               -3.16%      24-Aug-26    
+APOLLOPIPE        -1.14%      25-Aug-26    
+FACT              +0.10%      25-Aug-26    
+FMGOETZE          -3.14%      25-Aug-26    
+QUESS             -2.09%      26-Aug-26    
+SBFC              +1.21%      26-Aug-26    
+WEL               +0.08%      26-Aug-26    
+BBTC              +0.18%      27-Aug-26    
+BOMDYEING         -1.01%      27-Aug-26    
+INFOBEAN          -0.19%      28-Aug-26    
+MASTEK            +2.59%      28-Aug-26    
+OMAXE             +0.26%      28-Aug-26    
+TEJASNET          -0.86%      28-Aug-26    
+ASHOKA            -0.72%      31-Aug-26    
+DYCL              +0.75%      01-Sep-26    
+VTL               +0.95%      01-Sep-26    
+NIACL             -0.75%      02-Sep-26    
+BRIGADE           +2.17%      03-Sep-26    
+IFCI              -3.10%      04-Sep-26    
+MAITHANALL        -0.32%      04-Sep-26    
+MARSONS           -2.14%      04-Sep-26    
+PURVA             +0.73%      04-Sep-26    
+SKIPPER           -1.92%      04-Sep-26    
+THEMISMED         -2.91%      07-Sep-26    
+EIEL              -0.97%      09-Sep-26    
+AWFIS             -1.21%      11-Sep-26    
+TATAINVEST        -0.86%      15-Sep-26    
+TATACHEM          -0.39%      17-Sep-26    
+INDIACEM          -0.61%      17-Sep-26    
+HOMEFIRST         +0.95%      18-Sep-26    
+MASPTOP50         +0.16%      18-Sep-26    
+REFEX             -2.50%      21-Sep-26    
+STUDDS            -0.45%      21-Sep-26    
+BIKAJI            -1.76%      23-Sep-26    
+CLEANMAX          -3.99%      23-Sep-26    
+INNOVACAP         -8.76%      23-Sep-26    
+SCODATUBES        -4.05%      23-Sep-26
