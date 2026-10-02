@@ -1,0 +1,6 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+RAMRAT,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-08-27,569.6,25,616.55,5.86,2.6035551871099623
+ENGINERSIN,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-01,280.05,22,312.75,1.02,1.5685770710153357
+VENUSPIPES,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-07,1805.4,18,2204.9,2.69,0.7684477442990274
+SUNDROP,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-21,707.95,9,753.15,1.07,0.830097260322776
+HBLENGINE,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-09-25,806.0,,,,

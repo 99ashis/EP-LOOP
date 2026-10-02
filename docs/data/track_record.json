@@ -34,16 +34,16 @@
         },
         "2": {
           "NIFTY500": {
-            "n": 20,
-            "mean_excess": -4.75,
-            "median_excess": -5.37,
-            "hit_rate": 10.0
+            "n": 24,
+            "mean_excess": -4.67,
+            "median_excess": -5.3,
+            "hit_rate": 8.3
           },
           "MIDSMALL400": {
-            "n": 20,
-            "mean_excess": -4.93,
-            "median_excess": -5.94,
-            "hit_rate": 10.0
+            "n": 24,
+            "mean_excess": -4.76,
+            "median_excess": -4.97,
+            "hit_rate": 8.3
           }
         },
         "3": {
@@ -76,30 +76,30 @@
         },
         "5": {
           "NIFTY500": {
-            "n": 43,
-            "mean_excess": -2.28,
+            "n": 45,
+            "mean_excess": -2.33,
             "median_excess": -3.31,
-            "hit_rate": 27.9
+            "hit_rate": 26.7
           },
           "MIDSMALL400": {
-            "n": 43,
-            "mean_excess": -2.53,
+            "n": 45,
+            "mean_excess": -2.55,
             "median_excess": -3.19,
-            "hit_rate": 27.9
+            "hit_rate": 26.7
           }
         },
         "6": {
           "NIFTY500": {
-            "n": 20,
-            "mean_excess": -1.72,
-            "median_excess": -2.77,
-            "hit_rate": 30.0
+            "n": 21,
+            "mean_excess": -1.46,
+            "median_excess": -2.54,
+            "hit_rate": 33.3
           },
           "MIDSMALL400": {
-            "n": 20,
-            "mean_excess": -1.67,
-            "median_excess": -2.43,
-            "hit_rate": 30.0
+            "n": 21,
+            "mean_excess": -1.4,
+            "median_excess": -2.37,
+            "hit_rate": 33.3
           }
         },
         "7": {
@@ -132,46 +132,46 @@
         },
         "9": {
           "NIFTY500": {
-            "n": 34,
-            "mean_excess": -1.94,
-            "median_excess": -2.67,
-            "hit_rate": 29.4
+            "n": 35,
+            "mean_excess": -1.81,
+            "median_excess": -2.57,
+            "hit_rate": 31.4
           },
           "MIDSMALL400": {
-            "n": 34,
-            "mean_excess": -1.91,
-            "median_excess": -2.56,
-            "hit_rate": 29.4
+            "n": 35,
+            "mean_excess": -1.77,
+            "median_excess": -2.52,
+            "hit_rate": 31.4
           }
         }
       },
       "10": {
         "1": {
           "NIFTY500": {
-            "n": 39,
-            "mean_excess": -3.99,
-            "median_excess": -3.57,
-            "hit_rate": 20.5
+            "n": 40,
+            "mean_excess": -4.2,
+            "median_excess": -4.35,
+            "hit_rate": 20.0
           },
           "MIDSMALL400": {
-            "n": 39,
-            "mean_excess": -4.35,
-            "median_excess": -4.08,
-            "hit_rate": 20.5
+            "n": 40,
+            "mean_excess": -4.56,
+            "median_excess": -4.5,
+            "hit_rate": 20.0
           }
         },
         "2": {
           "NIFTY500": {
-            "n": 14,
-            "mean_excess": -3.26,
+            "n": 16,
+            "mean_excess": -3.45,
             "median_excess": -5.32,
-            "hit_rate": 14.3
+            "hit_rate": 18.8
           },
           "MIDSMALL400": {
-            "n": 14,
-            "mean_excess": -3.68,
+            "n": 16,
+            "mean_excess": -3.82,
             "median_excess": -5.9,
-            "hit_rate": 14.3
+            "hit_rate": 18.8
           }
         },
         "3": {
@@ -204,30 +204,30 @@
         },
         "5": {
           "NIFTY500": {
-            "n": 37,
-            "mean_excess": -1.83,
-            "median_excess": -3.75,
-            "hit_rate": 16.2
+            "n": 38,
+            "mean_excess": -1.81,
+            "median_excess": -3.73,
+            "hit_rate": 15.8
           },
           "MIDSMALL400": {
-            "n": 37,
-            "mean_excess": -2.18,
-            "median_excess": -4.2,
-            "hit_rate": 16.2
+            "n": 38,
+            "mean_excess": -2.16,
+            "median_excess": -4.04,
+            "hit_rate": 15.8
           }
         },
         "6": {
           "NIFTY500": {
-            "n": 18,
-            "mean_excess": -0.96,
+            "n": 19,
+            "mean_excess": -1.04,
             "median_excess": -1.78,
-            "hit_rate": 27.8
+            "hit_rate": 26.3
           },
           "MIDSMALL400": {
-            "n": 18,
-            "mean_excess": -1.1,
-            "median_excess": -2.17,
-            "hit_rate": 27.8
+            "n": 19,
+            "mean_excess": -1.17,
+            "median_excess": -2.36,
+            "hit_rate": 26.3
           }
         },
         "7": {
@@ -260,16 +260,16 @@
         },
         "9": {
           "NIFTY500": {
-            "n": 25,
-            "mean_excess": 0.8,
-            "median_excess": 1.15,
-            "hit_rate": 56.0
+            "n": 26,
+            "mean_excess": 0.67,
+            "median_excess": 0.96,
+            "hit_rate": 53.8
           },
           "MIDSMALL400": {
-            "n": 25,
-            "mean_excess": 0.54,
-            "median_excess": 1.09,
-            "hit_rate": 56.0
+            "n": 26,
+            "mean_excess": 0.42,
+            "median_excess": 0.94,
+            "hit_rate": 53.8
           }
         }
       },
@@ -290,16 +290,16 @@
         },
         "2": {
           "NIFTY500": {
-            "n": 5,
-            "mean_excess": 10.45,
-            "median_excess": 19.25,
-            "hit_rate": 60.0
+            "n": 7,
+            "mean_excess": 4.0,
+            "median_excess": -6.72,
+            "hit_rate": 42.9
           },
           "MIDSMALL400": {
-            "n": 5,
-            "mean_excess": 9.66,
-            "median_excess": 18.5,
-            "hit_rate": 60.0
+            "n": 7,
+            "mean_excess": 3.31,
+            "median_excess": -7.47,
+            "hit_rate": 42.9
           }
         },
         "3": {
@@ -332,16 +332,16 @@
         },
         "5": {
           "NIFTY500": {
-            "n": 17,
-            "mean_excess": 0.79,
+            "n": 19,
+            "mean_excess": 0.49,
             "median_excess": -3.79,
-            "hit_rate": 29.4
+            "hit_rate": 26.3
           },
           "MIDSMALL400": {
-            "n": 17,
-            "mean_excess": 0.2,
+            "n": 19,
+            "mean_excess": -0.09,
             "median_excess": -4.11,
-            "hit_rate": 23.5
+            "hit_rate": 21.1
           }
         },
         "6": {
@@ -388,16 +388,16 @@
         },
         "9": {
           "NIFTY500": {
-            "n": 8,
-            "mean_excess": 2.65,
-            "median_excess": 1.26,
-            "hit_rate": 62.5
+            "n": 10,
+            "mean_excess": 4.63,
+            "median_excess": 2.4,
+            "hit_rate": 70.0
           },
           "MIDSMALL400": {
-            "n": 8,
-            "mean_excess": 2.08,
-            "median_excess": 0.65,
-            "hit_rate": 62.5
+            "n": 10,
+            "mean_excess": 4.09,
+            "median_excess": 1.81,
+            "hit_rate": 70.0
           }
         }
       },
@@ -548,14 +548,14 @@
         },
         "2": {
           "NIFTY500": {
-            "n": 6,
-            "mean_excess": -8.48,
-            "median_excess": -7.43,
+            "n": 7,
+            "mean_excess": -7.59,
+            "median_excess": -7.39,
             "hit_rate": 0.0
           },
           "MIDSMALL400": {
-            "n": 6,
-            "mean_excess": -8.96,
+            "n": 7,
+            "mean_excess": -7.95,
             "median_excess": -8.5,
             "hit_rate": 0.0
           }
@@ -646,16 +646,16 @@
         },
         "9": {
           "NIFTY500": {
-            "n": 50,
-            "mean_excess": -1.94,
-            "median_excess": -1.54,
-            "hit_rate": 36.0
+            "n": 53,
+            "mean_excess": -2.13,
+            "median_excess": -1.58,
+            "hit_rate": 35.8
           },
           "MIDSMALL400": {
-            "n": 50,
-            "mean_excess": -1.9,
-            "median_excess": -1.64,
-            "hit_rate": 36.0
+            "n": 53,
+            "mean_excess": -2.07,
+            "median_excess": -1.66,
+            "hit_rate": 35.8
           }
         }
       },
@@ -718,16 +718,16 @@
         },
         "5": {
           "NIFTY500": {
-            "n": 19,
-            "mean_excess": -4.18,
-            "median_excess": -4.25,
-            "hit_rate": 10.5
+            "n": 20,
+            "mean_excess": -4.03,
+            "median_excess": -4.11,
+            "hit_rate": 10.0
           },
           "MIDSMALL400": {
-            "n": 19,
-            "mean_excess": -4.52,
+            "n": 20,
+            "mean_excess": -4.36,
             "median_excess": -4.57,
-            "hit_rate": 10.5
+            "hit_rate": 10.0
           }
         },
         "6": {
@@ -746,16 +746,16 @@
         },
         "7": {
           "NIFTY500": {
-            "n": 13,
-            "mean_excess": 1.24,
-            "median_excess": 1.69,
-            "hit_rate": 61.5
+            "n": 16,
+            "mean_excess": 1.11,
+            "median_excess": 1.29,
+            "hit_rate": 56.2
           },
           "MIDSMALL400": {
-            "n": 13,
-            "mean_excess": 1.04,
-            "median_excess": 1.62,
-            "hit_rate": 61.5
+            "n": 16,
+            "mean_excess": 0.95,
+            "median_excess": 1.09,
+            "hit_rate": 56.2
           }
         },
         "8": {
@@ -774,16 +774,16 @@
         },
         "9": {
           "NIFTY500": {
-            "n": 34,
-            "mean_excess": -1.58,
-            "median_excess": -1.89,
-            "hit_rate": 35.3
+            "n": 35,
+            "mean_excess": -1.52,
+            "median_excess": -1.86,
+            "hit_rate": 37.1
           },
           "MIDSMALL400": {
-            "n": 34,
-            "mean_excess": -1.75,
-            "median_excess": -2.38,
-            "hit_rate": 26.5
+            "n": 35,
+            "mean_excess": -1.69,
+            "median_excess": -2.26,
+            "hit_rate": 28.6
           }
         }
       },
@@ -804,16 +804,16 @@
         },
         "2": {
           "NIFTY500": {
-            "n": 0,
-            "mean_excess": null,
-            "median_excess": null,
-            "hit_rate": null
+            "n": 2,
+            "mean_excess": -12.13,
+            "median_excess": -12.13,
+            "hit_rate": 0.0
           },
           "MIDSMALL400": {
-            "n": 0,
-            "mean_excess": null,
-            "median_excess": null,
-            "hit_rate": null
+            "n": 2,
+            "mean_excess": -12.57,
+            "median_excess": -12.57,
+            "hit_rate": 0.0
           }
         },
         "3": {
@@ -902,16 +902,16 @@
         },
         "9": {
           "NIFTY500": {
-            "n": 3,
-            "mean_excess": 1.03,
-            "median_excess": -2.94,
-            "hit_rate": 33.3
+            "n": 4,
+            "mean_excess": 0.66,
+            "median_excess": -1.7,
+            "hit_rate": 25.0
           },
           "MIDSMALL400": {
-            "n": 3,
-            "mean_excess": 0.64,
-            "median_excess": -3.41,
-            "hit_rate": 33.3
+            "n": 4,
+            "mean_excess": 0.26,
+            "median_excess": -2.15,
+            "hit_rate": 25.0
           }
         }
       },
@@ -1062,14 +1062,14 @@
         },
         "2": {
           "NIFTY500": {
-            "n": 2,
-            "mean_excess": -7.39,
+            "n": 3,
+            "mean_excess": -7.42,
             "median_excess": -7.39,
             "hit_rate": 0.0
           },
           "MIDSMALL400": {
-            "n": 2,
-            "mean_excess": -8.5,
+            "n": 3,
+            "mean_excess": -8.23,
             "median_excess": -8.5,
             "hit_rate": 0.0
           }
@@ -1104,16 +1104,16 @@
         },
         "5": {
           "NIFTY500": {
-            "n": 7,
-            "mean_excess": -2.05,
-            "median_excess": -0.79,
-            "hit_rate": 14.3
+            "n": 8,
+            "mean_excess": -2.73,
+            "median_excess": -1.84,
+            "hit_rate": 12.5
           },
           "MIDSMALL400": {
-            "n": 7,
-            "mean_excess": -2.09,
-            "median_excess": -1.64,
-            "hit_rate": 14.3
+            "n": 8,
+            "mean_excess": -2.74,
+            "median_excess": -2.06,
+            "hit_rate": 12.5
           }
         },
         "6": {
@@ -1132,16 +1132,16 @@
         },
         "7": {
           "NIFTY500": {
-            "n": 19,
-            "mean_excess": -0.14,
-            "median_excess": 0.37,
-            "hit_rate": 52.6
+            "n": 20,
+            "mean_excess": -0.12,
+            "median_excess": 0.29,
+            "hit_rate": 55.0
           },
           "MIDSMALL400": {
-            "n": 19,
-            "mean_excess": 0.05,
-            "median_excess": 0.22,
-            "hit_rate": 52.6
+            "n": 20,
+            "mean_excess": 0.07,
+            "median_excess": 0.23,
+            "hit_rate": 55.0
           }
         },
         "8": {
@@ -1160,16 +1160,16 @@
         },
         "9": {
           "NIFTY500": {
-            "n": 43,
-            "mean_excess": -1.21,
+            "n": 46,
+            "mean_excess": -1.27,
             "median_excess": -1.37,
-            "hit_rate": 37.2
+            "hit_rate": 37.0
           },
           "MIDSMALL400": {
-            "n": 43,
-            "mean_excess": -0.93,
-            "median_excess": -1.02,
-            "hit_rate": 39.5
+            "n": 46,
+            "mean_excess": -0.98,
+            "median_excess": -1.09,
+            "hit_rate": 39.1
           }
         }
       },
@@ -1190,14 +1190,14 @@
         },
         "2": {
           "NIFTY500": {
-            "n": 2,
-            "mean_excess": -6.53,
+            "n": 3,
+            "mean_excess": -5.08,
             "median_excess": -6.53,
             "hit_rate": 0.0
           },
           "MIDSMALL400": {
-            "n": 2,
-            "mean_excess": -6.96,
+            "n": 3,
+            "mean_excess": -5.26,
             "median_excess": -6.96,
             "hit_rate": 0.0
           }
@@ -1232,15 +1232,15 @@
         },
         "5": {
           "NIFTY500": {
-            "n": 4,
-            "mean_excess": -5.22,
-            "median_excess": -5.45,
+            "n": 5,
+            "mean_excess": -4.97,
+            "median_excess": -3.96,
             "hit_rate": 0.0
           },
           "MIDSMALL400": {
-            "n": 4,
-            "mean_excess": -5.45,
-            "median_excess": -5.76,
+            "n": 5,
+            "mean_excess": -5.08,
+            "median_excess": -3.76,
             "hit_rate": 0.0
           }
         },
@@ -1260,16 +1260,16 @@
         },
         "7": {
           "NIFTY500": {
-            "n": 11,
-            "mean_excess": 0.57,
+            "n": 13,
+            "mean_excess": 0.18,
             "median_excess": 1.69,
-            "hit_rate": 63.6
+            "hit_rate": 61.5
           },
           "MIDSMALL400": {
-            "n": 11,
-            "mean_excess": 0.36,
+            "n": 13,
+            "mean_excess": 0.0,
             "median_excess": 1.62,
-            "hit_rate": 63.6
+            "hit_rate": 61.5
           }
         },
         "8": {
@@ -1288,16 +1288,16 @@
         },
         "9": {
           "NIFTY500": {
-            "n": 7,
-            "mean_excess": -5.58,
-            "median_excess": -4.78,
-            "hit_rate": 14.3
+            "n": 9,
+            "mean_excess": -4.14,
+            "median_excess": -1.81,
+            "hit_rate": 22.2
           },
           "MIDSMALL400": {
-            "n": 7,
-            "mean_excess": -5.77,
-            "median_excess": -4.85,
-            "hit_rate": 14.3
+            "n": 9,
+            "mean_excess": -4.29,
+            "median_excess": -2.26,
+            "hit_rate": 22.2
           }
         }
       },
@@ -1318,16 +1318,16 @@
         },
         "2": {
           "NIFTY500": {
-            "n": 0,
-            "mean_excess": null,
-            "median_excess": null,
-            "hit_rate": null
+            "n": 2,
+            "mean_excess": -12.13,
+            "median_excess": -12.13,
+            "hit_rate": 0.0
           },
           "MIDSMALL400": {
-            "n": 0,
-            "mean_excess": null,
-            "median_excess": null,
-            "hit_rate": null
+            "n": 2,
+            "mean_excess": -12.57,
+            "median_excess": -12.57,
+            "hit_rate": 0.0
           }
         },
         "3": {
@@ -1618,15 +1618,15 @@
         },
         "5": {
           "NIFTY500": {
-            "n": 1,
-            "mean_excess": -0.79,
-            "median_excess": -0.79,
+            "n": 3,
+            "mean_excess": -4.54,
+            "median_excess": -6.41,
             "hit_rate": 0.0
           },
           "MIDSMALL400": {
-            "n": 1,
-            "mean_excess": -1.64,
-            "median_excess": -1.64,
+            "n": 3,
+            "mean_excess": -5.08,
+            "median_excess": -6.8,
             "hit_rate": 0.0
           }
         },
@@ -1646,16 +1646,16 @@
         },
         "7": {
           "NIFTY500": {
-            "n": 13,
-            "mean_excess": 1.37,
-            "median_excess": 0.74,
-            "hit_rate": 61.5
+            "n": 15,
+            "mean_excess": 0.23,
+            "median_excess": 0.37,
+            "hit_rate": 53.3
           },
           "MIDSMALL400": {
-            "n": 13,
-            "mean_excess": 1.43,
-            "median_excess": 0.3,
-            "hit_rate": 61.5
+            "n": 15,
+            "mean_excess": 0.39,
+            "median_excess": 0.24,
+            "hit_rate": 53.3
           }
         },
         "8": {
@@ -1674,16 +1674,16 @@
         },
         "9": {
           "NIFTY500": {
-            "n": 23,
-            "mean_excess": -0.32,
-            "median_excess": -0.84,
-            "hit_rate": 47.8
+            "n": 26,
+            "mean_excess": -0.59,
+            "median_excess": -1.19,
+            "hit_rate": 42.3
           },
           "MIDSMALL400": {
-            "n": 23,
-            "mean_excess": 0.02,
-            "median_excess": -0.43,
-            "hit_rate": 43.5
+            "n": 26,
+            "mean_excess": -0.24,
+            "median_excess": -0.94,
+            "hit_rate": 38.5
           }
         }
       },
@@ -1746,15 +1746,15 @@
         },
         "5": {
           "NIFTY500": {
-            "n": 1,
-            "mean_excess": -3.73,
-            "median_excess": -3.73,
+            "n": 3,
+            "mean_excess": -6.02,
+            "median_excess": -7.17,
             "hit_rate": 0.0
           },
           "MIDSMALL400": {
-            "n": 1,
-            "mean_excess": -3.76,
-            "median_excess": -3.76,
+            "n": 3,
+            "mean_excess": -6.43,
+            "median_excess": -7.76,
             "hit_rate": 0.0
           }
         },
@@ -1774,16 +1774,16 @@
         },
         "7": {
           "NIFTY500": {
-            "n": 8,
-            "mean_excess": 4.83,
-            "median_excess": 3.57,
-            "hit_rate": 87.5
+            "n": 11,
+            "mean_excess": 1.68,
+            "median_excess": 1.69,
+            "hit_rate": 72.7
           },
           "MIDSMALL400": {
-            "n": 8,
-            "mean_excess": 4.53,
-            "median_excess": 3.35,
-            "hit_rate": 87.5
+            "n": 11,
+            "mean_excess": 1.44,
+            "median_excess": 1.62,
+            "hit_rate": 72.7
           }
         },
         "8": {
@@ -1802,16 +1802,16 @@
         },
         "9": {
           "NIFTY500": {
-            "n": 1,
-            "mean_excess": -5.32,
-            "median_excess": -5.32,
-            "hit_rate": 0.0
+            "n": 3,
+            "mean_excess": -1.15,
+            "median_excess": -0.58,
+            "hit_rate": 33.3
           },
           "MIDSMALL400": {
-            "n": 1,
-            "mean_excess": -5.35,
-            "median_excess": -5.35,
-            "hit_rate": 0.0
+            "n": 3,
+            "mean_excess": -1.18,
+            "median_excess": -0.61,
+            "hit_rate": 33.3
           }
         }
       },
@@ -2123,16 +2123,16 @@
           },
           "2026-09": {
             "NIFTY500": {
-              "n": 15,
-              "mean_excess": -5.57,
-              "median_excess": -6.38,
-              "hit_rate": 6.7
+              "n": 19,
+              "mean_excess": -5.3,
+              "median_excess": -5.37,
+              "hit_rate": 5.3
             },
             "MIDSMALL400": {
-              "n": 15,
-              "mean_excess": -5.74,
-              "median_excess": -6.83,
-              "hit_rate": 6.7
+              "n": 19,
+              "mean_excess": -5.35,
+              "median_excess": -4.97,
+              "hit_rate": 5.3
             }
           }
         },
@@ -2213,16 +2213,16 @@
           },
           "2026-09": {
             "NIFTY500": {
-              "n": 29,
-              "mean_excess": -1.76,
+              "n": 31,
+              "mean_excess": -1.86,
               "median_excess": -3.31,
-              "hit_rate": 31.0
+              "hit_rate": 29.0
             },
             "MIDSMALL400": {
-              "n": 29,
-              "mean_excess": -1.98,
-              "median_excess": -3.13,
-              "hit_rate": 31.0
+              "n": 31,
+              "mean_excess": -2.04,
+              "median_excess": -3.12,
+              "hit_rate": 29.0
             }
           }
         },
@@ -2243,16 +2243,16 @@
           },
           "2026-09": {
             "NIFTY500": {
-              "n": 16,
-              "mean_excess": -2.28,
-              "median_excess": -3.13,
-              "hit_rate": 18.8
+              "n": 17,
+              "mean_excess": -1.93,
+              "median_excess": -2.99,
+              "hit_rate": 23.5
             },
             "MIDSMALL400": {
-              "n": 16,
-              "mean_excess": -2.2,
-              "median_excess": -2.55,
-              "hit_rate": 18.8
+              "n": 17,
+              "mean_excess": -1.83,
+              "median_excess": -2.49,
+              "hit_rate": 23.5
             }
           }
         },
@@ -2333,16 +2333,16 @@
           },
           "2026-09": {
             "NIFTY500": {
-              "n": 27,
-              "mean_excess": -2.08,
-              "median_excess": -2.77,
-              "hit_rate": 22.2
+              "n": 28,
+              "mean_excess": -1.91,
+              "median_excess": -2.67,
+              "hit_rate": 25.0
             },
             "MIDSMALL400": {
-              "n": 27,
-              "mean_excess": -2.01,
-              "median_excess": -2.6,
-              "hit_rate": 22.2
+              "n": 28,
+              "mean_excess": -1.83,
+              "median_excess": -2.56,
+              "hit_rate": 25.0
             }
           }
         }
@@ -2365,16 +2365,16 @@
           },
           "2026-09": {
             "NIFTY500": {
-              "n": 20,
-              "mean_excess": -2.69,
+              "n": 21,
+              "mean_excess": -3.16,
               "median_excess": -3.57,
-              "hit_rate": 35.0
+              "hit_rate": 33.3
             },
             "MIDSMALL400": {
-              "n": 20,
-              "mean_excess": -2.77,
-              "median_excess": -3.62,
-              "hit_rate": 35.0
+              "n": 21,
+              "mean_excess": -3.24,
+              "median_excess": -4.02,
+              "hit_rate": 33.3
             }
           }
         },
@@ -2395,16 +2395,16 @@
           },
           "2026-09": {
             "NIFTY500": {
-              "n": 9,
-              "mean_excess": -7.35,
+              "n": 11,
+              "mean_excess": -6.88,
               "median_excess": -6.53,
-              "hit_rate": 0.0
+              "hit_rate": 9.1
             },
             "MIDSMALL400": {
-              "n": 9,
-              "mean_excess": -7.54,
+              "n": 11,
+              "mean_excess": -7.04,
               "median_excess": -6.96,
-              "hit_rate": 0.0
+              "hit_rate": 9.1
             }
           }
         },
@@ -2485,16 +2485,16 @@
           },
           "2026-09": {
             "NIFTY500": {
-              "n": 23,
-              "mean_excess": -2.14,
-              "median_excess": -4.09,
-              "hit_rate": 13.0
+              "n": 24,
+              "mean_excess": -2.1,
+              "median_excess": -4.03,
+              "hit_rate": 12.5
             },
             "MIDSMALL400": {
-              "n": 23,
-              "mean_excess": -2.33,
-              "median_excess": -4.34,
-              "hit_rate": 13.0
+              "n": 24,
+              "mean_excess": -2.28,
+              "median_excess": -4.27,
+              "hit_rate": 12.5
             }
           }
         },
@@ -2515,16 +2515,16 @@
           },
           "2026-09": {
             "NIFTY500": {
-              "n": 14,
-              "mean_excess": -1.59,
-              "median_excess": -2.06,
-              "hit_rate": 21.4
+              "n": 15,
+              "mean_excess": -1.64,
+              "median_excess": -2.34,
+              "hit_rate": 20.0
             },
             "MIDSMALL400": {
-              "n": 14,
-              "mean_excess": -1.66,
+              "n": 15,
+              "mean_excess": -1.71,
               "median_excess": -2.36,
-              "hit_rate": 21.4
+              "hit_rate": 20.0
             }
           }
         },
@@ -2605,16 +2605,16 @@
           },
           "2026-09": {
             "NIFTY500": {
-              "n": 18,
-              "mean_excess": -1.17,
+              "n": 19,
+              "mean_excess": -1.24,
               "median_excess": -1.52,
-              "hit_rate": 44.4
+              "hit_rate": 42.1
             },
             "MIDSMALL400": {
-              "n": 18,
-              "mean_excess": -1.25,
+              "n": 19,
+              "mean_excess": -1.32,
               "median_excess": -1.29,
-              "hit_rate": 44.4
+              "hit_rate": 42.1
             }
           }
         }
@@ -2667,16 +2667,16 @@
           },
           "2026-09": {
             "NIFTY500": {
-              "n": 0,
-              "mean_excess": null,
-              "median_excess": null,
-              "hit_rate": null
+              "n": 2,
+              "mean_excess": -12.13,
+              "median_excess": -12.13,
+              "hit_rate": 0.0
             },
             "MIDSMALL400": {
-              "n": 0,
-              "mean_excess": null,
-              "median_excess": null,
-              "hit_rate": null
+              "n": 2,
+              "mean_excess": -12.57,
+              "median_excess": -12.57,
+              "hit_rate": 0.0
             }
           }
         },
@@ -2757,14 +2757,14 @@
           },
           "2026-09": {
             "NIFTY500": {
-              "n": 3,
-              "mean_excess": -7.06,
+              "n": 5,
+              "mean_excess": -5.08,
               "median_excess": -6.07,
               "hit_rate": 0.0
             },
             "MIDSMALL400": {
-              "n": 3,
-              "mean_excess": -7.52,
+              "n": 5,
+              "mean_excess": -5.53,
               "median_excess": -6.53,
               "hit_rate": 0.0
             }
@@ -2877,15 +2877,15 @@
           },
           "2026-09": {
             "NIFTY500": {
-              "n": 1,
-              "mean_excess": 0.72,
-              "median_excess": 0.72,
+              "n": 3,
+              "mean_excess": 8.61,
+              "median_excess": 3.01,
               "hit_rate": 100.0
             },
             "MIDSMALL400": {
-              "n": 1,
-              "mean_excess": 0.25,
-              "median_excess": 0.25,
+              "n": 3,
+              "mean_excess": 8.15,
+              "median_excess": 2.56,
               "hit_rate": 100.0
             }
           }
@@ -3213,14 +3213,14 @@
           },
           "2026-09": {
             "NIFTY500": {
-              "n": 6,
-              "mean_excess": -8.48,
-              "median_excess": -7.43,
+              "n": 7,
+              "mean_excess": -7.59,
+              "median_excess": -7.39,
               "hit_rate": 0.0
             },
             "MIDSMALL400": {
-              "n": 6,
-              "mean_excess": -8.96,
+              "n": 7,
+              "mean_excess": -7.95,
               "median_excess": -8.5,
               "hit_rate": 0.0
             }
@@ -3409,16 +3409,16 @@
           },
           "2026-09": {
             "NIFTY500": {
-              "n": 49,
-              "mean_excess": -2.01,
-              "median_excess": -1.58,
-              "hit_rate": 34.7
+              "n": 52,
+              "mean_excess": -2.19,
+              "median_excess": -1.64,
+              "hit_rate": 34.6
             },
             "MIDSMALL400": {
-              "n": 49,
-              "mean_excess": -1.96,
-              "median_excess": -1.66,
-              "hit_rate": 34.7
+              "n": 52,
+              "mean_excess": -2.12,
+              "median_excess": -1.75,
+              "hit_rate": 34.6
             }
           }
         }
@@ -3547,16 +3547,16 @@
           },
           "2026-09": {
             "NIFTY500": {
-              "n": 14,
-              "mean_excess": -5.0,
+              "n": 15,
+              "mean_excess": -4.75,
               "median_excess": -4.25,
-              "hit_rate": 7.1
+              "hit_rate": 6.7
             },
             "MIDSMALL400": {
-              "n": 14,
-              "mean_excess": -5.23,
+              "n": 15,
+              "mean_excess": -4.97,
               "median_excess": -4.57,
-              "hit_rate": 7.1
+              "hit_rate": 6.7
             }
           }
         },
@@ -3607,16 +3607,16 @@
           },
           "2026-09": {
             "NIFTY500": {
-              "n": 10,
-              "mean_excess": -0.27,
-              "median_excess": 1.29,
-              "hit_rate": 60.0
+              "n": 13,
+              "mean_excess": -0.07,
+              "median_excess": 0.89,
+              "hit_rate": 53.8
             },
             "MIDSMALL400": {
-              "n": 10,
-              "mean_excess": -0.47,
-              "median_excess": 1.09,
-              "hit_rate": 60.0
+              "n": 13,
+              "mean_excess": -0.24,
+              "median_excess": 0.56,
+              "hit_rate": 53.8
             }
           }
         },
@@ -3667,16 +3667,16 @@
           },
           "2026-09": {
             "NIFTY500": {
-              "n": 33,
-              "mean_excess": -1.77,
-              "median_excess": -1.92,
-              "hit_rate": 33.3
+              "n": 34,
+              "mean_excess": -1.7,
+              "median_excess": -1.89,
+              "hit_rate": 35.3
             },
             "MIDSMALL400": {
-              "n": 33,
-              "mean_excess": -1.93,
-              "median_excess": -2.5,
-              "hit_rate": 24.2
+              "n": 34,
+              "mean_excess": -1.85,
+              "median_excess": -2.38,
+              "hit_rate": 26.5
             }
           }
         }
@@ -3729,16 +3729,16 @@
           },
           "2026-09": {
             "NIFTY500": {
-              "n": 0,
-              "mean_excess": null,
-              "median_excess": null,
-              "hit_rate": null
+              "n": 2,
+              "mean_excess": -12.13,
+              "median_excess": -12.13,
+              "hit_rate": 0.0
             },
             "MIDSMALL400": {
-              "n": 0,
-              "mean_excess": null,
-              "median_excess": null,
-              "hit_rate": null
+              "n": 2,
+              "mean_excess": -12.57,
+              "median_excess": -12.57,
+              "hit_rate": 0.0
             }
           }
         },
@@ -3925,16 +3925,16 @@
           },
           "2026-09": {
             "NIFTY500": {
-              "n": 2,
-              "mean_excess": 3.67,
-              "median_excess": 3.67,
-              "hit_rate": 50.0
+              "n": 3,
+              "mean_excess": 2.3,
+              "median_excess": -0.45,
+              "hit_rate": 33.3
             },
             "MIDSMALL400": {
-              "n": 2,
-              "mean_excess": 3.2,
-              "median_excess": 3.2,
-              "hit_rate": 50.0
+              "n": 3,
+              "mean_excess": 1.84,
+              "median_excess": -0.89,
+              "hit_rate": 33.3
             }
           }
         }
@@ -4247,14 +4247,14 @@
           },
           "2026-09": {
             "NIFTY500": {
-              "n": 2,
-              "mean_excess": -7.39,
+              "n": 3,
+              "mean_excess": -7.42,
               "median_excess": -7.39,
               "hit_rate": 0.0
             },
             "MIDSMALL400": {
-              "n": 2,
-              "mean_excess": -8.5,
+              "n": 3,
+              "mean_excess": -8.23,
               "median_excess": -8.5,
               "hit_rate": 0.0
             }
@@ -4279,16 +4279,16 @@
         "5": {
           "2026-09": {
             "NIFTY500": {
-              "n": 7,
-              "mean_excess": -2.05,
-              "median_excess": -0.79,
-              "hit_rate": 14.3
+              "n": 8,
+              "mean_excess": -2.73,
+              "median_excess": -1.84,
+              "hit_rate": 12.5
             },
             "MIDSMALL400": {
-              "n": 7,
-              "mean_excess": -2.09,
-              "median_excess": -1.64,
-              "hit_rate": 14.3
+              "n": 8,
+              "mean_excess": -2.74,
+              "median_excess": -2.06,
+              "hit_rate": 12.5
             }
           }
         },
@@ -4325,16 +4325,16 @@
           },
           "2026-09": {
             "NIFTY500": {
-              "n": 17,
-              "mean_excess": -0.36,
-              "median_excess": -0.91,
-              "hit_rate": 47.1
+              "n": 18,
+              "mean_excess": -0.33,
+              "median_excess": -0.35,
+              "hit_rate": 50.0
             },
             "MIDSMALL400": {
-              "n": 17,
-              "mean_excess": -0.14,
-              "median_excess": -0.73,
-              "hit_rate": 47.1
+              "n": 18,
+              "mean_excess": -0.09,
+              "median_excess": -0.26,
+              "hit_rate": 50.0
             }
           }
         },
@@ -4371,16 +4371,16 @@
         "9": {
           "2026-09": {
             "NIFTY500": {
-              "n": 43,
-              "mean_excess": -1.21,
+              "n": 46,
+              "mean_excess": -1.27,
               "median_excess": -1.37,
-              "hit_rate": 37.2
+              "hit_rate": 37.0
             },
             "MIDSMALL400": {
-              "n": 43,
-              "mean_excess": -0.93,
-              "median_excess": -1.02,
-              "hit_rate": 39.5
+              "n": 46,
+              "mean_excess": -0.98,
+              "median_excess": -1.09,
+              "hit_rate": 39.1
             }
           }
         }
@@ -4433,14 +4433,14 @@
           },
           "2026-09": {
             "NIFTY500": {
-              "n": 2,
-              "mean_excess": -6.53,
+              "n": 3,
+              "mean_excess": -5.08,
               "median_excess": -6.53,
               "hit_rate": 0.0
             },
             "MIDSMALL400": {
-              "n": 2,
-              "mean_excess": -6.96,
+              "n": 3,
+              "mean_excess": -5.26,
               "median_excess": -6.96,
               "hit_rate": 0.0
             }
@@ -4465,15 +4465,15 @@
         "5": {
           "2026-09": {
             "NIFTY500": {
-              "n": 4,
-              "mean_excess": -5.22,
-              "median_excess": -5.45,
+              "n": 5,
+              "mean_excess": -4.97,
+              "median_excess": -3.96,
               "hit_rate": 0.0
             },
             "MIDSMALL400": {
-              "n": 4,
-              "mean_excess": -5.45,
-              "median_excess": -5.76,
+              "n": 5,
+              "mean_excess": -5.08,
+              "median_excess": -3.76,
               "hit_rate": 0.0
             }
           }
@@ -4511,16 +4511,16 @@
           },
           "2026-09": {
             "NIFTY500": {
-              "n": 9,
-              "mean_excess": 0.53,
+              "n": 11,
+              "mean_excess": 0.08,
               "median_excess": 1.69,
-              "hit_rate": 66.7
+              "hit_rate": 63.6
             },
             "MIDSMALL400": {
-              "n": 9,
-              "mean_excess": 0.33,
+              "n": 11,
+              "mean_excess": -0.08,
               "median_excess": 1.62,
-              "hit_rate": 66.7
+              "hit_rate": 63.6
             }
           }
         },
@@ -4557,16 +4557,16 @@
         "9": {
           "2026-09": {
             "NIFTY500": {
-              "n": 7,
-              "mean_excess": -5.58,
-              "median_excess": -4.78,
-              "hit_rate": 14.3
+              "n": 9,
+              "mean_excess": -4.14,
+              "median_excess": -1.81,
+              "hit_rate": 22.2
             },
             "MIDSMALL400": {
-              "n": 7,
-              "mean_excess": -5.77,
-              "median_excess": -4.85,
-              "hit_rate": 14.3
+              "n": 9,
+              "mean_excess": -4.29,
+              "median_excess": -2.26,
+              "hit_rate": 22.2
             }
           }
         }
@@ -4619,16 +4619,16 @@
           },
           "2026-09": {
             "NIFTY500": {
-              "n": 0,
-              "mean_excess": null,
-              "median_excess": null,
-              "hit_rate": null
+              "n": 2,
+              "mean_excess": -12.13,
+              "median_excess": -12.13,
+              "hit_rate": 0.0
             },
             "MIDSMALL400": {
-              "n": 0,
-              "mean_excess": null,
-              "median_excess": null,
-              "hit_rate": null
+              "n": 2,
+              "mean_excess": -12.57,
+              "median_excess": -12.57,
+              "hit_rate": 0.0
             }
           }
         },
@@ -5011,15 +5011,15 @@
         "5": {
           "2026-09": {
             "NIFTY500": {
-              "n": 1,
-              "mean_excess": -0.79,
-              "median_excess": -0.79,
+              "n": 3,
+              "mean_excess": -4.54,
+              "median_excess": -6.41,
               "hit_rate": 0.0
             },
             "MIDSMALL400": {
-              "n": 1,
-              "mean_excess": -1.64,
-              "median_excess": -1.64,
+              "n": 3,
+              "mean_excess": -5.08,
+              "median_excess": -6.8,
               "hit_rate": 0.0
             }
           }
@@ -5057,16 +5057,16 @@
           },
           "2026-09": {
             "NIFTY500": {
-              "n": 11,
-              "mean_excess": 1.3,
-              "median_excess": 0.74,
-              "hit_rate": 54.5
+              "n": 13,
+              "mean_excess": -0.0,
+              "median_excess": -0.91,
+              "hit_rate": 46.2
             },
             "MIDSMALL400": {
-              "n": 11,
-              "mean_excess": 1.4,
-              "median_excess": 0.3,
-              "hit_rate": 54.5
+              "n": 13,
+              "mean_excess": 0.2,
+              "median_excess": -0.73,
+              "hit_rate": 46.2
             }
           }
         },
@@ -5103,16 +5103,16 @@
         "9": {
           "2026-09": {
             "NIFTY500": {
-              "n": 23,
-              "mean_excess": -0.32,
-              "median_excess": -0.84,
-              "hit_rate": 47.8
+              "n": 26,
+              "mean_excess": -0.59,
+              "median_excess": -1.19,
+              "hit_rate": 42.3
             },
             "MIDSMALL400": {
-              "n": 23,
-              "mean_excess": 0.02,
-              "median_excess": -0.43,
-              "hit_rate": 43.5
+              "n": 26,
+              "mean_excess": -0.24,
+              "median_excess": -0.94,
+              "hit_rate": 38.5
             }
           }
         }
@@ -5183,15 +5183,15 @@
         "5": {
           "2026-09": {
             "NIFTY500": {
-              "n": 1,
-              "mean_excess": -3.73,
-              "median_excess": -3.73,
+              "n": 3,
+              "mean_excess": -6.02,
+              "median_excess": -7.17,
               "hit_rate": 0.0
             },
             "MIDSMALL400": {
-              "n": 1,
-              "mean_excess": -3.76,
-              "median_excess": -3.76,
+              "n": 3,
+              "mean_excess": -6.43,
+              "median_excess": -7.76,
               "hit_rate": 0.0
             }
           }
@@ -5229,16 +5229,16 @@
           },
           "2026-09": {
             "NIFTY500": {
-              "n": 6,
-              "mean_excess": 6.2,
-              "median_excess": 3.57,
-              "hit_rate": 100.0
+              "n": 9,
+              "mean_excess": 1.89,
+              "median_excess": 1.69,
+              "hit_rate": 77.8
             },
             "MIDSMALL400": {
-              "n": 6,
-              "mean_excess": 5.89,
-              "median_excess": 3.35,
-              "hit_rate": 100.0
+              "n": 9,
+              "mean_excess": 1.66,
+              "median_excess": 1.62,
+              "hit_rate": 77.8
             }
           }
         },
@@ -5275,16 +5275,16 @@
         "9": {
           "2026-09": {
             "NIFTY500": {
-              "n": 1,
-              "mean_excess": -5.32,
-              "median_excess": -5.32,
-              "hit_rate": 0.0
+              "n": 3,
+              "mean_excess": -1.15,
+              "median_excess": -0.58,
+              "hit_rate": 33.3
             },
             "MIDSMALL400": {
-              "n": 1,
-              "mean_excess": -5.35,
-              "median_excess": -5.35,
-              "hit_rate": 0.0
+              "n": 3,
+              "mean_excess": -1.18,
+              "median_excess": -0.61,
+              "hit_rate": 33.3
             }
           }
         }
