@@ -48,7 +48,7 @@ def _new_session() -> requests.Session:
     session = requests.Session()
     session.headers.update(config.NSE_BASE_HEADERS)
     # Warm-up hit: NSE issues cookies here that the archive host will accept.
-    session.get(config.NSE_LANDING_URL, timeout=15)
+    session.get(config.NSE_LANDING_URL, timeout=30)
     return session
 
 
