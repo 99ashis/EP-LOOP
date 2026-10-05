@@ -1,0 +1,9 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+DMCC,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-10,313.1,39,319.1,3.37,1.7882732094411442
+CHEMPLASTS,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-07,185.53,19,196.93,2.8,0.8442284327471978
+AIIL,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-11,544.35,15,551.6,2.28,0.29547733548771554
+SMSPHARMA,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-11,463.45,15,477.85,1.39,0.7220969010761074
+JAINREC,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-22,291.25,9,290.45,2.81,0.4046757257608562
+STEELCAS,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-22,350.15,9,363.7,2.03,0.851484360312353
+NRBBEARING,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-09-28,541.5,,,,
+TIMEX,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-09-29,729.1,,,,
