@@ -1,0 +1,15 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+DMCC,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-08-10,313.1,40,355.8,11.5,23.540805944219024
+KAMATHOTEL,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-08-24,225.94,30,258.82,5.22,6.161894958073302
+CAPLIPOINT,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-01,2711.2,24,2679.7,2.91,0.556287443822047
+TALBROAUTO,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-07,431.8,20,429.45,3.12,0.5056213657917377
+SHAREINDIA,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-09,189.46,18,211.4,2.59,0.22678451702070776
+EMUDHRA,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-15,592.85,15,607.9,1.49,0.2514944341298542
+TEXINFRA,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-23,123.47,9,125.42,4.06,2.387712280255552
+ABDL,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-24,712.15,8,714.65,2.57,1.0467662868734655
+JAMNAAUTO,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-24,138.39,8,144.21,7.26,2.4179141484551447
+AETHER,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-25,1767.0,7,1799.8,8.36,4.476030107342595
+KMEW,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-29,3064.8,5,3202.3,7.01,2.169234997821953
+KRISHNADEF,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-10-05,1201.0,2,1312.3,9.27,13.807017541059205
+COHANCE,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-09-29,457.9,,,,
+JASH,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-09-29,598.4,,,,
