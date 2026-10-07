@@ -1,0 +1,6 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+EPACKPEB,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-08-04 00:00:00,260.35,45,267.44,7.92,3.2604207082542267
+ANTELOPUS,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-02 00:00:00,951.15,24,1130.2,2.69,0.19905459511533058
+SYRMA,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-07 00:00:00,1634.8,21,1746.7,3.66,0.8852828439326104
+NPST,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-16 00:00:00,1834.6,15,1854.9,1.06,0.8502772028086841
+AVANTEL,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-24 00:00:00,155.34,9,153.28,1.46,0.5916039062693764
