@@ -1,0 +1,11 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+CAPILLARY,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-04,534.95,47,566.65,2.32,0.1615158151697135
+RAYMOND,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-03,757.9,25,1186.6,1.67,0.39153873082354457
+ASTEC,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-08,662.8,22,729.3,2.04,0.12241482636222308
+NOVARTIND,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-08,1822.0,22,2049.0,3.08,0.4277721314195636
+JSWINFRA,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-18,348.25,15,338.75,1.5,0.9703179069476716
+SAMBHV,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-18,147.57,15,160.41,1.97,0.6258358107188451
+AEQUS,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-28,260.1,9,273.5,2.05,0.8167962757245046
+SMCGLOBAL,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-10-05,114.5,5,115.95,7.53,15.62008526269486
+ABDL,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-10-06,714.65,,,,
+AVANTEL,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-10-07,153.28,,,,
