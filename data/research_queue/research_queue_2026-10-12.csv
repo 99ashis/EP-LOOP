@@ -1,0 +1,7 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+SKYGOLD,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-08-10 00:00:00,779.6,44,968.25,5.13,2.58801734400092
+GALAXYSURF,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-14 00:00:00,2508.4,40,2532.5,1.21,1.3134966101560506
+DCBBANK,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-08-21 00:00:00,203.59,35,214.89,5.45,2.232702162691823
+JAMNAAUTO,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-24 00:00:00,138.39,12,146.19,2.47,0.6546492759375011
+AZAD,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-29 00:00:00,2914.2,9,2968.4,2.0,0.7298678003334624
+PREMIERPOL,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-10-05 00:00:00,101.54,6,114.91,11.73,9.397617655654594
