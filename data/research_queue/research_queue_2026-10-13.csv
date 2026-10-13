@@ -1,0 +1,9 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+FSL,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-15,283.35,20,291.75,5.19,5.0642412482381705
+LUXIND,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-18,1139.2,17,1152.0,1.32,0.8404836565912367
+ZOTA,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-21,1287.8,16,1301.2,1.26,0.25167807877186493
+SUNTV,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-22,490.1,15,636.05,1.15,0.3814194827395819
+SATIN,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-06,228.35,6,231.87,2.41,0.4755906691734434
+BHARTIHEXA,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-07,1477.9,5,1548.7,1.8,0.8152968796711124
+ADVANCE,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-10-12,126.52,2,143.97,13.79,38.85760313808815
+SHRINGARMS,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-10-12,265.35,2,310.85,17.15,82.85649951023534
