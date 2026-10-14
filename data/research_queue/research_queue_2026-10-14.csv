@@ -1,0 +1,11 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+SOTL,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-06,781.95,48,772.55,1.5,0.1749404120590145
+SAATVIKGL,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-16,413.25,20,403.45,1.2,0.3688915059917119
+ISGEC,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-21,852.85,17,927.35,1.63,0.6310771679898061
+PACEDIGITK,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-22,167.74,16,166.04,1.16,0.26589532748568695
+KMEW,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-29,3064.8,11,3287.0,1.38,0.6628927459622296
+HEXT,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-09,538.5,4,570.35,1.54,0.6811884371830879
+GOODLUCK,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-10-12,566.35,3,596.4,5.25,2.7058062959297207
+WSTCSTPAPR,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-10-12,873.15,3,940.45,13.55,14.631456817596048
+AZAD,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-10-12,2968.4,,,,
+BHARTIHEXA,5D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 5D of the anchor,SUSTAINED_EP,2026-10-13,1548.7,,,,

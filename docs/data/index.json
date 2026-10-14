@@ -348,5 +348,12 @@
     "persistent": 5,
     "retro": 0,
     "sustained": 58
+  },
+  "2026-10-14": {
+    "fizzle": 110,
+    "new": 8,
+    "persistent": 8,
+    "retro": 15,
+    "sustained": 58
   }
 }
