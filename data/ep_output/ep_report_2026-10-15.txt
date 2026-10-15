@@ -1,0 +1,189 @@
+EP DAILY ALERT — 15-Oct-26
+============================================================
+
+NEW EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE    RESULTS                               
+-----------------------------------------------------------------------------------
+BUTTERFLY         +8.58%      15-Oct-26      No nearby results                     
+CEMPRO            +5.89%      15-Oct-26      No nearby results                     
+ORIENTELEC        +13.39%     15-Oct-26      No nearby results                     
+SUVEN             +5.18%      15-Oct-26      No nearby results                     
+TATACOMM          +6.32%      15-Oct-26      No nearby results                     
+TEAMLEASE         +5.59%      15-Oct-26      No nearby results                     
+
+PERSISTENT EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE    PERSISTENT COUNT  RESULTS                               
+-----------------------------------------------------------------------------------------------------
+OAL               +10.87%     26-Aug-26      4                 No nearby results                     
+RITES             +6.73%      30-Sep-26      1                 No nearby results                     
+BHARTIHEXA        +5.11%      07-Oct-26      1                 No nearby results                     
+GALLANTT          +10.65%     12-Oct-26      1                 Pre-results (4d) - reports 19-Oct-26  
+
+RETRO NEW EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE  
+-------------------------------------------
+ALIVUS                        31-Aug-26    
+ALKYLAMINE                    21-Aug-26    
+ATHERENERG                    28-Aug-26    
+CAPILLARY                     05-Aug-26    
+EPACKPEB                      07-Oct-26    
+GRAPHITE                      01-Sep-26    
+MANINFRA                      28-Aug-26    
+PAUSHAKLTD                    13-Aug-26    
+PNGSREVA                      11-Aug-26    
+UNIMECH                       07-Aug-26    
+YASHO                         18-Aug-26    
+
+SUSTAINED EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE    SUSTAINED COUNT   RESULTS                               
+-----------------------------------------------------------------------------------------------------
+BALRAMCHIN        +1.70%      17-Aug-26      1                 No nearby results                     
+SKYGOLD           +3.49%      10-Aug-26      12                No nearby results                     
+TCPLPACK          +2.40%      12-Aug-26      2                 No nearby results                     
+MOTILALOFS        +2.26%      17-Aug-26      16                No nearby results                     
+ORIENTHOT         +2.92%      19-Aug-26      12                No nearby results                     
+SOLARA            +1.27%      20-Aug-26      11                Pre-results (1d) - reports 16-Oct-26  
+HATSUN            +1.99%      24-Aug-26      10                Pre-results (7d) - reports 22-Oct-26  
+KAMATHOTEL        +1.60%      24-Aug-26      10                No nearby results                     
+COHANCE           +3.22%      21-Sep-26      6                 No nearby results                     
+JAINREC           +1.95%      22-Sep-26      6                 No nearby results                     
+ELECON            +1.26%      23-Sep-26      1                 No nearby results                     
+TCI               +3.29%      25-Sep-26      2                 No nearby results                     
+VESUVIUS          +1.44%      30-Sep-26      2                 No nearby results                     
+OMPOWER           +1.49%      07-Oct-26      1                 No nearby results                     
+ADVANCE           +1.77%      12-Oct-26      1                 No nearby results                     
+BLUSPRING         +3.87%      12-Oct-26      1                 No nearby results                     
+PRINCEPIPE        +2.58%      12-Oct-26      2                 No nearby results                     
+BSOFT             +3.60%      13-Oct-26      1                 No nearby results                     
+HCLTECH           +2.49%      13-Oct-26      1                 No nearby results                     
+TATAELXSI         +2.12%      14-Oct-26      1                 No nearby results                     
+
+FIZZLE OUT EP
+------------------------------------------------------------
+TICKER            % CHANGE    ANCHOR DATE  
+-------------------------------------------
+ATULAUTO          -1.79%      05-Aug-26    
+NOCIL             -1.20%      08-Sep-26    
+AGARWALEYE        +1.98%      05-Aug-26    
+FIEMIND           +1.26%      05-Aug-26    
+HINDCOPPER        -3.12%      05-Aug-26    
+KANSAINER         -0.16%      05-Aug-26    
+PTC               -0.50%      05-Aug-26    
+UNIPARTS          -3.25%      05-Aug-26    
+BAJAJELEC         +0.43%      06-Aug-26    
+BIRLANU           -2.08%      06-Aug-26    
+DECNGOLD          -1.42%      06-Aug-26    
+IGARASHI          -2.83%      06-Aug-26    
+MAZDOCK           -0.91%      06-Aug-26    
+GOCLCORP          -1.31%      07-Aug-26    
+INDRAMEDCO        -1.94%      07-Aug-26    
+PGIL              -3.02%      07-Aug-26    
+ENRIN             -6.51%      07-Aug-26    
+TRAVELFOOD        -1.91%      07-Aug-26    
+GARUDA            -1.52%      10-Aug-26    
+RAMCOIND          -2.31%      10-Aug-26    
+THOMASCOTT        +0.98%      10-Aug-26    
+ARE&M             -0.55%      11-Aug-26    
+POLYMED           -0.35%      11-Aug-26    
+YATRA             -2.09%      11-Aug-26    
+DIVGIITTS         -3.45%      12-Aug-26    
+ORISSAMINE        -3.00%      12-Aug-26    
+TDPOWERSYS        -6.25%      12-Aug-26    
+GPIL              -0.88%      13-Aug-26    
+INGERRAND         -0.58%      13-Aug-26    
+JUBLCPL           -2.44%      13-Aug-26    
+SKFINDIA          -0.07%      13-Aug-26    
+APEX              -1.92%      14-Aug-26    
+DREDGECORP        -1.69%      14-Aug-26    
+HAPPSTMNDS        +2.76%      14-Aug-26    
+PRAKASH           -0.40%      14-Aug-26    
+CAMLINFINE        -0.33%      17-Aug-26    
+JYOTHYLAB         +0.92%      17-Aug-26    
+RUBICON           -3.12%      17-Aug-26    
+VIKRAMSOLR        -2.98%      17-Aug-26    
+INDIAGLYCO        -6.09%      18-Aug-26    
+JINDRILL          -1.60%      18-Aug-26    
+MMFL              -2.60%      18-Aug-26    
+TIINDIA           -1.62%      18-Aug-26    
+GLAXO             -0.56%      19-Aug-26    
+GOPAL             +0.90%      19-Aug-26    
+NILKAMAL          +0.60%      19-Aug-26    
+PRSMJOHNSN        +0.27%      19-Aug-26    
+EPL               -0.25%      20-Aug-26    
+HUBTOWN           -5.58%      20-Aug-26    
+IIFL              +0.55%      21-Aug-26    
+JBMA              -0.94%      21-Aug-26    
+NCC               -1.29%      21-Aug-26    
+CLSEL             -2.85%      24-Aug-26    
+GUJALKALI         -2.34%      24-Aug-26    
+GUJTHEM           -4.91%      24-Aug-26    
+KRBL              -2.03%      24-Aug-26    
+VMM               +0.26%      24-Aug-26    
+APOLLOPIPE        -2.68%      25-Aug-26    
+FACT              -0.03%      25-Aug-26    
+FMGOETZE          -2.44%      25-Aug-26    
+PARADEEP          +1.49%      25-Aug-26    
+QUESS             -3.32%      26-Aug-26    
+SBFC              -1.52%      26-Aug-26    
+WEL               -0.79%      26-Aug-26    
+BBTC              -0.38%      27-Aug-26    
+BOMDYEING         +0.73%      27-Aug-26    
+OMAXE             +3.08%      28-Aug-26    
+TEJASNET          +0.85%      28-Aug-26    
+ASHOKA            -0.99%      31-Aug-26    
+ULTRAMAR          -0.18%      31-Aug-26    
+CAPLIPOINT        -1.56%      01-Sep-26    
+DYCL              -2.53%      01-Sep-26    
+VTL               +0.70%      01-Sep-26    
+XPROINDIA         -2.28%      02-Sep-26    
+ALEMBICLTD        -2.58%      03-Sep-26    
+ANANTRAJ          -6.11%      03-Sep-26    
+BFUTILITIE        -1.17%      03-Sep-26    
+BRIGADE           -0.58%      03-Sep-26    
+TNPL              -1.29%      03-Sep-26    
+AFFLE             -0.39%      04-Sep-26    
+IFCI              -1.56%      04-Sep-26    
+MAHSEAMLES        -1.46%      04-Sep-26    
+MAITHANALL        -1.18%      04-Sep-26    
+PURVA             -1.68%      04-Sep-26    
+SKIPPER           -1.69%      04-Sep-26    
+IONEXCHANG        -2.59%      07-Sep-26    
+TALBROAUTO        -4.64%      07-Sep-26    
+SFL               -1.87%      08-Sep-26    
+SYMPHONY          +1.65%      08-Sep-26    
+EIEL              +2.70%      09-Sep-26    
+SAMHI             +0.56%      10-Sep-26    
+SHAKTIPUMP        -1.28%      10-Sep-26    
+SWANCORP          -3.91%      10-Sep-26    
+AWFIS             -4.18%      11-Sep-26    
+KIRLOSIND         -2.51%      11-Sep-26    
+ORIENTTECH        -1.81%      11-Sep-26    
+PINELABS          +0.23%      11-Sep-26    
+SIKA              -3.83%      11-Sep-26    
+TATAINVEST        -0.88%      15-Sep-26    
+AWHCL             -0.45%      17-Sep-26    
+TATACHEM          -0.19%      17-Sep-26    
+INDIACEM          +0.59%      17-Sep-26    
+HOMEFIRST         +0.76%      18-Sep-26    
+MASPTOP50         -6.65%      18-Sep-26    
+SJS               -0.80%      18-Sep-26    
+ORCHPHARMA        -1.82%      21-Sep-26    
+REFEX             -1.88%      21-Sep-26    
+BIKAJI            -1.82%      23-Sep-26    
+CLEANMAX          -3.32%      23-Sep-26    
+GNA               -3.97%      23-Sep-26    
+INNOVACAP         -2.81%      23-Sep-26    
+SCODATUBES        -2.45%      23-Sep-26    
+SOLEX             -1.11%      23-Sep-26    
+JAGSNPHARM        -2.12%      24-Sep-26    
+AETHER            -5.17%      25-Sep-26    
+KIRLOSBROS        -1.10%      29-Sep-26    
+KIRLOSENG         -3.82%      29-Sep-26    
+TCIEXP            -1.16%      29-Sep-26    
+UNICHEMLAB        +0.29%      29-Sep-26    
+AXISCADES         -3.35%      30-Sep-26    
+JWL               -3.53%      30-Sep-26
