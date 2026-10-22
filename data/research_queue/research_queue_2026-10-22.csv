@@ -1,0 +1,9 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+JAYKAY,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-26,168.94,39,208.1,2.82,0.5100806621875889
+FSL,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-15,283.35,26,289.4,1.81,0.6637364991804076
+TCI,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-25,883.7,18,874.05,1.49,0.22168744725793618
+V2RETAIL,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-14,170.64,6,170.14,1.49,0.4312658113076826
+PLATIND,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-10-19,228.06,3,243.49,5.16,5.230206702221139
+PVRINOX,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-10-21,1417.9,,,,
+ONWARDTEC,5D window resolved to Persistent x3+ — 3rd+ Persistent occurrence confirmed within 5D of the anchor,PERSISTENT_EP,2026-10-22,459.75,,,,
+SIMPLEXINF,5D window resolved to Persistent x2 — 2nd Persistent occurrence confirmed within 5D of the anchor,PERSISTENT_EP,2026-10-19,288.61,,,,
