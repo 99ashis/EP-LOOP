@@ -1,0 +1,1537 @@
+{
+  "date": "2026-10-29",
+  "sections": {
+    "new": [
+      {
+        "ticker": "AARTIPHARM",
+        "pct": 5.18,
+        "anchor_date": "29-Oct-26",
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "AURIONPRO",
+        "pct": 8.38,
+        "anchor_date": "29-Oct-26",
+        "results": {
+          "context": "PRE_RESULTS",
+          "result_date": "31-Oct-26",
+          "days": -2
+        }
+      },
+      {
+        "ticker": "CNL",
+        "pct": 11.15,
+        "anchor_date": "29-Oct-26",
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "GRINDWELL",
+        "pct": 5.62,
+        "anchor_date": "29-Oct-26",
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "JSWENERGY",
+        "pct": 5.59,
+        "anchor_date": "29-Oct-26",
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "MANAKCOAT",
+        "pct": 11.54,
+        "anchor_date": "29-Oct-26",
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "SGMART",
+        "pct": 7.67,
+        "anchor_date": "29-Oct-26",
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "TATACAP",
+        "pct": 5.51,
+        "anchor_date": "29-Oct-26",
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "VGUARD",
+        "pct": 7.9,
+        "anchor_date": "29-Oct-26",
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      }
+    ],
+    "persistent": [
+      {
+        "ticker": "SHREEPUSHK",
+        "pct": 6.32,
+        "anchor_date": "24-Aug-26",
+        "count": 5,
+        "results": {
+          "context": "PRE_RESULTS",
+          "result_date": "02-Nov-26",
+          "days": -4
+        }
+      },
+      {
+        "ticker": "SGFIN",
+        "pct": 12.83,
+        "anchor_date": "05-Oct-26",
+        "count": 1,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "SATIN",
+        "pct": 10.12,
+        "anchor_date": "06-Oct-26",
+        "count": 1,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "BSOFT",
+        "pct": 11.89,
+        "anchor_date": "13-Oct-26",
+        "count": 1,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "CEMPRO",
+        "pct": 4.65,
+        "anchor_date": "15-Oct-26",
+        "count": 1,
+        "results": {
+          "context": "PRE_RESULTS",
+          "result_date": "05-Nov-26",
+          "days": -7
+        }
+      },
+      {
+        "ticker": "PASHUPATI",
+        "pct": 5.14,
+        "anchor_date": "26-Oct-26",
+        "count": 3,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "ACUTAAS",
+        "pct": 7.19,
+        "anchor_date": "27-Oct-26",
+        "count": 1,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "HUHTAMAKI",
+        "pct": 4.26,
+        "anchor_date": "28-Oct-26",
+        "count": 1,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      }
+    ],
+    "retro": [
+      {
+        "ticker": "GKSL",
+        "pct": null,
+        "anchor_date": "28-Aug-26"
+      },
+      {
+        "ticker": "MAXESTATES",
+        "pct": null,
+        "anchor_date": "24-Aug-26"
+      },
+      {
+        "ticker": "PTCIL",
+        "pct": null,
+        "anchor_date": "28-Aug-26"
+      },
+      {
+        "ticker": "RISHABH",
+        "pct": null,
+        "anchor_date": "19-Aug-26"
+      },
+      {
+        "ticker": "RUBICON",
+        "pct": null,
+        "anchor_date": "26-Aug-26"
+      },
+      {
+        "ticker": "UFLEX",
+        "pct": null,
+        "anchor_date": "18-Aug-26"
+      }
+    ],
+    "sustained": [
+      {
+        "ticker": "IGPL",
+        "pct": 1.79,
+        "anchor_date": "24-Aug-26",
+        "count": 3,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "GRAPHITE",
+        "pct": 1.67,
+        "anchor_date": "01-Sep-26",
+        "count": 2,
+        "results": {
+          "context": "PRE_RESULTS",
+          "result_date": "03-Nov-26",
+          "days": -5
+        }
+      },
+      {
+        "ticker": "WESTLIFE",
+        "pct": 2.45,
+        "anchor_date": "23-Sep-26",
+        "count": 3,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "GMMPFAUDLR",
+        "pct": 3.42,
+        "anchor_date": "04-Sep-26",
+        "count": 3,
+        "results": {
+          "context": "PRE_RESULTS",
+          "result_date": "04-Nov-26",
+          "days": -6
+        }
+      },
+      {
+        "ticker": "PAYTM",
+        "pct": 3.37,
+        "anchor_date": "25-Aug-26",
+        "count": 1,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "MANINDS",
+        "pct": 3.2,
+        "anchor_date": "20-Aug-26",
+        "count": 2,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "NITINSPIN",
+        "pct": 1.42,
+        "anchor_date": "18-Aug-26",
+        "count": 12,
+        "results": {
+          "context": "PRE_RESULTS",
+          "result_date": "31-Oct-26",
+          "days": -2
+        }
+      },
+      {
+        "ticker": "PARAGMILK",
+        "pct": 2.4,
+        "anchor_date": "21-Aug-26",
+        "count": 14,
+        "results": {
+          "context": "PRE_RESULTS",
+          "result_date": "03-Nov-26",
+          "days": -5
+        }
+      },
+      {
+        "ticker": "JAYKAY",
+        "pct": 1.1,
+        "anchor_date": "26-Aug-26",
+        "count": 6,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "RAMRAT",
+        "pct": 1.39,
+        "anchor_date": "27-Aug-26",
+        "count": 8,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "RAYMOND",
+        "pct": 3.94,
+        "anchor_date": "03-Sep-26",
+        "count": 6,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "SANATHAN",
+        "pct": 1.75,
+        "anchor_date": "04-Sep-26",
+        "count": 8,
+        "results": {
+          "context": "PRE_RESULTS",
+          "result_date": "04-Nov-26",
+          "days": -6
+        }
+      },
+      {
+        "ticker": "CHEMPLASTS",
+        "pct": 2.54,
+        "anchor_date": "07-Sep-26",
+        "count": 8,
+        "results": {
+          "context": "PRE_RESULTS",
+          "result_date": "04-Nov-26",
+          "days": -6
+        }
+      },
+      {
+        "ticker": "VENUSPIPES",
+        "pct": 3.0,
+        "anchor_date": "07-Sep-26",
+        "count": 6,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "KROSS",
+        "pct": 2.09,
+        "anchor_date": "10-Sep-26",
+        "count": 4,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "SAMHI",
+        "pct": 2.39,
+        "anchor_date": "10-Sep-26",
+        "count": 2,
+        "results": {
+          "context": "PRE_RESULTS",
+          "result_date": "03-Nov-26",
+          "days": -5
+        }
+      },
+      {
+        "ticker": "MOBIKWIK",
+        "pct": 1.14,
+        "anchor_date": "11-Sep-26",
+        "count": 4,
+        "results": {
+          "context": "PRE_RESULTS",
+          "result_date": "02-Nov-26",
+          "days": -4
+        }
+      },
+      {
+        "ticker": "SMSPHARMA",
+        "pct": 2.18,
+        "anchor_date": "11-Sep-26",
+        "count": 4,
+        "results": {
+          "context": "PRE_RESULTS",
+          "result_date": "04-Nov-26",
+          "days": -6
+        }
+      },
+      {
+        "ticker": "PATANJALI",
+        "pct": 2.49,
+        "anchor_date": "16-Sep-26",
+        "count": 7,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "LUXIND",
+        "pct": 3.51,
+        "anchor_date": "18-Sep-26",
+        "count": 6,
+        "results": {
+          "context": "PRE_RESULTS",
+          "result_date": "03-Nov-26",
+          "days": -5
+        }
+      },
+      {
+        "ticker": "COHANCE",
+        "pct": 1.11,
+        "anchor_date": "21-Sep-26",
+        "count": 9,
+        "results": {
+          "context": "PRE_RESULTS",
+          "result_date": "06-Nov-26",
+          "days": -8
+        }
+      },
+      {
+        "ticker": "ISGEC",
+        "pct": 1.88,
+        "anchor_date": "21-Sep-26",
+        "count": 6,
+        "results": {
+          "context": "PRE_RESULTS",
+          "result_date": "04-Nov-26",
+          "days": -6
+        }
+      },
+      {
+        "ticker": "ABDL",
+        "pct": 1.14,
+        "anchor_date": "24-Sep-26",
+        "count": 10,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "TCI",
+        "pct": 2.0,
+        "anchor_date": "25-Sep-26",
+        "count": 5,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "DPABHUSHAN",
+        "pct": 2.76,
+        "anchor_date": "29-Sep-26",
+        "count": 3,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "NUVAMA",
+        "pct": 2.25,
+        "anchor_date": "05-Oct-26",
+        "count": 1,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "PVRINOX",
+        "pct": 3.11,
+        "anchor_date": "07-Oct-26",
+        "count": 4,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "TATAELXSI",
+        "pct": 1.3,
+        "anchor_date": "14-Oct-26",
+        "count": 3,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "AJMERA",
+        "pct": 3.03,
+        "anchor_date": "16-Oct-26",
+        "count": 3,
+        "results": {
+          "context": "PRE_RESULTS",
+          "result_date": "03-Nov-26",
+          "days": -5
+        }
+      },
+      {
+        "ticker": "WIPRO",
+        "pct": 3.04,
+        "anchor_date": "16-Oct-26",
+        "count": 2,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "LTTS",
+        "pct": 2.31,
+        "anchor_date": "21-Oct-26",
+        "count": 3,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "IGIL",
+        "pct": 2.1,
+        "anchor_date": "22-Oct-26",
+        "count": 4,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "SASKEN",
+        "pct": 3.17,
+        "anchor_date": "22-Oct-26",
+        "count": 3,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "SUNTECK",
+        "pct": 2.33,
+        "anchor_date": "22-Oct-26",
+        "count": 2,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "APOLLO",
+        "pct": 1.6,
+        "anchor_date": "26-Oct-26",
+        "count": 2,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "EPACK",
+        "pct": 1.26,
+        "anchor_date": "26-Oct-26",
+        "count": 2,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "ITCHOTELS",
+        "pct": 2.56,
+        "anchor_date": "26-Oct-26",
+        "count": 2,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "TATACONSUM",
+        "pct": 2.08,
+        "anchor_date": "27-Oct-26",
+        "count": 1,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      },
+      {
+        "ticker": "RAMKY",
+        "pct": 3.08,
+        "anchor_date": "28-Oct-26",
+        "count": 1,
+        "results": {
+          "context": "NO_CATALYST",
+          "result_date": null,
+          "days": null
+        }
+      }
+    ],
+    "fizzle": [
+      {
+        "ticker": "NOCIL",
+        "pct": -0.92,
+        "anchor_date": "08-Sep-26"
+      },
+      {
+        "ticker": "ALKYLAMINE",
+        "pct": 0.12,
+        "anchor_date": "21-Aug-26"
+      },
+      {
+        "ticker": "EPACKPEB",
+        "pct": -1.28,
+        "anchor_date": "07-Oct-26"
+      },
+      {
+        "ticker": "MANINFRA",
+        "pct": -1.29,
+        "anchor_date": "28-Aug-26"
+      },
+      {
+        "ticker": "PAUSHAKLTD",
+        "pct": 1.26,
+        "anchor_date": "16-Oct-26"
+      },
+      {
+        "ticker": "YASHO",
+        "pct": 4.03,
+        "anchor_date": "18-Aug-26"
+      },
+      {
+        "ticker": "ARTEMISMED",
+        "pct": -0.2,
+        "anchor_date": "04-Sep-26"
+      },
+      {
+        "ticker": "UNIPARTS",
+        "pct": 0.22,
+        "anchor_date": "28-Aug-26"
+      },
+      {
+        "ticker": "VSSL",
+        "pct": -0.05,
+        "anchor_date": "27-Oct-26"
+      },
+      {
+        "ticker": "RACLGEAR",
+        "pct": 1.27,
+        "anchor_date": "11-Sep-26"
+      },
+      {
+        "ticker": "GOCLCORP",
+        "pct": 0.61,
+        "anchor_date": "17-Sep-26"
+      },
+      {
+        "ticker": "WINDMACHIN",
+        "pct": -0.09,
+        "anchor_date": "18-Aug-26"
+      },
+      {
+        "ticker": "DMCC",
+        "pct": -1.07,
+        "anchor_date": "06-Oct-26"
+      },
+      {
+        "ticker": "SKYGOLD",
+        "pct": 2.11,
+        "anchor_date": "12-Oct-26"
+      },
+      {
+        "ticker": "GIPCL",
+        "pct": 1.34,
+        "anchor_date": "25-Aug-26"
+      },
+      {
+        "ticker": "PITTIENG",
+        "pct": 1.35,
+        "anchor_date": "24-Aug-26"
+      },
+      {
+        "ticker": "INGERRAND",
+        "pct": 1.66,
+        "anchor_date": "28-Aug-26"
+      },
+      {
+        "ticker": "MIDHANI",
+        "pct": 1.68,
+        "anchor_date": "08-Sep-26"
+      },
+      {
+        "ticker": "PRECWIRE",
+        "pct": 2.02,
+        "anchor_date": "28-Aug-26"
+      },
+      {
+        "ticker": "SARDAEN",
+        "pct": 0.62,
+        "anchor_date": "09-Sep-26"
+      },
+      {
+        "ticker": "SOLARINDS",
+        "pct": 0.99,
+        "anchor_date": "03-Sep-26"
+      },
+      {
+        "ticker": "BALUFORGE",
+        "pct": 1.3,
+        "anchor_date": "18-Aug-26"
+      },
+      {
+        "ticker": "ELGIEQUIP",
+        "pct": -0.48,
+        "anchor_date": "28-Aug-26"
+      },
+      {
+        "ticker": "HAPPSTMNDS",
+        "pct": 0.53,
+        "anchor_date": "21-Aug-26"
+      },
+      {
+        "ticker": "SUDARSCHEM",
+        "pct": 1.56,
+        "anchor_date": "20-Aug-26"
+      },
+      {
+        "ticker": "INDIAGLYCO",
+        "pct": -0.35,
+        "anchor_date": "18-Aug-26"
+      },
+      {
+        "ticker": "JINDRILL",
+        "pct": 0.83,
+        "anchor_date": "18-Aug-26"
+      },
+      {
+        "ticker": "MMFL",
+        "pct": 2.34,
+        "anchor_date": "18-Aug-26"
+      },
+      {
+        "ticker": "TIINDIA",
+        "pct": 1.97,
+        "anchor_date": "18-Aug-26"
+      },
+      {
+        "ticker": "EXCELINDUS",
+        "pct": -3.67,
+        "anchor_date": "19-Aug-26"
+      },
+      {
+        "ticker": "GLAXO",
+        "pct": 0.68,
+        "anchor_date": "19-Aug-26"
+      },
+      {
+        "ticker": "GOPAL",
+        "pct": -1.45,
+        "anchor_date": "19-Aug-26"
+      },
+      {
+        "ticker": "PRSMJOHNSN",
+        "pct": 1.16,
+        "anchor_date": "19-Aug-26"
+      },
+      {
+        "ticker": "ZAGGLE",
+        "pct": 0.13,
+        "anchor_date": "19-Aug-26"
+      },
+      {
+        "ticker": "EPL",
+        "pct": 1.58,
+        "anchor_date": "20-Aug-26"
+      },
+      {
+        "ticker": "INDOBORAX",
+        "pct": 0.1,
+        "anchor_date": "20-Aug-26"
+      },
+      {
+        "ticker": "KCP",
+        "pct": 0.82,
+        "anchor_date": "20-Aug-26"
+      },
+      {
+        "ticker": "KRYSTAL",
+        "pct": -0.25,
+        "anchor_date": "20-Aug-26"
+      },
+      {
+        "ticker": "MAGADSUGAR",
+        "pct": 2.43,
+        "anchor_date": "20-Aug-26"
+      },
+      {
+        "ticker": "ZUARIIND",
+        "pct": -0.77,
+        "anchor_date": "20-Aug-26"
+      },
+      {
+        "ticker": "IIFL",
+        "pct": 5.44,
+        "anchor_date": "21-Aug-26"
+      },
+      {
+        "ticker": "JBMA",
+        "pct": -0.45,
+        "anchor_date": "21-Aug-26"
+      },
+      {
+        "ticker": "JINDALSAW",
+        "pct": -1.43,
+        "anchor_date": "21-Aug-26"
+      },
+      {
+        "ticker": "NCC",
+        "pct": 1.28,
+        "anchor_date": "21-Aug-26"
+      },
+      {
+        "ticker": "RIIL",
+        "pct": 0.3,
+        "anchor_date": "21-Aug-26"
+      },
+      {
+        "ticker": "THOMASCOOK",
+        "pct": -1.7,
+        "anchor_date": "21-Aug-26"
+      },
+      {
+        "ticker": "GUJALKALI",
+        "pct": 0.3,
+        "anchor_date": "24-Aug-26"
+      },
+      {
+        "ticker": "KRBL",
+        "pct": 1.55,
+        "anchor_date": "24-Aug-26"
+      },
+      {
+        "ticker": "LTFOODS",
+        "pct": -1.22,
+        "anchor_date": "24-Aug-26"
+      },
+      {
+        "ticker": "TVSSCS",
+        "pct": -0.14,
+        "anchor_date": "24-Aug-26"
+      },
+      {
+        "ticker": "VMM",
+        "pct": -1.53,
+        "anchor_date": "24-Aug-26"
+      },
+      {
+        "ticker": "APOLLOPIPE",
+        "pct": 12.96,
+        "anchor_date": "25-Aug-26"
+      },
+      {
+        "ticker": "FACT",
+        "pct": 1.36,
+        "anchor_date": "25-Aug-26"
+      },
+      {
+        "ticker": "FMGOETZE",
+        "pct": 2.74,
+        "anchor_date": "25-Aug-26"
+      },
+      {
+        "ticker": "PARADEEP",
+        "pct": 1.16,
+        "anchor_date": "25-Aug-26"
+      },
+      {
+        "ticker": "CGCL",
+        "pct": -0.02,
+        "anchor_date": "26-Aug-26"
+      },
+      {
+        "ticker": "QUESS",
+        "pct": -0.29,
+        "anchor_date": "26-Aug-26"
+      },
+      {
+        "ticker": "SBFC",
+        "pct": -3.8,
+        "anchor_date": "26-Aug-26"
+      },
+      {
+        "ticker": "BBTC",
+        "pct": 0.16,
+        "anchor_date": "27-Aug-26"
+      },
+      {
+        "ticker": "BOMDYEING",
+        "pct": 1.65,
+        "anchor_date": "27-Aug-26"
+      },
+      {
+        "ticker": "INFOBEAN",
+        "pct": -4.65,
+        "anchor_date": "28-Aug-26"
+      },
+      {
+        "ticker": "MASTEK",
+        "pct": 0.99,
+        "anchor_date": "28-Aug-26"
+      },
+      {
+        "ticker": "OMAXE",
+        "pct": -2.87,
+        "anchor_date": "28-Aug-26"
+      },
+      {
+        "ticker": "TEJASNET",
+        "pct": 1.08,
+        "anchor_date": "28-Aug-26"
+      },
+      {
+        "ticker": "ASHOKA",
+        "pct": 2.86,
+        "anchor_date": "31-Aug-26"
+      },
+      {
+        "ticker": "AYMSYNTEX",
+        "pct": 1.19,
+        "anchor_date": "31-Aug-26"
+      },
+      {
+        "ticker": "INNOVISION",
+        "pct": 6.31,
+        "anchor_date": "31-Aug-26"
+      },
+      {
+        "ticker": "NORTHARC",
+        "pct": 4.41,
+        "anchor_date": "31-Aug-26"
+      },
+      {
+        "ticker": "ULTRAMAR",
+        "pct": 1.91,
+        "anchor_date": "31-Aug-26"
+      },
+      {
+        "ticker": "VENKEYS",
+        "pct": -4.13,
+        "anchor_date": "31-Aug-26"
+      },
+      {
+        "ticker": "CAPLIPOINT",
+        "pct": 0.56,
+        "anchor_date": "01-Sep-26"
+      },
+      {
+        "ticker": "DYCL",
+        "pct": -1.66,
+        "anchor_date": "01-Sep-26"
+      },
+      {
+        "ticker": "VTL",
+        "pct": -1.69,
+        "anchor_date": "01-Sep-26"
+      },
+      {
+        "ticker": "CENTENKA",
+        "pct": 3.94,
+        "anchor_date": "02-Sep-26"
+      },
+      {
+        "ticker": "INDOCO",
+        "pct": -1.99,
+        "anchor_date": "02-Sep-26"
+      },
+      {
+        "ticker": "NIACL",
+        "pct": 1.34,
+        "anchor_date": "02-Sep-26"
+      },
+      {
+        "ticker": "XPROINDIA",
+        "pct": 1.65,
+        "anchor_date": "02-Sep-26"
+      },
+      {
+        "ticker": "ALEMBICLTD",
+        "pct": 1.96,
+        "anchor_date": "03-Sep-26"
+      },
+      {
+        "ticker": "ANANTRAJ",
+        "pct": 0.02,
+        "anchor_date": "03-Sep-26"
+      },
+      {
+        "ticker": "BFUTILITIE",
+        "pct": 0.09,
+        "anchor_date": "03-Sep-26"
+      },
+      {
+        "ticker": "BRIGADE",
+        "pct": -1.18,
+        "anchor_date": "03-Sep-26"
+      },
+      {
+        "ticker": "HINDOILEXP",
+        "pct": 0.18,
+        "anchor_date": "03-Sep-26"
+      },
+      {
+        "ticker": "TNPL",
+        "pct": -1.16,
+        "anchor_date": "03-Sep-26"
+      },
+      {
+        "ticker": "AFFLE",
+        "pct": -2.1,
+        "anchor_date": "04-Sep-26"
+      },
+      {
+        "ticker": "IFCI",
+        "pct": -1.19,
+        "anchor_date": "04-Sep-26"
+      },
+      {
+        "ticker": "MAHSEAMLES",
+        "pct": 0.87,
+        "anchor_date": "04-Sep-26"
+      },
+      {
+        "ticker": "MAITHANALL",
+        "pct": 0.77,
+        "anchor_date": "04-Sep-26"
+      },
+      {
+        "ticker": "PURVA",
+        "pct": 1.96,
+        "anchor_date": "04-Sep-26"
+      },
+      {
+        "ticker": "SKIPPER",
+        "pct": 0.96,
+        "anchor_date": "04-Sep-26"
+      },
+      {
+        "ticker": "IONEXCHANG",
+        "pct": 1.21,
+        "anchor_date": "07-Sep-26"
+      },
+      {
+        "ticker": "PDMJEPAPER",
+        "pct": 1.63,
+        "anchor_date": "07-Sep-26"
+      },
+      {
+        "ticker": "SIGNPOST",
+        "pct": -1.77,
+        "anchor_date": "07-Sep-26"
+      },
+      {
+        "ticker": "TALBROAUTO",
+        "pct": -0.45,
+        "anchor_date": "07-Sep-26"
+      },
+      {
+        "ticker": "THEMISMED",
+        "pct": -0.93,
+        "anchor_date": "07-Sep-26"
+      },
+      {
+        "ticker": "INDOFARM",
+        "pct": 0.77,
+        "anchor_date": "08-Sep-26"
+      },
+      {
+        "ticker": "SFL",
+        "pct": -0.13,
+        "anchor_date": "08-Sep-26"
+      },
+      {
+        "ticker": "SYMPHONY",
+        "pct": 1.7,
+        "anchor_date": "08-Sep-26"
+      },
+      {
+        "ticker": "EIEL",
+        "pct": 1.35,
+        "anchor_date": "09-Sep-26"
+      },
+      {
+        "ticker": "JSL",
+        "pct": 0.04,
+        "anchor_date": "09-Sep-26"
+      },
+      {
+        "ticker": "KSL",
+        "pct": -2.81,
+        "anchor_date": "10-Sep-26"
+      },
+      {
+        "ticker": "SHAKTIPUMP",
+        "pct": 1.1,
+        "anchor_date": "10-Sep-26"
+      },
+      {
+        "ticker": "SWANCORP",
+        "pct": -0.52,
+        "anchor_date": "10-Sep-26"
+      },
+      {
+        "ticker": "AIIL",
+        "pct": 1.23,
+        "anchor_date": "11-Sep-26"
+      },
+      {
+        "ticker": "AWFIS",
+        "pct": -0.16,
+        "anchor_date": "11-Sep-26"
+      },
+      {
+        "ticker": "BLACKBUCK",
+        "pct": -1.02,
+        "anchor_date": "11-Sep-26"
+      },
+      {
+        "ticker": "KIRLOSIND",
+        "pct": -0.04,
+        "anchor_date": "11-Sep-26"
+      },
+      {
+        "ticker": "ORIENTTECH",
+        "pct": -0.14,
+        "anchor_date": "11-Sep-26"
+      },
+      {
+        "ticker": "PINELABS",
+        "pct": 0.99,
+        "anchor_date": "11-Sep-26"
+      },
+      {
+        "ticker": "SIKA",
+        "pct": -1.16,
+        "anchor_date": "11-Sep-26"
+      },
+      {
+        "ticker": "EMUDHRA",
+        "pct": 2.17,
+        "anchor_date": "15-Sep-26"
+      },
+      {
+        "ticker": "SHOPERSTOP",
+        "pct": 0.65,
+        "anchor_date": "15-Sep-26"
+      },
+      {
+        "ticker": "TATAINVEST",
+        "pct": 2.16,
+        "anchor_date": "15-Sep-26"
+      },
+      {
+        "ticker": "FOSECOIND",
+        "pct": 0.9,
+        "anchor_date": "16-Sep-26"
+      },
+      {
+        "ticker": "AWHCL",
+        "pct": 0.37,
+        "anchor_date": "17-Sep-26"
+      },
+      {
+        "ticker": "GNFC",
+        "pct": 0.57,
+        "anchor_date": "17-Sep-26"
+      },
+      {
+        "ticker": "TATACHEM",
+        "pct": 0.25,
+        "anchor_date": "17-Sep-26"
+      },
+      {
+        "ticker": "INDIACEM",
+        "pct": -0.87,
+        "anchor_date": "17-Sep-26"
+      },
+      {
+        "ticker": "YATHARTH",
+        "pct": -2.35,
+        "anchor_date": "17-Sep-26"
+      },
+      {
+        "ticker": "ATGL",
+        "pct": 2.46,
+        "anchor_date": "18-Sep-26"
+      },
+      {
+        "ticker": "HOMEFIRST",
+        "pct": 4.78,
+        "anchor_date": "18-Sep-26"
+      },
+      {
+        "ticker": "MASPTOP50",
+        "pct": -0.74,
+        "anchor_date": "18-Sep-26"
+      },
+      {
+        "ticker": "NRBBEARING",
+        "pct": 0.15,
+        "anchor_date": "18-Sep-26"
+      },
+      {
+        "ticker": "SJS",
+        "pct": 0.17,
+        "anchor_date": "18-Sep-26"
+      },
+      {
+        "ticker": "AGI",
+        "pct": -9.1,
+        "anchor_date": "21-Sep-26"
+      },
+      {
+        "ticker": "ASHIANA",
+        "pct": -0.6,
+        "anchor_date": "21-Sep-26"
+      },
+      {
+        "ticker": "INDORAMA",
+        "pct": 0.08,
+        "anchor_date": "21-Sep-26"
+      },
+      {
+        "ticker": "JASH",
+        "pct": 0.86,
+        "anchor_date": "21-Sep-26"
+      },
+      {
+        "ticker": "ORCHPHARMA",
+        "pct": 3.28,
+        "anchor_date": "21-Sep-26"
+      },
+      {
+        "ticker": "REFEX",
+        "pct": -0.16,
+        "anchor_date": "21-Sep-26"
+      },
+      {
+        "ticker": "STUDDS",
+        "pct": 1.31,
+        "anchor_date": "21-Sep-26"
+      },
+      {
+        "ticker": "PACEDIGITK",
+        "pct": 0.65,
+        "anchor_date": "22-Sep-26"
+      },
+      {
+        "ticker": "BIKAJI",
+        "pct": -0.2,
+        "anchor_date": "23-Sep-26"
+      },
+      {
+        "ticker": "CLEANMAX",
+        "pct": 0.82,
+        "anchor_date": "23-Sep-26"
+      },
+      {
+        "ticker": "EKC",
+        "pct": 0.63,
+        "anchor_date": "23-Sep-26"
+      },
+      {
+        "ticker": "INNOVACAP",
+        "pct": 0.13,
+        "anchor_date": "23-Sep-26"
+      },
+      {
+        "ticker": "RAYMONDREL",
+        "pct": -1.09,
+        "anchor_date": "23-Sep-26"
+      },
+      {
+        "ticker": "SCODATUBES",
+        "pct": -1.03,
+        "anchor_date": "23-Sep-26"
+      },
+      {
+        "ticker": "SOLEX",
+        "pct": 2.39,
+        "anchor_date": "23-Sep-26"
+      },
+      {
+        "ticker": "AVANTEL",
+        "pct": 1.29,
+        "anchor_date": "24-Sep-26"
+      },
+      {
+        "ticker": "GREAVESCOT",
+        "pct": 3.14,
+        "anchor_date": "24-Sep-26"
+      },
+      {
+        "ticker": "JAMNAAUTO",
+        "pct": -0.07,
+        "anchor_date": "24-Sep-26"
+      },
+      {
+        "ticker": "KSCL",
+        "pct": -2.52,
+        "anchor_date": "24-Sep-26"
+      },
+      {
+        "ticker": "REMSONSIND",
+        "pct": 0.66,
+        "anchor_date": "24-Sep-26"
+      },
+      {
+        "ticker": "AETHER",
+        "pct": -0.47,
+        "anchor_date": "25-Sep-26"
+      },
+      {
+        "ticker": "AJAXENGG",
+        "pct": -0.34,
+        "anchor_date": "25-Sep-26"
+      },
+      {
+        "ticker": "AEQUS",
+        "pct": 2.88,
+        "anchor_date": "28-Sep-26"
+      },
+      {
+        "ticker": "DAMCAPITAL",
+        "pct": 0.42,
+        "anchor_date": "28-Sep-26"
+      },
+      {
+        "ticker": "EMKAY",
+        "pct": -9.39,
+        "anchor_date": "28-Sep-26"
+      },
+      {
+        "ticker": "AZAD",
+        "pct": -1.69,
+        "anchor_date": "29-Sep-26"
+      },
+      {
+        "ticker": "FERMENTA",
+        "pct": -0.82,
+        "anchor_date": "29-Sep-26"
+      },
+      {
+        "ticker": "KIRLOSBROS",
+        "pct": 3.9,
+        "anchor_date": "29-Sep-26"
+      },
+      {
+        "ticker": "KIRLOSENG",
+        "pct": -1.1,
+        "anchor_date": "29-Sep-26"
+      },
+      {
+        "ticker": "UNICHEMLAB",
+        "pct": 3.3,
+        "anchor_date": "29-Sep-26"
+      },
+      {
+        "ticker": "AXISCADES",
+        "pct": -0.77,
+        "anchor_date": "30-Sep-26"
+      },
+      {
+        "ticker": "JWL",
+        "pct": 6.66,
+        "anchor_date": "30-Sep-26"
+      },
+      {
+        "ticker": "VESUVIUS",
+        "pct": -1.05,
+        "anchor_date": "30-Sep-26"
+      },
+      {
+        "ticker": "SCI",
+        "pct": 3.84,
+        "anchor_date": "05-Oct-26"
+      },
+      {
+        "ticker": "SMCGLOBAL",
+        "pct": 2.69,
+        "anchor_date": "05-Oct-26"
+      },
+      {
+        "ticker": "BALAMINES",
+        "pct": -0.54,
+        "anchor_date": "06-Oct-26"
+      },
+      {
+        "ticker": "CEINSYS",
+        "pct": 0.6,
+        "anchor_date": "06-Oct-26"
+      },
+      {
+        "ticker": "TAALTECH",
+        "pct": 2.81,
+        "anchor_date": "06-Oct-26"
+      },
+      {
+        "ticker": "ARFIN",
+        "pct": 4.93,
+        "anchor_date": "07-Oct-26"
+      },
+      {
+        "ticker": "GPTINFRA",
+        "pct": 0.97,
+        "anchor_date": "07-Oct-26"
+      },
+      {
+        "ticker": "OMPOWER",
+        "pct": 2.0,
+        "anchor_date": "07-Oct-26"
+      },
+      {
+        "ticker": "WALCHANNAG",
+        "pct": 1.33,
+        "anchor_date": "07-Oct-26"
+      },
+      {
+        "ticker": "FINOPB",
+        "pct": 1.09,
+        "anchor_date": "08-Oct-26"
+      },
+      {
+        "ticker": "SENCO",
+        "pct": -0.98,
+        "anchor_date": "08-Oct-26"
+      },
+      {
+        "ticker": "INOXGREEN",
+        "pct": 0.84,
+        "anchor_date": "09-Oct-26"
+      },
+      {
+        "ticker": "CMLL",
+        "pct": 0.94,
+        "anchor_date": "13-Oct-26"
+      },
+      {
+        "ticker": "PNCINFRA",
+        "pct": -0.76,
+        "anchor_date": "13-Oct-26"
+      },
+      {
+        "ticker": "PONNIERODE",
+        "pct": 1.55,
+        "anchor_date": "13-Oct-26"
+      },
+      {
+        "ticker": "EIMCOELECO",
+        "pct": 2.32,
+        "anchor_date": "14-Oct-26"
+      },
+      {
+        "ticker": "NIBE",
+        "pct": 1.81,
+        "anchor_date": "14-Oct-26"
+      },
+      {
+        "ticker": "SOUTHWEST",
+        "pct": -2.93,
+        "anchor_date": "14-Oct-26"
+      },
+      {
+        "ticker": "SUVEN",
+        "pct": -1.44,
+        "anchor_date": "15-Oct-26"
+      },
+      {
+        "ticker": "TEAMLEASE",
+        "pct": -0.78,
+        "anchor_date": "15-Oct-26"
+      },
+      {
+        "ticker": "JAYBARMARU",
+        "pct": 0.05,
+        "anchor_date": "19-Oct-26"
+      }
+    ]
+  }
+}
