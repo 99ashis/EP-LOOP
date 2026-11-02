@@ -1,0 +1,14 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+INDGN,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-08-31,611.65,43,619.4,5.56,3.4886643209784336
+ROSSTECH,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-15,1265.4,33,1377.6,1.26,0.190846356969242
+WELSPUNLIV,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-08-20,188.69,50,242.34,10.62,11.581194983706512
+SAMHI,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-10,160.2,35,155.92,3.08,0.6611524901293361
+SWELECTES,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-09,618.05,16,607.35,3.98,0.25412517648416494
+JAYBARMARU,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-10-19,129.58,10,130.01,13.14,7.676252897233157
+SUNTECK,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-22,282.5,8,284.55,1.53,0.18905226011998608
+ITCHOTELS,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-26,164.31,6,170.48,1.98,1.3171482197998887
+AGIIL,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-10-27,233.0,5,255.51,6.51,5.093230613808582
+SONACOMS,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-27,851.85,5,905.95,1.73,1.0924721773131436
+TITAGARH,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-10-28,692.5,4,695.7,6.35,2.3873195056603227
+BOROLTD,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-10-30,286.4,2,312.35,9.06,9.077556574953697
+PASHUPATI,5D window resolved to Persistent x3+ — 3rd+ Persistent occurrence confirmed within 5D of the anchor,PERSISTENT_EP,2026-10-29,127.83,,,,
