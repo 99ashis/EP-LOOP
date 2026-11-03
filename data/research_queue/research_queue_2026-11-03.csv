@@ -1,0 +1,10 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+URBANCO,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-21,158.6,50,159.42,1.63,0.6319421466197435
+ALIVUS,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-08-31,1405.7,44,1481.3,2.33,3.0267657780146346
+KRISHNADEF,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-05,1201.0,21,1244.9,1.08,1.4671776385492241
+NUVAMA,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-05,1820.8,21,1866.2,3.38,0.9959204030672859
+NELCAST,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-10-07,146.29,19,164.02,14.18,28.833942928616114
+MRPL,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-26,182.61,7,179.9,1.37,0.9135200254977076
+KPRMILL,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-28,1091.5,5,1160.0,2.52,0.9194825895372448
+MOLDTKPAC,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-11-02,292.5,2,316.0,8.03,9.054151915247708
+SONACOMS,5D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 5D of the anchor,SUSTAINED_EP,2026-11-02,905.95,,,,
