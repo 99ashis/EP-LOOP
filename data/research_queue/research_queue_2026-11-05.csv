@@ -1,0 +1,16 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+MARSONS,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-04,137.56,42,154.87,2.21,0.8404100948999524
+AIIL,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-11,544.35,37,569.6,10.4,3.873007757209187
+TEXINFRA,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-23,123.47,30,120.73,2.02,4.999991681022611
+TECHM,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-16,1790.0,14,1822.7,2.23,1.144688871018905
+WIPRO,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-16,184.4,14,198.4,1.98,0.6236227841289063
+IXIGO,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-10-19,157.08,13,163.79,13.23,4.491102300940321
+ERIS,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-27,1198.4,8,1229.9,1.23,0.6651090172493902
+JSWENERGY,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-29,510.0,6,523.35,2.42,0.9532822710214864
+GYFTR,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-11-02,166.51,4,210.95,15.67,27.34957342491606
+PSPPROJECT,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-11-02,741.9,4,798.85,5.62,2.626888991620062
+FAZE3Q,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-11-04,541.8,2,563.85,4.07,9.928262171197876
+ROLEXRINGS,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-11-04,188.82,2,205.67,8.92,6.84585091087094
+SASKEN,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-10-29,1906.1,,,,
+SUNTECK,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-11-02,284.55,,,,
+TATACAP,5D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 5D of the anchor,SUSTAINED_EP,2026-11-04,337.75,,,,
