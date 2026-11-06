@@ -1,0 +1,7 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+V2RETAIL,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-10-14 00:00:00,170.64,17,173.5,7.54,21.738746083939233
+RAMKY,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-10-28 00:00:00,300.2,8,392.0,12.97,16.961118205746242
+VGUARD,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-29 00:00:00,284.85,7,292.25,1.44,0.4337055589753458
+APLLTD,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-11-04 00:00:00,906.7,3,965.15,8.02,8.322039058798817
+LINDEINDIA,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-11-04 00:00:00,6390.5,3,6859.0,8.73,12.141985879768002
+ENTERO,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-11-05 00:00:00,1754.1,2,1900.4,8.34,4.359519559744543
