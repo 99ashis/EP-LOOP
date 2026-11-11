@@ -1,0 +1,17 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+GRAPHITE,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-01,732.9,48,773.5,1.36,0.24985281747030344
+ALEMBICLTD,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-03,109.51,46,115.67,8.53,4.098424404260253
+POONAWALLA,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-18,479.4,36,485.95,2.45,0.5038351957337017
+AVANTEL,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-24,155.34,32,160.22,14.38,15.835891664684075
+SIMPLEXINF,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-14,266.61,19,290.65,2.4,4.099589583824154
+ASAL,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-26,453.2,12,461.9,2.37,2.508124558687492
+EPACK,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-26,166.19,12,162.44,3.37,0.9497587888442769
+MANAKCOAT,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-29,147.84,9,165.89,1.65,1.0265551731601978
+RKFORGE,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-11-02,696.1,7,764.7,7.19,2.6860466895715716
+IZMO,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-11-03,802.8,6,860.85,9.4,7.481022850363875
+MARICO,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-11-03,878.4,6,925.0,2.55,1.401145068882672
+AGARIND,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-11-05,414.0,4,429.35,10.71,4.087179678307306
+TARC,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-11-05,125.18,4,135.59,5.7,2.345622570165718
+ERIS,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-11-05,1229.9,,,,
+SONACOMS,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-11-02,905.95,,,,
+ASAHIINDIA,5D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 5D of the anchor,SUSTAINED_EP,2026-11-09,1055.8,,,,
