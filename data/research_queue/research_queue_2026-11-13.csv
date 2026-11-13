@@ -1,0 +1,16 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+ALICON,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-30,869.8,30,976.15,17.32,48.32086504991366
+JINDALPOLY,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-01,694.45,50,701.0,3.16,0.30463983349449925
+GREAVESCOT,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-24,221.83,34,225.97,1.25,1.2610335782443778
+HONASA,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-06,478.3,27,501.95,1.27,1.6216993030277231
+TATACOMM,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-15,1763.7,20,1772.9,1.69,1.160043160294569
+ITI,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-11-02,259.14,9,268.07,6.8,21.368499718836226
+DALMIASUG,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-11-04,483.55,7,488.55,1.09,0.6159330664508503
+EMCURE,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-11-04,2160.4,7,2361.7,2.04,1.3451186757665639
+SAREGAMA,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-11-04,636.8,7,653.45,1.74,0.3587632137293933
+PARAGMILK,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-11-05,323.75,6,331.22,1.73,0.4660137985130202
+JSWENERGY,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-11-05,523.35,,,,
+SGMART,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-11-09,902.45,,,,
+TATACAP,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-11-04,337.75,,,,
+VGUARD,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-11-06,292.25,,,,
+ENTERO,5D window resolved to Persistent x2 — 2nd Persistent occurrence confirmed within 5D of the anchor,PERSISTENT_EP,2026-11-09,2114.9,,,,
