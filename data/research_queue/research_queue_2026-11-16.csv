@@ -1,0 +1,16 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+PACEDIGITK,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-22 00:00:00,167.74,37,170.47,8.13,2.3078003034668626
+GANESHCP,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-19 00:00:00,172.01,19,181.99,1.08,0.24972027070826405
+IXIGO,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-19 00:00:00,157.08,19,165.86,1.64,0.17318242486039462
+FDC,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-28 00:00:00,376.55,13,379.4,1.96,0.6423602144675706
+KPRMILL,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-10-28 00:00:00,1091.5,13,1211.0,4.54,2.384935864801797
+SGMART,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-10-29 00:00:00,864.55,12,983.4,4.46,2.7594382920575957
+GYFTR,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-11-02 00:00:00,166.51,10,224.17,1.68,1.5244594663738016
+INTELLECT,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-11-02 00:00:00,531.05,10,536.55,2.22,1.2488225921770963
+ASAHIINDIA,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-11-03 00:00:00,991.45,9,1165.05,4.94,3.4878135589897346
+KITEX,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-11-03 00:00:00,133.23,9,131.11,1.65,0.6957240095686185
+APLLTD,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-11-04 00:00:00,906.7,8,1057.1,2.62,1.2295149064802404
+MODIS,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-11-05 00:00:00,431.0,7,459.75,5.92,3.134591265416962
+IVALUE,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-11-06 00:00:00,221.04,6,223.55,6.59,3.1074473500285626
+STYLEBAAZA,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-11-13 00:00:00,468.75,2,511.7,9.16,6.3825634934516495
+ANUP,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-11-13 00:00:00,1725.0,2,1811.4,5.01,8.55378861991141
