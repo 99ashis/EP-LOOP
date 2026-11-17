@@ -1,0 +1,18 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+YATHARTH,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-17,1072.4,41,1109.55,3.79,0.8445995858851614
+MBEL,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-07,290.6,28,296.1,1.18,0.18497357617427754
+EUROPRATIK,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-16,183.37,21,190.82,1.14,0.07633807902843474
+AGIIL,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-27,233.0,15,321.75,1.26,1.6213165827024132
+BHARATSE,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-27,208.58,15,209.79,2.44,0.14694405226862603
+DELHIVERY,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-11-02,408.75,11,457.95,3.97,2.5594050431216666
+EUREKAFORB,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-11-02,347.8,11,386.6,3.58,1.0412365329028868
+MOLDTKPAC,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-11-02,292.5,11,357.25,1.02,0.3941743800302938
+ARMANFIN,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-11-04,1584.0,9,1602.1,2.18,0.4416745967011057
+FAZE3Q,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-11-04,541.8,9,572.1,1.84,0.7761405041883888
+GHCLTEXTIL,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-11-05,130.62,8,136.22,5.24,2.084750152213846
+UNOMINDA,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-11-05,1335.0,8,1388.1,2.97,1.3741179783005741
+IKIO,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-11-06,196.69,7,201.62,4.56,3.224449558322447
+WINDLAS,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-11-06,994.4,7,1001.95,2.53,0.1830581478822685
+SAFARI,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-11-11,1306.7,5,1402.4,1.82,1.5049023803728243
+DEEPAKFERT,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-11-16,1352.8,2,1443.7,6.72,7.122989646993448
+INTELLECT,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-11-16,536.55,,,,
