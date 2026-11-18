@@ -1,0 +1,10 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+AJAXENGG,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-25,607.75,36,623.9,8.08,7.383664064415708
+ACUTAAS,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-27,3793.3,16,3991.3,1.23,0.4202595931740539
+TATACONSUM,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-27,1000.0,16,1130.9,1.66,0.8676258719342138
+VIJAYA,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-11-16,1487.5,3,1533.6,4.51,3.72847323096568
+KDDL,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-11-17,4560.4,2,4876.8,6.94,19.403111349720806
+KITEX,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-11-16,131.11,,,,
+LAXMIINDIA,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-11-12,107.61,,,,
+MARICO,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-11-11,925.0,,,,
+SAFARI,5D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 5D of the anchor,SUSTAINED_EP,2026-11-17,1402.4,,,,
