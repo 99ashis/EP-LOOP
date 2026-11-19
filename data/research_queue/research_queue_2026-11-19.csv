@@ -1,0 +1,17 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+ALICON,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-09-30,869.8,34,1018.5,2.16,0.537597877892825
+DCBBANK,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-12,214.89,27,235.18,3.31,0.8499740633310391
+EIMCOELECO,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-14,2454.2,25,2558.1,1.19,0.22855480408667786
+ONESOURCE,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-27,1589.8,17,1602.9,1.05,0.2230903762296696
+PGEL,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-10-28,536.4,16,578.25,7.24,5.343397475038483
+AARTIPHARM,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-29,927.65,15,1024.6,1.11,0.6642916105717522
+RKFORGE,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-11-02,696.1,13,767.5,1.17,0.31456148528895983
+SKMEGGPROD,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-11-02,221.02,13,218.97,1.23,0.6722570631027269
+JKTYRE,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-11-05,361.95,10,366.35,2.26,1.3584026098450797
+GLAND,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-11-09,3302.4,8,3292.9,1.93,0.22691015092288022
+IREDA,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-11-09,119.65,8,129.8,8.35,17.85512437164348
+BANKBARODA,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-11-11,275.0,7,285.9,4.15,2.664794653194934
+ARMANFIN,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-11-17,1602.1,,,,
+DALMIASUG,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-11-13,488.55,,,,
+EMCURE,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-11-13,2361.7,,,,
+SAREGAMA,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-11-13,653.45,,,,
