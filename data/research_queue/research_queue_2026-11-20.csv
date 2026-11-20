@@ -1,0 +1,14 @@
+SYMBOL,TRIGGER_REASON_FOR_RESEARCH,LABEL,ANCHOR_DATE,ANCHOR_CLOSE,SESSIONS_SINCE_ANCHOR,CLOSE,PCT_MOVE_VS_PREV,VOLUME_MULTIPLE
+EIHOTEL,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-09-18,317.9,43,334.15,7.79,13.455180521034725
+NELCAST,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-07,146.29,31,146.3,3.17,2.343814590482492
+MAHLOG,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-26,390.15,19,381.25,1.79,0.763737632042239
+MANKIND,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-10-27,2502.5,18,2665.0,1.37,0.7162216358845683
+EXIDEIND,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-11-04,368.4,12,408.55,2.07,1.681342508119098
+GHCLTEXTIL,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-11-05,130.62,11,143.57,1.12,2.398679017298688
+IREDA,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-11-09,119.65,9,131.7,1.46,4.3876739694906775
+KMCSHIL,3rd Sustained occurrence for this anchor — check if fundamentals confirm the move is holding,SUSTAINED_EP,2026-11-17,194.52,4,203.78,1.06,1.2305014205311917
+TTKHLTCARE,1st Persistent pivot for this anchor — check if fundamentals support continued conviction,PERSISTENT_EP,2026-11-17,1096.75,4,1110.15,5.48,5.880203520213421
+ENTERO,10D window resolved to Persistent x2 — 2nd Persistent occurrence confirmed within 10D of the anchor,PERSISTENT_EP,2026-11-09,2114.9,,,,
+JKTYRE,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-11-19,366.35,,,,
+PARAGMILK,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-11-13,331.22,,,,
+UNOMINDA,10D window resolved to Sustained x3+ — 3rd+ Sustained occurrence confirmed within 10D of the anchor,SUSTAINED_EP,2026-11-17,1388.1,,,,
